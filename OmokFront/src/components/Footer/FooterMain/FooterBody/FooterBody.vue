@@ -1,0 +1,25 @@
+<template>
+    <div class="frame-8">
+        <LeftContainer />
+        <RightContainer />
+    </div>
+</template>
+
+<script setup>
+import LeftContainer from './LeftContainer/LeftContainer.vue';
+import RightContainer from './RightContainer/RightContainer.vue';
+
+</script>
+
+<style scoped>
+.frame-8 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 151px 0px 64px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+}
+</style>
