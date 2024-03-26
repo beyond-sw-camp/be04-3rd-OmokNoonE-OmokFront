@@ -1,0 +1,91 @@
+{
+"-- 모집글 세부 사항 (특정 모집글을 클릭했을 때 보여줘야할 데이터)\r\nSELECT\r\n       A.TITLE \r\n     , A.CONTENT \r\n     , A.TECH_STACK \r\n     , A.IS_SEEKING\r\n     , C.NICKNAME \r\n     , A.LAST_MODIFIED_DATE\r\nFROM seeking_member_post A\r\nJOIN bookmark B ON (A.SEEKING_MEMBER_POST_ID = B.SEEKING_MEMBER_POST_ID)\r\nJOIN member C ON (A.MEMBER_ID = C.MEMBER_ID)": [
+	{
+		"TITLE" : "자바 백엔드 개발자 구합니다",
+		"CONTENT" : "Java와 Spring Boot을 이용하여 백엔드 서버를 구축할 개발자 한 분을 모집합니다.",
+		"TECH_STACK" : "Java, Spring Boot",
+		"IS_SEEKING" : 1,
+		"NICKNAME" : "hong_gildong",
+		"LAST_MODIFIED_DATE" : "2024-03-09"
+	},
+	{
+		"TITLE" : "UI\/UX Designer를 찾습니다.",
+		"CONTENT" : "저희와 함께 협업하실 UI\/UX designer를 모집합니다.",
+		"TECH_STACK" : "Figma, Adobe XD",
+		"IS_SEEKING" : 1,
+		"NICKNAME" : "hong_gildong",
+		"LAST_MODIFIED_DATE" : "2024-03-09"
+	},
+	{
+		"TITLE" : "QA Engineer를 모집합니다!!!",
+		"CONTENT" : "Selenium, TestNG를 자유롭게 활용하는 QA Engineer를 모집합니다.",
+		"TECH_STACK" : "Selenium, TestNG",
+		"IS_SEEKING" : 1,
+		"NICKNAME" : "jung_miyoung",
+		"LAST_MODIFIED_DATE" : "2022-12-20"
+	},
+	{
+		"TITLE" : "프론트엔드 개발자를 찾습니다",
+		"CONTENT" : "React와 JavaScript를 활용하여 동적이고 효율적인 프론트엔드를 개발할 개발자를 찾습니다.",
+		"TECH_STACK" : "React, JavaScript",
+		"IS_SEEKING" : 1,
+		"NICKNAME" : "lee_youngho",
+		"LAST_MODIFIED_DATE" : "2022-12-13"
+	},
+	{
+		"TITLE" : "풀스택 개발자 모집합니다",
+		"CONTENT" : "Node.js 및 React를 이용한 웹 애플리케이션 개발 프로젝트입니다.",
+		"TECH_STACK" : "Node.js, React",
+		"IS_SEEKING" : 1,
+		"NICKNAME" : "lee_younghi",
+		"LAST_MODIFIED_DATE" : "2022-07-03"
+	},
+	{
+		"TITLE" : "데이터 사이언티스트 구합니다",
+		"CONTENT" : "머신러닝 모델을 개발할 데이터 사이언티스트를 찾습니다.",
+		"TECH_STACK" : "Python, TensorFlow",
+		"IS_SEEKING" : 1,
+		"NICKNAME" : "kim_chulsoo",
+		"LAST_MODIFIED_DATE" : "2022-09-17"
+	},
+	{
+		"TITLE" : "모바일 앱 개발 프로젝트",
+		"CONTENT" : "iOS와 Android 플랫폼을 위한 모바일 앱 개발 프로젝트입니다.",
+		"TECH_STACK" : "Swift, Kotlin",
+		"IS_SEEKING" : 1,
+		"NICKNAME" : "park_younghi",
+		"LAST_MODIFIED_DATE" : "2022-11-03"
+	},
+	{
+		"TITLE" : "클라우드 인프라 엔지니어 모집",
+		"CONTENT" : "AWS와 Docker를 사용하여 클라우드 인프라를 구축할 엔지니어를 모집합니다.",
+		"TECH_STACK" : "AWS, Docker",
+		"IS_SEEKING" : 1,
+		"NICKNAME" : "lee_chulsoo",
+		"LAST_MODIFIED_DATE" : "2023-01-07"
+	},
+	{
+		"TITLE" : "게임 개발자를 찾습니다",
+		"CONTENT" : "Unity와 C#을 이용한 모바일 게임 개발 프로젝트입니다.",
+		"TECH_STACK" : "Unity, C#",
+		"IS_SEEKING" : 1,
+		"NICKNAME" : "kim_youngsoo",
+		"LAST_MODIFIED_DATE" : "2023-02-22"
+	},
+	{
+		"TITLE" : "블록체인 개발자 모집",
+		"CONTENT" : "이더리움 기반의 스마트 컨트랙트 개발을 위한 블록체인 개발자를 모집합니다.",
+		"TECH_STACK" : "Solidity, Ethereum",
+		"IS_SEEKING" : 1,
+		"NICKNAME" : "lee_jihye",
+		"LAST_MODIFIED_DATE" : "2023-03-17"
+	},
+	{
+		"TITLE" : "Vue.js 프론트 개발 함께 하실 팀원을 구해요!~",
+		"CONTENT" : "JavaScript와 Vue 3를 활용해 프로젝트 관리 사이트를 개발할 팀원을 찾습니다!\r\n이번 프로젝트는 초급자와 중급자 모두에게 열려 있으며, \r\n실력 향상과 경험 쌓기에 최적화된 Toy 프로젝트입니다. \r\n부담 없이 참여할 수 있는 환경에서, 함께 배우고 성장하는 기회를 제공하고자 합니다. \r\n프론트엔드 개발에 관심 있고, Vue 3에 대해 배우거나 실력을 더 키우고 싶은 분이라면 누구나 환영합니다. \r\n즐겁고 유익한 경험을 통해 함께 성장해 나갈 수 있는 분들의 많은 참여를 기다립니다!",
+		"TECH_STACK" : "javascript, vue.js",
+		"IS_SEEKING" : 0,
+		"NICKNAME" : "팀장오목눈이",
+		"LAST_MODIFIED_DATE" : "2024-03-15"
+	}
+]}
