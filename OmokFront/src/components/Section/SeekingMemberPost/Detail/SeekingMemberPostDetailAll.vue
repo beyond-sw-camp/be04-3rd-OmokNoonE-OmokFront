@@ -14,7 +14,6 @@ import SeekingMemberPostMain from './SeekingMemberPostMain/SeekingMemberPostMain
     position: relative;
     width: 1438px;
     height: 1724px;
-    top: 77px;
     left: 0;
 }
 </style>

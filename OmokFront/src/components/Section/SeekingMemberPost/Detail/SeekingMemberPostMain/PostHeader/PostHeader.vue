@@ -3,7 +3,7 @@
     <div class="postheader">
         <img class="image-3" src="@/assets/img/image-3.svg" />
         <img class="group-3" src="@/assets/img/group.svg" />
-        <img class="image-4" src="@/assets/img/1.svg" />
+        <img class="image-4" src="@/assets/img/more.svg" />
         <div class="element">
             <div class="danger">Spring</div>
         </div>
@@ -62,7 +62,7 @@
 
 .element {
     display: flex;
-    width: 62px;
+    width: auto;
     align-items: center;
     justify-content: center;
     gap: 10px;
@@ -83,16 +83,16 @@
     font-family: var(--base-body-bold-font-family);
     font-weight: var(--base-body-bold-font-weight);
     color: #918a8a;
-    font-size: var(--base-body-bold-font-size);
-    letter-spacing: var(--base-body-bold-letter-spacing);
-    line-height: var(--base-body-bold-line-height);
+    font-size: 14px;
+    letter-spacing: 0px;
+    line-height: 22px;
     white-space: nowrap;
-    font-style: var(--base-body-bold-font-style);
+    font-style: normal;
 }
 
 .danger-wrapper {
     display: flex;
-    width: 62px;
+    width: auto;
     align-items: center;
     justify-content: center;
     gap: 10px;
@@ -107,11 +107,11 @@
 }
 
 .group-4 {
-    position: absolute;
-    width: 142px;
+    position: relative;
+    width: 180px;
     height: 36px;
     top: 92px;
-    left: 914px;
+    left: 910px;
 }
 
 .text-wrapper-7 {
@@ -135,9 +135,10 @@
 }
 
 .p {
-    position: absolute;
-    top: 64px;
-    left: 808px;
+    position: relative;
+    width: fit-content;
+    top: 20px;
+    left: 785px;
     color: #7a7a7a;
     font-size: 13px;
     font-family: "Outfit", Helvetica;
@@ -148,11 +149,12 @@
 
 .frame-8 {
     display: flex;
-    width: 627px;
+    width: auto;
     align-items: center;
     position: absolute;
     top: 0;
     left: 19px;
+    align-items: baseline;
 }
 
 .text-wrapper-8 {
@@ -170,16 +172,16 @@
 
 .danger-wrapper-2 {
     display: flex;
-    width: 64px;
+    width: auto;
     height: 28px;
     align-items: center;
     justify-content: center;
     gap: 10px;
-    padding: 2px 10px;
+    padding: 2px 13px;
     position: relative;
-    margin-left: -33px;
     background-color: #5bc065;
     border-radius: 25px;
+    left: 10px;
 }
 
 .danger-2 {
@@ -187,11 +189,11 @@
     width: fit-content;
     font-family: var(--base-body-bold-font-family);
     font-weight: var(--base-body-bold-font-weight);
-    color: var(--lightwhite);
-    font-size: var(--base-body-bold-font-size);
-    letter-spacing: var(--base-body-bold-letter-spacing);
-    line-height: var(--base-body-bold-line-height);
+    color: white;
+    font-size: 14px;
+    letter-spacing: 0px;
+    line-height: 22px;
     white-space: nowrap;
-    font-style: var(--base-body-bold-font-style);
+    font-style: normal;
 }
 </style>
