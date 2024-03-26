@@ -22,6 +22,11 @@
 </script>
 
 <style scoped>
+@media screen and (max-width: 1540px) {
+    .frame-3 {
+        display: none !important;
+    }
+}
 .frame-3 {
     display: inline-flex;
     align-items: flex-start;

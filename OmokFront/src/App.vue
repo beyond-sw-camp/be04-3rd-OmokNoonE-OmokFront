@@ -10,4 +10,7 @@ import FooterAll from './components/Footer/FooterAll.vue';
 
 <style scoped>
 
+
+
+
 </style>

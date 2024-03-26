@@ -10,6 +10,13 @@ import HeaderMain from './HeaderMain/HeaderMain.vue';
 </script>
 
 <style scoped>
+
+@media screen and (max-width: 700px) {
+.header{
+    padding: 0px 10px 0px 10px !important;
+}
+
+}
 .header {
     position: relative;
     align-self: stretch;

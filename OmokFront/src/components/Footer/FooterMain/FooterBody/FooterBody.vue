@@ -12,6 +12,13 @@ import RightContainer from './RightContainer/RightContainer.vue';
 </script>
 
 <style scoped>
+
+@media screen and (max-width: 700px) {
+.frame-8 {
+    padding: 0px 0px 0px 0px !important;
+}
+}
+
 .frame-8 {
     display: flex;
     align-items: center;

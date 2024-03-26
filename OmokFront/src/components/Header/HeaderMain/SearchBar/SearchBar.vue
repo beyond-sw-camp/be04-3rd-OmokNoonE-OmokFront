@@ -27,6 +27,12 @@
 </script>
 
 <style scoped>
+@media screen and (max-width: 660px) {
+.view-wrapper{
+    margin-right: 10%;
+    margin-left: 5%;
+}
+}
 .view-wrapper {
     position: inline-flex;
     align-items: flex-start;

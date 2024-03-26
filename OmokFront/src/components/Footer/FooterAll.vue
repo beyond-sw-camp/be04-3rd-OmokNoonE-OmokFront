@@ -9,6 +9,15 @@ import FooterMain from './FooterMain/FooterMain.vue';
 </script>
 
 <style scoped>
+
+
+
+@media screen and (max-width: 700px) {
+.footer-All{
+    padding: 0px 10px 0px 10px !important;
+}
+}
+
 .footer-all {
     bottom: 0;
     /* 하단에 고정 */

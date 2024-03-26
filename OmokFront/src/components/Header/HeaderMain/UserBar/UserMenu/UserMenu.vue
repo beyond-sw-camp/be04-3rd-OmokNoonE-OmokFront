@@ -16,6 +16,28 @@
 </script>
 
 <style scoped>
+
+
+@media screen and (max-width: 700px) {
+.text-wrapper-4 {
+    display: none !important;
+}
+}
+@media screen and (max-width: 1040px) {
+.text-wrapper-4 {
+    display: none !important;
+}
+
+}
+
+
+@media screen and (max-width: 1250px) {
+.frame-5 {
+    display: none !important;
+}
+}
+
+
 .frame-4 {
     display: inline-flex;
     align-items: flex-start;

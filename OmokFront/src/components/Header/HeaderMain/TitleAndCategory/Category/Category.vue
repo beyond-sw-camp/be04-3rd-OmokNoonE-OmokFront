@@ -17,6 +17,14 @@
 </script>
 
 <style scoped>
+
+
+@media screen and (max-width: 1140px) {
+.category {
+    display: none !important;
+}
+}
+
 .category {
     display: inline-flex;
     align-items: center;
