@@ -15,7 +15,7 @@ import Underbar from './Underbar/Underbar.vue';
     display: flex;
     flex-direction: column;
     width: 90%;
-    margin: 0 auto;
+    /* margin: 0 auto; */
     /* 가운데 정렬 */
     align-items: center;
     position: relative;

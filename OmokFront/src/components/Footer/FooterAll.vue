@@ -1,7 +1,7 @@
 <template>
-    <div class="footer-all">
+    <footer class="footer-all">
         <FooterMain />
-    </div>
+    </footer>
 </template>
 
 <script setup>

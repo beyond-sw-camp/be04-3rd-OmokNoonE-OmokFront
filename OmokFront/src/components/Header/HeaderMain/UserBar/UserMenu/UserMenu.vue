@@ -26,12 +26,12 @@
 
 .frame-5 {
     display: flex;
-    width: 111px;
-    height: 40px;
+    width: fit-content;
+    height: fit-content;
     align-items: center;
     justify-content: center;
     gap: 5px;
-    padding: 8px 16px;
+    padding: 12px 16px;
     position: relative;
     background-color: #bad7e94c;
     border-radius: 28px;
@@ -58,8 +58,10 @@
 .frame-6 {
     display: inline-flex;
     align-items: flex-start;
+    width: fit-content;
+    height: fit-content;
     gap: 10px;
-    padding: 8px 16px;
+    padding: 12px 16px;
     position: relative;
     flex: 0 0 auto;
     background-color: #bad7e9;
@@ -68,8 +70,8 @@
 
 .text-wrapper-4 {
     position: relative;
-    width: 52px;
-    height: 24px;
+    width: fit-content;
+    height: fit-content;
     margin-top: -1px;
     font-family: "Outfit", Helvetica;
     font-weight: 400;
@@ -82,7 +84,7 @@
 
 .img-2 {
     position: relative;
-    width: 24px;
-    height: 24px;
+    width: 18px;
+    height: 18px;
 }
 </style>
