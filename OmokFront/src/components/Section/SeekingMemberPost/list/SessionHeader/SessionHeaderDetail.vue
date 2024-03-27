@@ -2,7 +2,7 @@
     <div class="SMP-header">
         <div class="text-wrapper-7">어떤 팀을 찾고 있나요?</div>
         <div class="view-2">
-            <img class="img"  src="@/assets/img/filter.svg">
+            <img class="img" src="@/assets/img/filter.svg">
             <div class="text-wrapper-8">필터 설정</div>
         </div>
     </div>
@@ -17,10 +17,10 @@
     display: flex;
     align-items: center;
     gap: 5px;
-    padding: 35px 62px 10px;
+    padding: 3% 4% 1%;
     position: relative;
     align-self: stretch;
-    width: 100%;
+    width: 90%;
     flex: 0 0 auto;
 }
 

@@ -1,35 +1,48 @@
 <template>
     <div class="SMP-body">
-        <div class="posts">
-            <div class="SMP-card">
+        <div class="posts"  v-if="props.posts">
+            <div class="SMP-card" v-for="post in props.posts">
+                <a href="seekingMemberPostDetail">
+
                 <div class="SMP-thumbnail">
                     <img class="img-2" src="@/assets/img/thumbnail.svg">
-                    <div class="SMP-status">
+                    <div class="SMP-status"  v-if="post.IS_SEEKING">
                         <div class="is-seeking">모집중</div>
+                    </div>
+                    <div class="SMP-status-red"  v-if="!post.IS_SEEKING">
+                        <div class="is-seeking">종료</div>
                     </div>
                 </div>
                 <div class="SMP-details">
                     <div class="details-header">
-                        <div class="tech-stack">
-                            <div class="danger-wrapper">
-                                <div class="danger">Spring</div>
-                            </div>
-                            <div class="danger-wrapper">
-                                <div class="danger">Java</div>
+                        <div class="tech-stack" v-if="post.TECH_STACK">
+                            <div class="danger-wrapper" v-for="stack in post.TECH_STACK.split(',')" :key="stack">
+                                <div class="danger">{{ stack.trim() }}</div>
                             </div>
                         </div>
-                        <div class="bookmark"><img class="img-2" src="@/assets/img/bookmark-selected.svg"></div>
+                        <div class="bookmark">
+                            <img class="img-2" v-if="post.IS_BOOKMARK"src="@/assets/img/bookmark-selected.svg">
+                            <img class="img-2" v-if="!post.IS_BOOKMARK"src="@/assets/img/bookmark-unselect.svg">
+                        </div>
                     </div>
                     <div class="title">
-                        <p class="title-text">팀 오목눈이에서 백엔드 개발자 구인 합니다</p>
+                        <p class="title-text">{{ post.TITLE }}</p>
                     </div>
                 </div>
+            </a>
+
             </div>
         </div>
     </div>
 </template>
 
 <script setup>
+import { defineProps } from 'vue';
+
+const props = defineProps({
+    posts : Array
+})
+
 
 </script>
 
@@ -39,11 +52,12 @@
     flex-direction: column;
     align-items: flex-start;
     gap: 11px;
-    padding: 7px 54px;
+    padding: 0.1% 4%;
     position: relative;
     flex: 1;
     align-self: stretch;
-    width: 100%;
+    margin: 2% 0px 2% 0px;
+    width: 90%;
     flex-grow: 1;
     background-color: #ffffff;
 }
@@ -51,6 +65,7 @@
 .posts {
     display: inline-flex;
     align-items: flex-start;
+    flex-wrap: wrap;
     justify-content: center;
     gap: 11px;
     position: relative;
@@ -92,12 +107,23 @@
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    gap: 10px;
     padding: 2px 10px;
     position: absolute;
-    top: 172px;
-    left: 249px;
+    top: 173px;
+    right: 8px;
     background-color: #5bc065;
+    border-radius: 25px;
+}
+
+.SMP-status-red {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px 10px;
+    position: absolute;
+    top: 173px;
+    right: 8px;
+    background-color: #C24242;
     border-radius: 25px;
 }
 
@@ -106,8 +132,8 @@
     width: fit-content;
     margin-top: -1px;
     font-family: var(--base-body-bold-font-family);
-    font-weight: var(--base-body-bold-font-weight);
-    color: var(--lightwhite);
+    font-weight: 500;
+    color: white;
     font-size: var(--base-body-bold-font-size);
     letter-spacing: var(--base-body-bold-letter-spacing);
     line-height: var(--base-body-bold-line-height);
@@ -115,10 +141,12 @@
     font-style: var(--base-body-bold-font-style);
 }
 
+
 .SMP-details {
     display: inline-flex;
     flex-direction: column;
     align-items: flex-start;
+    width: 100%;
     gap: 10px;
     position: relative;
     flex: 0 0 auto;
@@ -127,7 +155,7 @@
 .details-header {
     display: inline-flex;
     align-items: flex-end;
-    gap: 177px;
+    width: 100%;
     padding: 5px 0px 0px;
     position: relative;
     flex: 0 0 auto;
@@ -177,6 +205,8 @@
     align-items: flex-end;
     gap: 10px;
     position: relative;
+    margin-left: auto;
+
 }
 
 .title {
@@ -193,7 +223,7 @@
     width: fit-content;
     margin-top: -1px;
     font-family: "Outfit", Helvetica;
-    font-weight: 400;
+    font-weight: bold;
     color: #000000;
     font-size: 15px;
     letter-spacing: 0;
