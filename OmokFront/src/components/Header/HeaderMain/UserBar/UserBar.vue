@@ -2,13 +2,14 @@
     <div class="frame-2">
         <UserQuickMenu />
         <UserMenu />
+        <!-- <GuestMenu /> -->
     </div>
 </template>
 
 <script setup>
 import UserMenu from './UserMenu/UserMenu.vue';
 import UserQuickMenu from './UserQuickMenu/UserQuickMenu.vue';
-
+import GuestMenu from './GuestMenu/GuestMenu.vue';
 </script>
 
 <style scoped>
