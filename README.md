@@ -1,5 +1,5 @@
 <p align= "center">
-<img src="https://github.com/beyond-sw-camp/be04-3rd-OmokNoonE-OmokFront/blob/main/img/%E1%84%8B%E1%85%A9%E1%84%86%E1%85%A9%E1%86%A8%E1%84%92%E1%85%A5%E1%84%87%E1%85%B3%E1%84%85%E1%85%A9%E1%84%80%E1%85%A9.png" width="40%"/>
+<img src="https://github.com/beyond-sw-camp/be04-3rd-OmokNoonE-OmokFront/blob/main/img/%E1%84%8B%E1%85%A9%E1%84%86%E1%85%A9%E1%86%A8%E1%84%92%E1%85%A5%E1%84%87%E1%85%B3%E1%84%85%E1%85%A9%E1%84%80%E1%85%A9.png"/>
 </p>
 
 # <img src="https://github.com/beyond-sw-camp/be04-3rd-OmokNoonE-OmokFront/blob/main/img/%E1%84%8B%E1%85%A9%E1%84%86%E1%85%A9%E1%86%A8%E1%84%82%E1%85%A1%E1%86%AF%E1%84%80%E1%85%A2%E1%84%8B%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%8F%E1%85%A9%E1%86%AB.png"/> OMOKHUB - Front
