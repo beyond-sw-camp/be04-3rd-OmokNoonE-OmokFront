@@ -27,18 +27,18 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#1-2">1-2. 기술 스택</a>
 
 
-<a href="#2">2. 🧑‍💻 스토리보드 및 기능 설계서</a>
+<a href="#2">2. 📝💬 스토리보드 및 기능 설계서</a>
 
-<a href="#3"> 3. 📃 테스트 계획서</a>
+<a href="#3"> 3. 🚧 테스트 계획서</a>
 
-<a href="#4">4. 📖 테스트 결과</a>
-
-
+<a href="#4">4. 🎯 테스트 결과</a>
 
 
 
 
-##  <p id="1">1. 📝 프로젝트 개요</p>
+
+
+##  <p id="1">1. 📑 프로젝트 개요</p>
 
 ### <p id="1-1">1-1. 프로젝트 소개</p>
 
@@ -49,14 +49,25 @@
 
 ### <p id="1-2">1-2. 기술 스택</p>
 
-|Vue3|html|CSS|JavaScript|
+|Vue 3.0|html|CSS|JavaScript|
 |---|---|---|---|
-|<img src="https://github.com/beyond-sw-camp/be04-1st-4goda-vite/blob/main/PNG/Readme/da%23.png" height="150" />|<img src="https://github.com/beyond-sw-camp/be04-1st-4goda-vite/blob/main/PNG/Readme/ubuntu.png" height="150" />|<img src="https://github.com/beyond-sw-camp/be04-1st-4goda-vite/blob/main/PNG/Readme/mariadb.png" height="150" />|<img src="https://github.com/beyond-sw-camp/be04-2nd-OmokNoonE-Omokhub/blob/main/img/spring.jpg" height="150" />|<img src="https://github.com/OmokNoonE/OmokNoonE/blob/main/img/JPA.png" height="150" />|<img src="https://github.com/OmokNoonE/OmokNoonE/blob/main/img/mybatis.jpg" height="150" />
+|<img src="https://github.com/beyond-sw-camp/be04-3rd-OmokNoonE-OmokFront/blob/main/img/Vue.png" height="150" />|<img src="https://github.com/beyond-sw-camp/be04-3rd-OmokNoonE-OmokFront/blob/main/img/html.png" height="150" />|<img src="https://github.com/beyond-sw-camp/be04-3rd-OmokNoonE-OmokFront/blob/main/img/css.png" height="150" />|<img src="https://github.com/beyond-sw-camp/be04-3rd-OmokNoonE-OmokFront/blob/main/img/js.png" height="150" />|
 
 
 
-##  <p id="2">2. 🧑‍💻 스토리보드 및 기능 설계서</p>
+##  <p id="2">2. 📝💬 스토리보드 및 기능 설계서</p>
 
-##  <p id="3">3. 📃 테스트 계획서</p>
 
-##  <p id="4">4. 📖 테스트 결과</p>
+
+
+
+
+
+
+
+
+
+
+##  <p id="3">3. 🚧 테스트 계획서</p>
+
+##  <p id="4">4. 🎯 테스트 결과</p>
