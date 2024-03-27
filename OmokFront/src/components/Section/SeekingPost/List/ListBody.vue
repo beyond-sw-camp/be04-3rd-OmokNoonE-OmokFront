@@ -2,10 +2,8 @@
     <div class="SMP-body">
         <div class="posts"  v-if="props.posts">
             <div class="SMP-card" v-for="post in props.posts">
-                <a href="seekingpost/40">
-
                 <div class="SMP-thumbnail">
-                    <img class="img-2" src="@/assets/img/thumbnail.svg">
+                    <img @click="goDetailPage" class="img-2" src="@/assets/img/thumbnail.svg">
                     <div class="SMP-status"  v-if="post.IS_SEEKING">
                         <div class="is-seeking">모집중</div>
                     </div>
@@ -26,11 +24,9 @@
                         </div>
                     </div>
                     <div class="title">
-                        <p class="title-text">{{ post.TITLE }}</p>
+                        <p @click="goDetailPage" class="title-text">{{ post.TITLE }}</p>
                     </div>
                 </div>
-            </a>
-
             </div>
         </div>
     </div>
@@ -38,11 +34,18 @@
 
 <script setup>
 import { defineProps } from 'vue';
+import { useRouter } from 'vue-router';
+const router = useRouter();
 
 const props = defineProps({
     posts : Array
 })
 
+function goDetailPage() {
+    const postId = 40;
+
+    router.push(`/seekingpost/${postId}`);
+}
 
 </script>
 
@@ -101,6 +104,7 @@ const props = defineProps({
     align-self: stretch;
     width: 100%;
     flex-grow: 1;
+    cursor: pointer;
 }
 
 .SMP-status {
@@ -228,5 +232,6 @@ const props = defineProps({
     font-size: 15px;
     letter-spacing: 0;
     line-height: normal;
+    cursor: pointer;
 }
 </style>

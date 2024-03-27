@@ -2,9 +2,7 @@
     <div class="category">
         <div class="group">
             <div class="group-2">
-                <a href="seekingpost">
-                    <div class="text-wrapper">모집글</div>
-                </a>
+                <div @click="goSeekingPost" class="text-wrapper">모집글</div>
                 <img class="line" src="@/assets/img/selected-line.svg" />
             </div>
         </div>
@@ -15,7 +13,13 @@
 </template>
 
 <script setup>
+    import { useRouter } from "vue-router";
 
+    const router = useRouter();
+
+    function goSeekingPost() {
+        router.push(`/seekingpost`);
+    }
 </script>
 
 <style scoped>
@@ -58,6 +62,7 @@
     text-align: center;
     letter-spacing: 0;
     line-height: normal;
+    cursor: pointer;
 }
 
 .line {

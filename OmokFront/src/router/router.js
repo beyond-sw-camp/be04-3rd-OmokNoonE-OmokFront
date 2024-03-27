@@ -2,16 +2,10 @@ import { createRouter, createWebHistory } from 'vue-router';
 
 const routes = [
     {
-        // path: ['', '/guestMain'],
         path: '/',
         alias: ['/main', '/index'],
-        // component: GuestMainPage
         component: () => import("../views/GuestMainView.vue")
     },
-    // {
-    //     path: '/guestMainPage',
-    //     component: GuestMainPage
-    // },
     {
         path: '/seekingpost',
         component: () => import("../views/SeekingPostListView.vue")
