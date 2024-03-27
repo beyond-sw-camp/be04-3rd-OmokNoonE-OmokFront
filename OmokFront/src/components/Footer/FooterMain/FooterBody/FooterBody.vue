@@ -23,10 +23,10 @@ import RightContainer from './RightContainer/RightContainer.vue';
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0px 151px 0px 64px;
+    padding: 0px 5% 0px 5%;
     position: relative;
     align-self: stretch;
-    width: 100%;
+    width: 90%;
     flex: 0 0 auto;
 }
 </style>

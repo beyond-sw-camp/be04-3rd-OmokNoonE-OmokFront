@@ -2,7 +2,9 @@
     <div class="category">
         <div class="group">
             <div class="group-2">
-                <div class="text-wrapper">모집글</div>
+                <a href="seekingMemberPostList">
+                    <div class="text-wrapper">모집글</div>
+            </a>
                 <img class="line" src="@/assets/img/selected-line.svg" />
             </div>
         </div>

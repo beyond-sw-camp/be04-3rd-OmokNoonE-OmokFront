@@ -29,6 +29,7 @@ import FooterMain from './FooterMain/FooterMain.vue';
     align-self: stretch;
     width: 100%;
     height: 243px;
+    min-width: 600px;
     background-color: #bad7e9;
 }
 </style>

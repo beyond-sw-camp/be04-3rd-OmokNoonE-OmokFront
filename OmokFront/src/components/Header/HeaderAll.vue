@@ -21,6 +21,7 @@ import HeaderMain from './HeaderMain/HeaderMain.vue';
     position: relative;
     align-self: stretch;
     width: 100%;
+    min-width: 600px;
     height: 78px;
     background-color: #ffffff;
     border-top-style: none;

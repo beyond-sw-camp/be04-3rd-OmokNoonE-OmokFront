@@ -1,5 +1,5 @@
 <template>
-    <a href="hello.html">
+    <a href="guestMainPage">
         <img class="image" src="@/assets/img/footer-title.png" alt="메인으로 가기" />
     </a>
 </template>
