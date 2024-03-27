@@ -1,7 +1,7 @@
 <template>
     <!-- postcontents -->
     <div class="postcontents">
-        <img class="image-5" src="@/assets/img/image-2.svg" />
+        <img class="image-5" src="@/assets/img/post-default.svg" />
         <p class="FE-BE-UX-UI">
             <span class="span">안녕하세요!<br />저희는 현재 웹 개발 프로젝트에 참여할 팀원을 찾고 있습니다. 이 프로젝트는 새로운
                 온라인 플랫폼을 구축하는 것으로, 우리의 목표는 사용자들에게 편리한 서비스를 제공하는 것입니다.<br />우리
