@@ -1,4 +1,4 @@
-# 🐦 OMOKHUB - Front
+# <img src="https://github.com/beyond-sw-camp/be04-3rd-OmokNoonE-OmokFront/blob/main/img/%E1%84%8B%E1%85%A9%E1%84%86%E1%85%A9%E1%86%A8%E1%84%82%E1%85%A1%E1%86%AF%E1%84%80%E1%85%A2%E1%84%8B%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%8F%E1%85%A9%E1%86%AB.png"/> OMOKHUB - Front
 
 - 개발자들을 위한 프로젝트 모집인원 모집 및 모집된 프로젝트의 일정을 함께 관리할 수 있는 사이트인 오목허브의 ***프론트 프로젝트*** 입니다.
 
