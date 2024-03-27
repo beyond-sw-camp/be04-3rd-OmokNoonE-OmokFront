@@ -1,7 +1,7 @@
 <template>
     <div class="category">
         <div class="group">
-            <div class="group-2">
+            <div class="group-2" @click="showRecruitmentPosts" style="cursor: pointer;">
                 <div class="text-wrapper">모집글</div>
                 <img class="line" src="@/assets/img/line-6.svg" />
             </div>
@@ -13,6 +13,13 @@
 </template>
 
 <script setup>
+import { useRouter } from 'vue-router';
+
+const router = useRouter();
+
+const showRecruitmentPosts = () => {
+    router.push({ name: 'PostList' });
+};
 
 </script>
 
