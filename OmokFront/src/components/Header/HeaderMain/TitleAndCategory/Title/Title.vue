@@ -1,6 +1,6 @@
 <template>
     <a href="hello.html">
-        <img class="image" src="@/assets/img/image-3.png" alt="메인으로 가기" />
+        <img class="image" src="@/assets/img/footer-title.png" alt="메인으로 가기" />
     </a>
 </template>
 

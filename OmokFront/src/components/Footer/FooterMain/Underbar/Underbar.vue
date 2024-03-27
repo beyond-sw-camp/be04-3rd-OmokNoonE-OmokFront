@@ -4,12 +4,12 @@
             <div class="group-wrapper">
                 <div class="group-4">
                     <div class="overlap-group-4">
-                        <img class="line-2" src="@/assets/img/line-1.svg" />
+                        <img class="line-2" src="@/assets/img/underbar-line.svg" />
 
                         <div class="element-group">
-                            <img class="element" src="@/assets/img/1.png" />
-                            <img class="element-2" src="@/assets/img/3.png" />
-                            <img class="element-3" src="@/assets/img/3.png" />
+                            <img class="element" src="@/assets/img/omok-big.png" />
+                            <img class="element-2" src="@/assets/img/omok-small.png" />
+                            <img class="element-3" src="@/assets/img/omok-small.png" />
                         </div>
                         <p class="text-wrapper-15">Non Copyrighted © 2024 Design and upload by omoknoone</p>
                     </div>

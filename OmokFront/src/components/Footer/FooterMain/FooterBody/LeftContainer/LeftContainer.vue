@@ -1,8 +1,8 @@
 <template>
     <div class="left-container">
-        <img class="image-3" src="@/assets/img/image-3-1.png" />
+        <img class="image-3" src="@/assets/img/title.png" />
         <div class="frame-9">
-            <img class="image-4" src="@/assets/img/1.svg" />
+            <img class="image-4" src="@/assets/img/github-and-notion.svg" />
             <p class="p">
                 Lorem ipsum dolor sit amet consectetur. Bibendum consequat laoreet turpis in pellentesque sem id ut.
                 Feugiat quam porttitor in augue sed quis pellentesque quam purus.

@@ -18,7 +18,7 @@
                                 <div class="danger">Java</div>
                             </div>
                         </div>
-                        <div class="bookmark"><img class="img-2" src="@/assets/img/bookmark-fill.svg"></div>
+                        <div class="bookmark"><img class="img-2" src="@/assets/img/bookmark-selected.svg"></div>
                     </div>
                     <div class="title">
                         <p class="title-text">팀 오목눈이에서 백엔드 개발자 구인 합니다</p>

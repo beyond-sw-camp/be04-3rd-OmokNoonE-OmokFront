@@ -4,7 +4,7 @@
             <div class="overlap-2">
                 <div class="overlap-group-wrapper">
                     <div class="overlap-group-2">
-                        <img class="image-2" src="@/assets/img/image.svg" />
+                        <img class="image-2" src="@/assets/img/search.svg" />
                         <div class="rectangle-2">
                         </div>
                         <div class="rectangle-3"></div>
@@ -15,7 +15,7 @@
                         <input type="text" placeholder="내용을 입력하세요" v-model.trim="contents">
                     </div>
                     <div class="text-wrapper-6">카테고리</div>
-                    <img class="polygon-2" src="@/assets/img/polygon-1-1.svg" />
+                    <img class="polygon-2" src="@/assets/img/polygon-search.svg" />
                 </div>
             </div>
         </div>

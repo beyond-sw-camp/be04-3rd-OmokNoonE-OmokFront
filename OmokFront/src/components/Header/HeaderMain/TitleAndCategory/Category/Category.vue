@@ -3,7 +3,7 @@
         <div class="group">
             <div class="group-2">
                 <div class="text-wrapper">모집글</div>
-                <img class="line" src="@/assets/img/line-6.svg" />
+                <img class="line" src="@/assets/img/selected-line.svg" />
             </div>
         </div>
         <div class="text-wrapper-2">프로젝트</div>

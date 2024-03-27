@@ -2,7 +2,7 @@
     <div class="frame-4">
         <div class="frame-5">
             <div class="text-wrapper-3">닉네임표기</div>
-            <img class="polygon" src="@/assets/img/polygon-1.png" />
+            <img class="polygon" src="@/assets/img/polygon-user-menu.png" />
         </div>
         <div class="frame-6">
             <div class="text-wrapper-4">로그아웃</div>
