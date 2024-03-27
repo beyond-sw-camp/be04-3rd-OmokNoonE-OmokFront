@@ -1,12 +1,16 @@
 <template>
     <!-- frame-wrapper -->
     <div class="frame-wrapper">
-        <SeekingMemberPostMain />
+        <SeekingMemberPostMain :postId="postId"/>
     </div>
 </template>
 
 <script setup>
-import SeekingMemberPostMain from './SeekingMemberPostMain/SeekingMemberPostMain.vue';
+    import SeekingMemberPostMain from './SeekingMemberPostMain/SeekingMemberPostMain.vue';
+    import { useRoute } from 'vue-router';
+
+    // const postId = useRoute().params.id;
+    const postId = 40;
 </script>
 
 <style scoped>

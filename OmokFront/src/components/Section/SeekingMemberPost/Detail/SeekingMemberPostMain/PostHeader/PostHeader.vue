@@ -6,14 +6,17 @@
         <img v-else @click="toggleBookmark" class="group-3" src="@/assets/img/bookmark-unselect.svg" />
         
         <img @mouseover="mouseOverOpacity" @mouseout="mouseOutOpacity" class="image-4" src="@/assets/img/more.svg" :style="{opacity: imageOpacity}"/>
-        <div class="element">
-            <div class="danger">Spring</div>
-        </div>
-        <div class="danger-wrapper">
-            <div class="danger">Java</div>
+        <!-- <div class="element" v-for="stack in headerProps.postHeaderProps.techStack.split(',')" :key="stack"> -->
+        <div class="element_wrapper">
+            <div class="element" v-for="techStack in techStackList" :key="techStack">
+                <div class="danger">
+                    {{ techStack.trim() }}
+                </div>
+            </div>
         </div>
         <div class="group-4">
-            <div class="text-wrapper-7">작성자닉넴</div>
+            <!-- <div class="text-wrapper-7">작성자닉넴</div> -->
+            <div class="text-wrapper-7">{{headerProps.postHeaderProps.nickname}}</div>
             <img class="ellipse-4" src="@/assets/img/profile-default-thumbnail.svg" />
         </div>
         <p class="p">작성일 24.03.18 | 수정일 24.03.18 | 조회수 555</p>
@@ -27,7 +30,22 @@
 </template>
 
 <script setup>
-import {ref} from 'vue';
+import {ref, watch} from 'vue';
+
+const headerProps = defineProps({
+    postHeaderProps: []
+});
+
+const techStackList = ref([]);
+
+watch(headerProps, (newValue, oldValue) => {
+    techStackList.value = headerProps.postHeaderProps.techStack.split(',');
+});
+
+// console.log(headerProps.postHeaderProps.title);
+// console.log(headerProps.postHeaderProps.techStack);
+// console.log(headerProps.postHeaderProps.nickname);
+// console.log(headerProps.postHeaderProps.lastModifiedDate);
 
 // const isBookmarked = ref(북마크 여부를 데이터로 넘겨 받아야 함);
 const isBookmarked = ref(false);
@@ -81,19 +99,19 @@ function mouseOutOpacity() {
 }
 
 .element {
-    display: flex;
+    position: relative;
+    display: inline-block;
     width: auto;
     align-items: center;
     justify-content: center;
-    gap: 10px;
+    /* gap: 10px; */
     padding: 2px 10px;
-    position: absolute;
-    top: 64px;
-    left: 19px;
+    left: 10px;
     background-color: #eeefef;
     border-radius: 25px;
     border: 1px solid;
     border-color: #a7a4a4;
+    margin-left: 8px;
 }
 
 .danger {
@@ -218,5 +236,12 @@ function mouseOutOpacity() {
     line-height: 22px;
     white-space: nowrap;
     font-style: normal;
+}
+
+.element_wrapper {
+    position: relative;
+    top: 64px;
+    width: 300px;
+    height: 40px;
 }
 </style>

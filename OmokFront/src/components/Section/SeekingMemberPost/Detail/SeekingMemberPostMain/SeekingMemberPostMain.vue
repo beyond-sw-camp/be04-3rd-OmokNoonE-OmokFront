@@ -1,8 +1,8 @@
 <template>
     <!-- frame-7 -->
     <div class="frame-7">
-        <PostHeader />
-        <PostContents />
+        <PostHeader :postHeaderProps="postHeaderProps"/>
+        <PostContents :content="content"/>
         <Apply />
     </div>
 </template>
@@ -11,6 +11,45 @@
 import PostHeader from './PostHeader/PostHeader.vue';
 import PostContents from './PostContents/PostContents.vue';
 import Apply from './Apply/Apply.vue';
+import { ref, onMounted, defineProps } from 'vue';
+import axios from 'axios';
+
+const postIdProps = defineProps({
+    postId: String
+});
+
+const posts = [];
+
+const postHeaderProps = ref({});
+const content = ref('');
+
+
+onMounted(async () => {
+    try {
+        const response = await axios.get("http://localhost:8080/seekingPostDetail");
+        posts.value = response.data;
+        for (let i = 0; i < posts.value.length; i++) {
+            if(posts.value[i].ID == postIdProps['postId']) {
+                const postTitle = posts.value[i].TITLE;
+                const postTechStack = posts.value[i].TECH_STACK;
+                const postNickname = posts.value[i].NICKNAME;
+                const postLastModifiedDate = posts.value[i].LAST_MODIFIED_DATE;
+                content.value = posts.value[i].CONTENT;
+
+                postHeaderProps.value = {
+                    title: postTitle,
+                    techStack: postTechStack,
+                    nickname: postNickname,
+                    lastModifiedDate: postLastModifiedDate
+                };
+            }
+        }
+
+    } catch (error) {
+        console.error("Error fetching posts:",error);
+    }
+});
+
 </script>
 
 <style scoped>
