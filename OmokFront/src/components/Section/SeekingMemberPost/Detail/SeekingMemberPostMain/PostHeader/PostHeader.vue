@@ -6,25 +6,32 @@
         <img v-else @click="toggleBookmark" class="group-3" src="@/assets/img/bookmark-unselect.svg" />
         
         <img @mouseover="mouseOverOpacity" @mouseout="mouseOutOpacity" class="image-4" src="@/assets/img/more.svg" :style="{opacity: imageOpacity}"/>
-        <!-- <div class="element" v-for="stack in headerProps.postHeaderProps.techStack.split(',')" :key="stack"> -->
-        <div class="element_wrapper">
-            <div class="element" v-for="techStack in techStackList" :key="techStack">
-                <div class="danger">
-                    {{ techStack.trim() }}
+
+        <div class="frame-8">
+            <p class="text-wrapper-8">{{ headerProps.postHeaderProps.title }}</p>
+            <div v-if="isSeeking == 1" class="status-seeking">
+                <div class="danger-2">
+                    모집중
+                </div>
+            </div>
+            <div v-if="isSeeking == 0" class="status-end">
+                <div class="danger-2">
+                    모집완료
                 </div>
             </div>
         </div>
+    </div>
+    <div class="element_wrapper">
+        <div class="element" v-for="techStack in techStackList" :key="techStack">
+            <div class="danger">
+                {{ techStack.trim() }}
+            </div>
+        </div>
         <div class="group-4">
-            <!-- <div class="text-wrapper-7">작성자닉넴</div> -->
+            <!-- <p class="p">작성일 24.03.18 | 수정일 24.03.18 | 조회수 555</p> -->
+            <p class="p">작성일 24.03.18 | 수정일 {{ lastModifiedDate }} | 조회수 555</p>
             <div class="text-wrapper-7">{{headerProps.postHeaderProps.nickname}}</div>
             <img class="ellipse-4" src="@/assets/img/profile-default-thumbnail.svg" />
-        </div>
-        <p class="p">작성일 24.03.18 | 수정일 24.03.18 | 조회수 555</p>
-        <div class="frame-8">
-            <p class="text-wrapper-8">[팀 오목눈이] MSA 기반 프로젝트 팀원 모집</p>
-            <div class="danger-wrapper-2">
-                <div class="danger-2">모집중</div>
-            </div>
         </div>
     </div>
 </template>
@@ -37,9 +44,15 @@ const headerProps = defineProps({
 });
 
 const techStackList = ref([]);
+const isSeeking = ref();
+const lastModifiedDate = ref('');
 
 watch(headerProps, (newValue, oldValue) => {
     techStackList.value = headerProps.postHeaderProps.techStack.split(',');
+    isSeeking.value = headerProps.postHeaderProps.isSeeking;
+    lastModifiedDate.value = headerProps.postHeaderProps.lastModifiedDate.replaceAll('-', '.').substr(2);
+
+    console.log("lastModifiedDate :", lastModifiedDate.value);
 });
 
 // console.log(headerProps.postHeaderProps.title);
@@ -68,7 +81,7 @@ function mouseOutOpacity() {
 .postheader {
     position: relative;
     width: 1063px;
-    height: 128px;
+    height: fit-content;
     margin-right: -2px;
 }
 
@@ -201,7 +214,7 @@ function mouseOutOpacity() {
 .text-wrapper-8 {
     position: relative;
     width: 583px;
-    height: 47px;
+    height: fit-content;
     margin-top: -1px;
     font-family: "Outfit", Helvetica;
     font-weight: 400;
@@ -211,7 +224,7 @@ function mouseOutOpacity() {
     line-height: normal;
 }
 
-.danger-wrapper-2 {
+.status-seeking {
     display: flex;
     width: auto;
     height: 28px;
@@ -221,6 +234,20 @@ function mouseOutOpacity() {
     padding: 2px 13px;
     position: relative;
     background-color: #5bc065;
+    border-radius: 25px;
+    left: 10px;
+}
+
+.status-end {
+    display: flex;
+    width: auto;
+    height: 28px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 2px 13px;
+    position: relative;
+    background-color: #2E74DD;
     border-radius: 25px;
     left: 10px;
 }

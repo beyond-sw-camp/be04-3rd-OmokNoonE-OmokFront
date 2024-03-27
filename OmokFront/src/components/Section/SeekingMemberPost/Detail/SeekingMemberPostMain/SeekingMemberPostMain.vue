@@ -34,13 +34,15 @@ onMounted(async () => {
                 const postTechStack = posts.value[i].TECH_STACK;
                 const postNickname = posts.value[i].NICKNAME;
                 const postLastModifiedDate = posts.value[i].LAST_MODIFIED_DATE;
+                const postIsSeeking = posts.value[i].IS_SEEKING;
                 content.value = posts.value[i].CONTENT;
 
                 postHeaderProps.value = {
                     title: postTitle,
                     techStack: postTechStack,
                     nickname: postNickname,
-                    lastModifiedDate: postLastModifiedDate
+                    lastModifiedDate: postLastModifiedDate,
+                    isSeeking: postIsSeeking
                 };
             }
         }
