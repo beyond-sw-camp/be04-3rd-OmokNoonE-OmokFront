@@ -1,6 +1,13 @@
 {
 	"seekingPostList": [
 		{
+			"SEEKING_MEMBER_POST_ID" : 40,
+			"TITLE" : "Vue.js 프론트 개발 함께 하실 팀원을 구해요!~",
+			"TECH_STACK" : "javascript, vue.js",
+			"IS_SEEKING" : 1,
+			"IS_BOOKMARK" : 1
+		},
+		{
 			"SEEKING_MEMBER_POST_ID" : 1,
 			"TITLE" : "자바 백엔드 개발자 구합니다",
 			"TECH_STACK" : "Java, Spring Boot",
@@ -11,7 +18,7 @@
 			"SEEKING_MEMBER_POST_ID" : 2,
 			"TITLE" : "UI\/UX Designer를 찾습니다.",
 			"TECH_STACK" : "Figma, Adobe XD",
-			"IS_SEEKING" : 1,
+			"IS_SEEKING" : 0,
 			"IS_BOOKMARK" : 1
 		},
 		{
@@ -39,7 +46,7 @@
 			"SEEKING_MEMBER_POST_ID" : 6,
 			"TITLE" : "데이터 사이언티스트 구합니다",
 			"TECH_STACK" : "Python, TensorFlow",
-			"IS_SEEKING" : 1,
+			"IS_SEEKING" : 0,
 			"IS_BOOKMARK" : 0
 		},
 		{
@@ -67,15 +74,8 @@
 			"SEEKING_MEMBER_POST_ID" : 10,
 			"TITLE" : "블록체인 개발자 모집",
 			"TECH_STACK" : "Solidity, Ethereum",
-			"IS_SEEKING" : 1,
-			"IS_BOOKMARK" : 0
-		},
-		{
-			"SEEKING_MEMBER_POST_ID" : 40,
-			"TITLE" : "Vue.js 프론트 개발 함께 하실 팀원을 구해요!~",
-			"TECH_STACK" : "javascript, vue.js",
 			"IS_SEEKING" : 0,
-			"IS_BOOKMARK" : 1
+			"IS_BOOKMARK" : 0
 		}
 	]}
 	
