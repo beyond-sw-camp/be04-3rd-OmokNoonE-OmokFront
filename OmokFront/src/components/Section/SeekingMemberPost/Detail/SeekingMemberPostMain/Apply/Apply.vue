@@ -3,7 +3,7 @@
     <div class="group-5">
         <div class="frame-9">
             <div class="frame-10">
-                <img class="group-5" src="@/assets/img/rectangle-4248.svg" />
+                <img class="group-5" src="@/assets/img/apply.svg" />
                 <div class="text-wrapper-10">지원하기</div>
             </div>
         </div>
@@ -19,6 +19,7 @@
     position: relative;
     width: 202px;
     height: 75px;
+    cursor: pointer;
 }
 
 .frame-9 {
@@ -51,5 +52,6 @@
     font-weight: 400;
     letter-spacing: 0;
     line-height: normal;
+    
 }
 </style>

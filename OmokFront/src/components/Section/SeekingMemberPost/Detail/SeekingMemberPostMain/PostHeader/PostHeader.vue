@@ -1,9 +1,11 @@
 <template>
     <!-- postheader -->
     <div class="postheader">
-        <img class="image-3" src="@/assets/img/image-3.svg" />
-        <img class="group-3" src="@/assets/img/group.svg" />
-        <img class="image-4" src="@/assets/img/more.svg" />
+        <img class="image-3" src="@/assets/img/post-header-line.svg" />
+        <img v-if="isBookmarked" @click="toggleBookmark" class="group-3" src="@/assets/img/bookmark-selected.svg" />
+        <img v-else @click="toggleBookmark" class="group-3" src="@/assets/img/bookmark-unselect.svg" />
+        
+        <img @mouseover="mouseOverOpacity" @mouseout="mouseOutOpacity" class="image-4" src="@/assets/img/more.svg" :style="{opacity: imageOpacity}"/>
         <div class="element">
             <div class="danger">Spring</div>
         </div>
@@ -12,7 +14,7 @@
         </div>
         <div class="group-4">
             <div class="text-wrapper-7">작성자닉넴</div>
-            <img class="ellipse-4" src="@/assets/img/ellipse-583.svg" />
+            <img class="ellipse-4" src="@/assets/img/profile-default-thumbnail.svg" />
         </div>
         <p class="p">작성일 24.03.18 | 수정일 24.03.18 | 조회수 555</p>
         <div class="frame-8">
@@ -25,7 +27,23 @@
 </template>
 
 <script setup>
+import {ref} from 'vue';
 
+// const isBookmarked = ref(북마크 여부를 데이터로 넘겨 받아야 함);
+const isBookmarked = ref(false);
+const imageOpacity = ref(1.0);
+
+function toggleBookmark() {
+    isBookmarked.value = !isBookmarked.value;
+}
+
+function mouseOverOpacity() {
+    imageOpacity.value = 0.5;
+}
+
+function mouseOutOpacity() {
+    imageOpacity.value = 1.0;
+}
 </script>
 
 <style scoped>
@@ -50,6 +68,7 @@
     height: 30px;
     top: 12px;
     left: 984px;
+    cursor: pointer;
 }
 
 .image-4 {
@@ -58,6 +77,7 @@
     height: 25px;
     top: 14px;
     left: 1031px;
+    cursor: pointer;
 }
 
 .element {
@@ -88,6 +108,7 @@
     line-height: 22px;
     white-space: nowrap;
     font-style: normal;
+    cursor: default;
 }
 
 .danger-wrapper {
@@ -124,6 +145,7 @@
     font-weight: 400;
     letter-spacing: 0;
     line-height: normal;
+    cursor: pointer;
 }
 
 .ellipse-4 {
@@ -132,6 +154,7 @@
     height: 36px;
     top: 0;
     left: 0;
+    cursor: pointer;
 }
 
 .p {

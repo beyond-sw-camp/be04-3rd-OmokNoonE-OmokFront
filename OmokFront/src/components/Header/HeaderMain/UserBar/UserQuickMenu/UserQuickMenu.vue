@@ -13,7 +13,7 @@
             </div>
         </div>
         <img class="img" src="@/assets/img/package-box-alt.svg" />
-        <img class="img" src="@/assets/img/bookmark-1.svg" />
+        <img class="img" src="@/assets/img/bookmark-unselect.svg" />
     </div>
 </template>
 
