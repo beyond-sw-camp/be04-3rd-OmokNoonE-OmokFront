@@ -1,9 +1,8 @@
 <script setup>
-import HeaderAll from './components/Header/HeaderAll.vue';
-import FooterAll from './components/Footer/FooterAll.vue';
-import SeekingMemberPostDetailAll from './components/Section/SeekingMemberPost/Detail/SeekingMemberPostDetailAll.vue';
+import HeaderAll from './views/HeaderView.vue';
+import FooterAll from './views/FooterView.vue';
 
-import { RouterLink, RouterView } from 'vue-router';
+import { RouterView } from 'vue-router';
 </script>
 
 <template>
