@@ -20,21 +20,26 @@
 [<img src="https://img.shields.io/badge/Github-Link-181717?logo=Github">](https://github.com/jihyeongeun)
 
 ## <p id="목차">목차</p>
-<a href="#1">1. 📝 프로젝트 개요</a>
+<a href="#1">1. 📑 프로젝트 개요</a>
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#1-1">1-1. 프로젝트 소개</a>
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#1-2">1-2. 기술 스택</a>
 
-
 <a href="#2">2. 📝💬 스토리보드 및 기능 설계서</a>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#2-1">2-1. 비회원 메인 화면</a>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#2-2">2-2. 모집글 목록 조회</a>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#2-3">2-3. 모집글 상세 보기</a>
 
 <a href="#3"> 3. 🚧 테스트 계획서</a>
 
 <a href="#4">4. 🎯 테스트 결과</a>
 
 
-
+<br><br>
 
 
 
@@ -53,10 +58,19 @@
 |---|---|---|---|
 |<img src="https://github.com/beyond-sw-camp/be04-3rd-OmokNoonE-OmokFront/blob/main/img/Vue.png" height="150" />|<img src="https://github.com/beyond-sw-camp/be04-3rd-OmokNoonE-OmokFront/blob/main/img/html.png" height="150" />|<img src="https://github.com/beyond-sw-camp/be04-3rd-OmokNoonE-OmokFront/blob/main/img/css.png" height="150" />|<img src="https://github.com/beyond-sw-camp/be04-3rd-OmokNoonE-OmokFront/blob/main/img/js.png" height="150" />|
 
-
+<br>
 
 ##  <p id="2">2. 📝💬 스토리보드 및 기능 설계서</p>
+<a href="#목차">목차로 돌아가기</a>
 
+### <p id="2-1">2-1. 비회원 메인 화면</p>
+<img src="https://github.com/beyond-sw-camp/be04-3rd-OmokNoonE-OmokFront/blob/main/img/%E1%84%89%E1%85%B3%E1%84%90%E1%85%A9%E1%84%85%E1%85%B5%E1%84%87%E1%85%A9%E1%84%83%E1%85%B3_%E1%84%87%E1%85%B5%E1%84%92%E1%85%AC%E1%84%8B%E1%85%AF%E1%86%AB%E1%84%86%E1%85%A6%E1%84%8B%E1%85%B5%E1%86%AB.png"/>
+
+### <p id="2-2">2-2. 모집글 목록 조회</p>
+<img src="https://github.com/beyond-sw-camp/be04-3rd-OmokNoonE-OmokFront/blob/main/img/%E1%84%89%E1%85%B3%E1%84%90%E1%85%A9%E1%84%85%E1%85%B5%E1%84%87%E1%85%A9%E1%84%83%E1%85%B3_%E1%84%86%E1%85%A9%E1%84%8C%E1%85%B5%E1%86%B8%E1%84%80%E1%85%B3%E1%86%AF%20%E1%84%86%E1%85%A9%E1%86%A8%E1%84%85%E1%85%A9%E1%86%A8.png"/>
+
+### <p id="2-3">2-3. 모집글 상세 보기</p>
+<img src="https://github.com/beyond-sw-camp/be04-3rd-OmokNoonE-OmokFront/blob/main/img/%E1%84%89%E1%85%B3%E1%84%90%E1%85%A9%E1%84%85%E1%85%B5%E1%84%87%E1%85%A9%E1%84%83%E1%85%B3_%E1%84%86%E1%85%A9%E1%84%8C%E1%85%B5%E1%86%B8%E1%84%80%E1%85%B3%E1%86%AF%E1%84%89%E1%85%A1%E1%86%BC%E1%84%89%E1%85%A6.png"/>
 
 
 
@@ -69,5 +83,7 @@
 
 
 ##  <p id="3">3. 🚧 테스트 계획서</p>
+<a href="#목차">목차로 돌아가기</a>
 
 ##  <p id="4">4. 🎯 테스트 결과</p>
+<a href="#목차">목차로 돌아가기</a>
