@@ -70,7 +70,7 @@
 <br>
 
 ##  <p id="2">2. 💬 스토리보드 및 기능 설계서</p>
-<a href="#목차">목차로 돌아가기</a>
+<a href="#목차">➔ 목차로 돌아가기</a>
 
 ### <p id="2-1">2-1. 비회원 메인 화면</p>
 <img src="https://github.com/beyond-sw-camp/be04-3rd-OmokNoonE-OmokFront/blob/main/img/%E1%84%89%E1%85%B3%E1%84%90%E1%85%A9%E1%84%85%E1%85%B5%E1%84%87%E1%85%A9%E1%84%83%E1%85%B3_%E1%84%87%E1%85%B5%E1%84%92%E1%85%AC%E1%84%8B%E1%85%AF%E1%86%AB%E1%84%86%E1%85%A6%E1%84%8B%E1%85%B5%E1%86%AB.png"/>
@@ -83,21 +83,64 @@
 
 
 ##  <p id="3">3. ⚙️ 프로젝트 구조</p>
-<a href="#목차">목차로 돌아가기</a>
+<a href="#목차">➔ 목차로 돌아가기</a>
 
+> [!IMPORTANT]
+해당 프로젝트 구조는 테스트를 위하여 간소화 된 구조입니다.
+
+<br>
+
+<img src="https://github.com/beyond-sw-camp/be04-3rd-OmokNoonE-OmokFront/blob/main/img/%E1%84%91%E1%85%B3%E1%84%85%E1%85%A9%E1%84%8C%E1%85%A6%E1%86%A8%E1%84%90%E1%85%B3%E1%84%80%E1%85%AE%E1%84%8C%E1%85%A91.png"/>
+
+## 
+
+### <p id="3-1">3-1. 헤더 컴포넌트 테스트</p>
+
+- Category.vue: 모집글 버튼<br>
+- Title.vue: 비회원 메인 화면으로 돌아가는 로고 버튼<br>
+- GuestMenu.vue: 비회원 메인 화면 표시<br>
+
+<img src="https://github.com/beyond-sw-camp/be04-3rd-OmokNoonE-OmokFront/blob/main/img/%E1%84%92%E1%85%A6%E1%84%83%E1%85%A5%E1%84%90%E1%85%A6%E1%84%89%E1%85%B3%E1%84%90%E1%85%B3.png"/>
+
+<details>
+<summary>해당 경로</summary>
+.../OmokFront/src/components/Header/HeaderMain/TitleAndCategory/Category/Category.vue
+.../OmokFront/src/components/Header/HeaderMain/TitleAndCategory/Title/Title.vue
+.../OmokFront/src/components/Header/HeaderMain/UserBar/GuestMenu/GuestMenu.vue
+</details>
+
+##
+
+### <p id="3-2">3-2. 섹션 컴포넌트 테스트</p>
+
+- SeekingMemberPostDetailAll.vue:
+- SeekingMemberPostListMain.vue:
+- SessionBody/SessionBody.vue:
+
+<img src="https://github.com/beyond-sw-camp/be04-3rd-OmokNoonE-OmokFront/blob/main/img/%E1%84%86%E1%85%A9%E1%84%8C%E1%85%B5%E1%86%B8%E1%84%80%E1%85%B3%E1%86%AF%E1%84%90%E1%85%A6%E1%84%89%E1%85%B3%E1%84%90%E1%85%B3.png"/>
+
+<details>
+  <summary>해당경로</summary>
+.../OmokFront/src/components/Section/SeekingMemberPost/Detail/SeekingMemberPostDetailAll.vue
+.../OmokFront/src/components/Section/SeekingMemberPost/list/SeekingMemberPostListMain.vue
+.../OmokFront/src/components/Section/SeekingMemberPost/list/SessionBody/SessionBody.vue
+</details>
+
+<br>
 
 
 ##  <p id="4">4. 🚧 테스트 계획서</p>
-<a href="#목차">목차로 돌아가기</a>
+<a href="#목차">➔ 목차로 돌아가기</a>
 
 
 
 ##  <p id="5">5. 🎯 테스트 결과</p>
-<a href="#목차">목차로 돌아가기</a>
+<a href="#목차">➔ 목차로 돌아가기</a>
 
 
 
 ##  <p id="6">6. 🤔 회고</p>
+<a href="#목차">➔ 목차로 돌아가기</a>
 <a href="#목차">목차로 돌아가기</a>
 
 
