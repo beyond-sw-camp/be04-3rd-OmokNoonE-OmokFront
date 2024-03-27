@@ -8,6 +8,7 @@
 </template>
 
 <script setup>
+// import PostHeader from './PostHeader/PostHeader.vue';
 import PostHeader from './PostHeader/PostHeader.vue';
 import PostContents from './PostContents/PostContents.vue';
 import Apply from './Apply/Apply.vue';
@@ -64,4 +65,4 @@ onMounted(async () => {
     top: 68px;
     left: 189px;
 }
-</style>
+</style>./PostHeader/PostHeader.vue

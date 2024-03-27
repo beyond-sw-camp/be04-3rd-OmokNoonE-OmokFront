@@ -1,37 +1,73 @@
-<template>
-    <!-- postheader -->
+<!-- <template>
     <div class="postheader">
-        <img class="image-3" src="@/assets/img/post-header-line.svg" />
-        <img v-if="isBookmarked" @click="toggleBookmark" class="group-3" src="@/assets/img/bookmark-selected.svg" />
-        <img v-else @click="toggleBookmark" class="group-3" src="@/assets/img/bookmark-unselect.svg" />
-        
-        <img @mouseover="mouseOverOpacity" @mouseout="mouseOutOpacity" class="image-4" src="@/assets/img/more.svg" :style="{opacity: imageOpacity}"/>
+        <div class="postheader-upper">
+            <div class="title-and-status">
+                <p class="title">[팀 오목눈이] MSA 기반 프로젝트 팀원 모집</p>
+                <div class="status">
+                    <div class="is-seeking">모집중</div>
+                </div>
+            </div>
+            <div class="menu">
+                <img class="group-3" src="@/assets/img/bookmark-selected.svg" />
+                <img class="image-3" src="@/assets/img/more.svg" />
+            </div>
+        </div>
+        <img class="image-4" src="@/assets/img/post-header-line.svg" />
+        <div class="postheader-under">
+            <div class="tech-skills">
+                <div class="element">
+                    <div class="danger">Spring</div>
+                </div>
+                <div class="element">
+                    <div class="danger">Java</div>
+                </div>
+            </div>
+            <div class="info">
+                <p class="info-text">작성일 24.03.18 | 수정일 24.03.18 | 조회수 555</p>
+                <div class="writer-info">
+                    <img class="profile-img" src="@/assets/img/profile-default-thumbnail.svg" />
+                    <div class="writer-nickname">작성자닉넴</div>
+                </div>
+            </div>
+        </div>
+        </div>
+</template> -->
 
-        <div class="frame-8">
-            <p class="text-wrapper-8">{{ headerProps.postHeaderProps.title }}</p>
-            <div v-if="isSeeking == 1" class="status-seeking">
-                <div class="danger-2">
-                    모집중
+<template>
+    <div class="postheader">
+        <div class="postheader-upper">
+            <div class="title-and-status">
+                <p class="title">{{ headerProps.postHeaderProps.title }}</p>
+                <div v-if="isSeeking == 1" class="status-seeking">
+                    <div class="is-seeking">모집중</div>
+                </div>
+                <div v-if="isSeeking == 0" class="status-end">
+                    <div class="is-seeking">모집완료</div>
                 </div>
             </div>
-            <div v-if="isSeeking == 0" class="status-end">
-                <div class="danger-2">
-                    모집완료
+            <div class="menu">
+                <img v-if="isBookmarked" @click="toggleBookmark" class="group-3" src="@/assets/img/bookmark-selected.svg" />
+                <img v-else @click="toggleBookmark" class="group-3" src="@/assets/img/bookmark-unselect.svg" />
+                <!-- <img class="group-3" src="@/assets/img/bookmark-selected.svg" /> -->
+                <img @mouseover="mouseOverOpacity" @mouseout="mouseOutOpacity" class="image-3" src="@/assets/img/more.svg" :style="{opacity: imageOpacity}" />
+            </div>
+        </div>
+        <img class="image-4" src="@/assets/img/post-header-line.svg" />
+        <div class="postheader-under">
+            <div class="tech-skills">
+                <div class="element" v-for="techStack in techStackList" :key="techStack">
+                    <div class="danger">
+                        {{ techStack.trim() }}
+                    </div>
                 </div>
             </div>
-        </div>
-    </div>
-    <div class="element_wrapper">
-        <div class="element" v-for="techStack in techStackList" :key="techStack">
-            <div class="danger">
-                {{ techStack.trim() }}
+            <div class="info">
+                <p class="info-text">작성일 24.03.18 | 수정일 {{ lastModifiedDate }} | 조회수 555</p>
+                <div class="writer-info">
+                    <img class="profile-img" src="@/assets/img/profile-default-thumbnail.svg" />
+                    <div class="writer-nickname">{{ headerProps.postHeaderProps.nickname }}</div>
+                </div>
             </div>
-        </div>
-        <div class="group-4">
-            <!-- <p class="p">작성일 24.03.18 | 수정일 24.03.18 | 조회수 555</p> -->
-            <p class="p">작성일 24.03.18 | 수정일 {{ lastModifiedDate }} | 조회수 555</p>
-            <div class="text-wrapper-7">{{headerProps.postHeaderProps.nickname}}</div>
-            <img class="ellipse-4" src="@/assets/img/profile-default-thumbnail.svg" />
         </div>
     </div>
 </template>
@@ -79,196 +115,204 @@ function mouseOutOpacity() {
 
 <style scoped>
 .postheader {
-    position: relative;
-    width: 1063px;
-    height: fit-content;
-    margin-right: -2px;
+  display: inline-flex;
+  flex-direction: column;
+  height: 128px;
+  align-items: center;
+  gap: 13px;
+  position: relative;
 }
 
-.image-3 {
-    position: absolute;
-    width: 1061px;
-    height: 2px;
-    top: 51px;
-    left: 0;
+.postheader-upper {
+  align-items: center;
+  gap: 338px;
+  display: inline-flex;
+  position: relative;
+  flex: 0 0 auto;
 }
 
-.group-3 {
-    position: absolute;
-    width: 30px;
-    height: 30px;
-    top: 12px;
-    left: 984px;
-    cursor: pointer;
+.title-and-status {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  position: relative;
+  flex: 0 0 auto;
 }
 
-.image-4 {
-    position: absolute;
-    width: 23px;
-    height: 25px;
-    top: 14px;
-    left: 1031px;
-    cursor: pointer;
-}
-
-.element {
-    position: relative;
-    display: inline-block;
-    width: auto;
-    align-items: center;
-    justify-content: center;
-    /* gap: 10px; */
-    padding: 2px 10px;
-    left: 10px;
-    background-color: #eeefef;
-    border-radius: 25px;
-    border: 1px solid;
-    border-color: #a7a4a4;
-    margin-left: 8px;
-}
-
-.danger {
-    position: relative;
-    width: fit-content;
-    margin-top: -1px;
-    font-family: var(--base-body-bold-font-family);
-    font-weight: var(--base-body-bold-font-weight);
-    color: #918a8a;
-    font-size: 14px;
-    letter-spacing: 0px;
-    line-height: 22px;
-    white-space: nowrap;
-    font-style: normal;
-    cursor: default;
-}
-
-.danger-wrapper {
-    display: flex;
-    width: auto;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-    padding: 2px 10px;
-    position: absolute;
-    top: 64px;
-    left: 87px;
-    background-color: #eeefef;
-    border-radius: 25px;
-    border: 1px solid;
-    border-color: #a7a4a4;
-}
-
-.group-4 {
-    position: relative;
-    width: 180px;
-    height: 36px;
-    top: 92px;
-    left: 910px;
-}
-
-.text-wrapper-7 {
-    position: absolute;
-    top: 5px;
-    left: 48px;
-    color: #000000;
-    font-size: 20px;
-    font-family: "Outfit", Helvetica;
-    font-weight: 400;
-    letter-spacing: 0;
-    line-height: normal;
-    cursor: pointer;
-}
-
-.ellipse-4 {
-    position: absolute;
-    width: 36px;
-    height: 36px;
-    top: 0;
-    left: 0;
-    cursor: pointer;
-}
-
-.p {
-    position: relative;
-    width: fit-content;
-    top: 20px;
-    left: 785px;
-    color: #7a7a7a;
-    font-size: 13px;
-    font-family: "Outfit", Helvetica;
-    font-weight: 400;
-    letter-spacing: 0;
-    line-height: normal;
-}
-
-.frame-8 {
-    display: flex;
-    width: auto;
-    align-items: center;
-    position: absolute;
-    top: 0;
-    left: 19px;
-    align-items: baseline;
-}
-
-.text-wrapper-8 {
-    position: relative;
-    width: 583px;
-    height: fit-content;
-    margin-top: -1px;
-    font-family: "Outfit", Helvetica;
-    font-weight: 400;
-    color: #000000;
-    font-size: 30px;
-    letter-spacing: 0;
-    line-height: normal;
+.title {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Outfit", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 30px;
+  letter-spacing: 0;
+  line-height: normal;
 }
 
 .status-seeking {
-    display: flex;
-    width: auto;
-    height: 28px;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-    padding: 2px 13px;
-    position: relative;
-    background-color: #5bc065;
-    border-radius: 25px;
-    left: 10px;
+  display: inline-flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  gap: 10px;
+  padding: 4px 10px 2px;
+  position: relative;
+  flex: 0 0 auto;
+  background-color: #5bc065;
+  border-radius: 25px;
 }
 
 .status-end {
-    display: flex;
-    width: auto;
-    height: 28px;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-    padding: 2px 13px;
-    position: relative;
-    background-color: #2E74DD;
-    border-radius: 25px;
-    left: 10px;
+  display: inline-flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  gap: 10px;
+  padding: 4px 10px 2px;
+  position: relative;
+  flex: 0 0 auto;
+  background-color: #2E74DD;
+  border-radius: 25px;
 }
 
-.danger-2 {
-    position: relative;
-    width: fit-content;
-    font-family: var(--base-body-bold-font-family);
-    font-weight: var(--base-body-bold-font-weight);
-    color: white;
-    font-size: 14px;
-    letter-spacing: 0px;
-    line-height: 22px;
-    white-space: nowrap;
-    font-style: normal;
+.is-seeking {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: var(--base-body-bold-font-family);
+  font-weight: var(--base-body-bold-font-weight);
+  color: white;
+  font-size: var(--base-body-bold-font-size);
+  letter-spacing: var(--base-body-bold-letter-spacing);
+  line-height: var(--base-body-bold-line-height);
+  white-space: nowrap;
+  font-style: var(--base-body-bold-font-style);
 }
 
-.element_wrapper {
-    position: relative;
-    top: 64px;
-    width: 300px;
-    height: 40px;
+.menu {
+  display: flex;
+  width: 70px;
+  align-items: center;
+  gap: 17px;
+  position: relative;
+}
+
+.group-3 {
+  position: relative;
+  flex: 1;
+  flex-grow: 1;
+  height: 30px;
+  cursor: pointer;
+}
+
+.image-3 {
+  position: relative;
+  flex: 0 0 auto;
+  cursor: pointer;
+}
+
+.image-4 {
+  position: relative;
+  flex: 1;
+  align-self: stretch;
+  width: 100%;
+  flex-grow: 1;
+}
+
+.postheader-under {
+  align-items: flex-start;
+  gap: 659px;
+  margin-bottom: -1px;
+  display: inline-flex;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.tech-skills {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 10px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.element {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 2px 10px;
+  position: relative;
+  flex: 0 0 auto;
+  background-color: #eeefef;
+  border-radius: 25px;
+  border: 1px solid;
+  border-color: #a7a4a4;
+  cursor: default;
+}
+
+.danger {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: var(--base-body-bold-font-family);
+  font-weight: var(--base-body-bold-font-weight);
+  color: #918a8a;
+  font-size: var(--base-body-bold-font-size);
+  letter-spacing: var(--base-body-bold-letter-spacing);
+  line-height: var(--base-body-bold-line-height);
+  white-space: nowrap;
+  font-style: var(--base-body-bold-font-style);
+}
+
+.info {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 12px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.info-text {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Outfit", Helvetica;
+  font-weight: 400;
+  color: #7a7a7a;
+  font-size: 13px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.writer-info {
+  display: flex;
+  width: fit-content;
+  align-items: center;
+  gap: 12px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.profile-img {
+  position: relative;
+  flex: 1;
+  flex-grow: 1;
+  height: 36px;
+  cursor: pointer;
+}
+
+.writer-nickname {
+  position: relative;
+  width: fit-content;
+  font-family: "Outfit", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 20px;
+  text-align: right;
+  letter-spacing: 0;
+  line-height: normal;
+  cursor: pointer;
 }
 </style>
