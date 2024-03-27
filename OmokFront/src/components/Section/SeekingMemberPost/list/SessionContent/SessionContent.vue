@@ -15,8 +15,8 @@
     align-items: flex-start;
     gap: 10px;
     position: fixed;
-    bottom: 30%;
-    right: 10%;
+    bottom: 42%;
+    right: 5%;
 }
 
 .ellipse {
