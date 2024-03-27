@@ -4,9 +4,9 @@
 
   ➔ <a href="https://github.com/beyond-sw-camp/be04-2nd-OmokNoonE-Omokhub">DB설계 및 백엔드 프로젝트 보러가기</a>
 
-##  🐦 팀명 : 오목눈이
+##  <img src="https://github.com/beyond-sw-camp/be04-3rd-OmokNoonE-OmokFront/blob/main/img/%E1%84%8B%E1%85%A9%E1%84%86%E1%85%A9%E1%86%A8%E1%84%80%E1%85%B5%E1%84%87%E1%85%A9%E1%86%AB%E1%84%8C%E1%85%A1%E1%86%A8%E1%84%8B%E1%85%B3%E1%86%AB.png"/> 팀명 : 오목눈이
 
-##  🙂 팀원
+##  <img src="https://github.com/beyond-sw-camp/be04-3rd-OmokNoonE-OmokFront/blob/main/img/%E1%84%8B%E1%85%A9%E1%84%86%E1%85%A9%E1%86%A8%E1%84%82%E1%85%A9%E1%84%85%E1%85%A2%E1%84%8C%E1%85%A1%E1%86%A8%E1%84%8B%E1%85%B3%E1%86%AB.png"/> 팀원
 
 - 팀원 : **최종찬**
 [<img src="https://img.shields.io/badge/Github-Link-181717?logo=Github">](https://github.com/CJC0512)
