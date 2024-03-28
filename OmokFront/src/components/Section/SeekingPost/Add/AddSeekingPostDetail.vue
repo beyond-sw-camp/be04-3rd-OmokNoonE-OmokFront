@@ -46,9 +46,6 @@
       <img class="img" src="@/assets/img/line-24-4.svg" />
       <div class="div-wrapper">
         <div class="overlap-group-2">
-          <!-- <div class="danger-wrapper">
-            <div class="danger-2">2</div>
-          </div> -->
           <select class="select-number" v-model="currentNumber" @click="selectTeam">
             <option v-for="number in seekingNumbers" :value="number" :key="number.id">{{ number }}</option>
           </select>
