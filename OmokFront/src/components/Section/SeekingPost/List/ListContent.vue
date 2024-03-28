@@ -22,7 +22,7 @@ function goAddPost() {
     align-items: flex-start;
     gap: 10px;
     position: fixed;
-    bottom: 42%;
+    top: 18%;
     right: 5%;
     cursor: pointer;
 }

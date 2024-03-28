@@ -1,13 +1,14 @@
 <template>
     <div class="SMP-body">
-        <div class="posts"  v-if="props.posts">
+        <div class="posts" v-if="props.posts">
             <div class="SMP-card" v-for="post in pagePost" :key="posts.SEEKING_MEMBER_POST_ID">
                 <div class="SMP-thumbnail">
-                    <img @click="goDetailPage(post.SEEKING_MEMBER_POST_ID)" class="img-2" src="@/assets/img/thumbnail.svg">
-                    <div class="SMP-status"  v-if="post.IS_SEEKING">
+                    <img @click="goDetailPage(post.SEEKING_MEMBER_POST_ID)" class="img-2"
+                        src="@/assets/img/thumbnail.svg">
+                    <div class="SMP-status" v-if="post.IS_SEEKING">
                         <div class="is-seeking">모집중</div>
                     </div>
-                    <div class="SMP-status-red"  v-if="!post.IS_SEEKING">
+                    <div class="SMP-status-red" v-if="!post.IS_SEEKING">
                         <div class="is-seeking">종료</div>
                     </div>
                 </div>
@@ -19,8 +20,8 @@
                             </div>
                         </div>
                         <div class="bookmark">
-                            <img class="img-2" v-if="post.IS_BOOKMARK"src="@/assets/img/bookmark-selected.svg">
-                            <img class="img-2" v-if="!post.IS_BOOKMARK"src="@/assets/img/bookmark-unselect.svg">
+                            <img class="img-2" v-if="post.IS_BOOKMARK" src="@/assets/img/bookmark-selected.svg">
+                            <img class="img-2" v-if="!post.IS_BOOKMARK" src="@/assets/img/bookmark-unselect.svg">
                         </div>
                     </div>
                     <div class="title">
@@ -28,11 +29,13 @@
                     </div>
                 </div>
             </div>
-            <div class="btn-group">
-                <button @click="goBack" class="btn">back</button>
-                <button @click="nextPage" class="btn">next</button>
-            </div>
         </div>
+
+    </div>
+
+    <div class="btn-group">
+        <button @click="goBack" class="btn-left"><</button>
+        <button @click="nextPage" class="btn-right">></button>
     </div>
 </template>
 
@@ -42,7 +45,7 @@ import { useRouter } from 'vue-router';
 const router = useRouter();
 
 const props = defineProps({
-    posts : Array
+    posts: Array
 })
 
 /* 페이징 처리 */
@@ -51,14 +54,14 @@ const index = ref(0);
 const next = ref(12);
 
 watch(props, (newValue, oldValue) => {
-    console.log("총 모집글 수:",props.posts.length);
-    
+    console.log("총 모집글 수:", props.posts.length);
+
     pagePost.value = props.posts.slice(index.value, next.value);
     console.log(pagePost.value);
 });
 
 async function goBack() {
-    if(!(index.value <= 0)) {
+    if (!(index.value <= 0)) {
         index.value -= 12;
         next.value -= 12;
         await updatePagePost(index.value, next.value);
@@ -68,7 +71,7 @@ async function goBack() {
 
 async function nextPage() {
     const total = props.posts.length;
-    if(!(next.value >= total)) {
+    if (!(next.value >= total)) {
         index.value += 12;
         next.value += 12;
         await updatePagePost(index.value, next.value);
@@ -275,8 +278,32 @@ function goDetailPage(postId) {
     cursor: pointer;
 }
 
-.btn {
+.btn-group {
+    position: fixed;
+    align-self: center;
+}
+
+.btn-left {
+    position: fixed;
+    border: none;
+    font-size: 50px;
+    background-color: #e0eef7;
+    left: 5%;
+    top: 32%;
     width: 50px;
-    height: 50px;
+    height: 28%;
+    border-radius: 10%;
+}
+
+.btn-right {
+    position: fixed;
+    border: none;
+    font-size: 50px;
+    background-color: #e0eef7;
+    right: 5%;
+    top: 32%;
+    width: 50px;
+    height: 28%;
+    border-radius: 10%;
 }
 </style>
