@@ -5,17 +5,23 @@
                 <div class="overlap-group-wrapper">
                     <div class="overlap-group-2">
                         <img class="image-2" src="@/assets/img/search.svg" />
-                        <div class="rectangle-2">
-                        </div>
-                        <div class="rectangle-3"></div>
+                        
+                        <select class="rectangle-category" v-model="selectedCategory" @click="categoryDataSearch" >
+                            <option v-for="category in categories" :value="category" :key="category.id">{{ category }}</option>
+                        </select>
                     </div>
                 </div>
-                <div id="search" class="group-3">
-                    <div class="text-wrapper-5">
-                        <input type="text" placeholder="내용을 입력하세요" v-model.trim="contents">
+                <div class="rectangle-2">
+                    <div id="search" class="group-3">
+                        <div class="text-wrapper-5">
+                            <input @input="autoComplete" @blur="resetSearchResults" type="text" placeholder="내용을 입력하세요" v-model.trim="context">
+                            <div class="rectangle-search-result" v-for="searchResult in searchResults" :value="searchResult" :key="searchResult.id">
+                                <div class="text-wrapper-auto" >
+                                    {{ searchResult }}
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="text-wrapper-6">카테고리</div>
-                    <img class="polygon-2" src="@/assets/img/polygon-search.svg" />
                 </div>
             </div>
         </div>
@@ -23,6 +29,51 @@
 </template>
 
 <script setup>
+import {ref} from 'vue';
+import axios from 'axios';
+
+const categories = ref(['카테고리', '모집글', '프로젝트', '공지사항', '게시글']);
+const selectedCategory = ref('카테고리');
+const context = ref('');
+const contentResult = ref('');
+const searchResults = ref([]);
+
+async function categoryDataSearch() {
+    switch (selectedCategory.value) {
+        case '모집글':
+            /* JSON SERVER에서는 LIKE 조회가 되지 않아 추후에 서버 연결 후 적용 */
+            const response = await axios.get(`http://localhost:8080/seekingPostDetail`);
+            contentResult.value = response.data;
+            console.log("contentResult.value:",contentResult.value[0].TITLE.includes("자바"));
+            break;
+        case '프로젝트':
+        
+            break;
+        case '공지사항':
+        
+            break;
+        case '게시글':
+        
+            break;
+        default:
+            break;
+    }
+}
+
+function autoComplete() {
+    searchResults.value = [];
+    for (let i = 0; i < contentResult.value.length; i++) {
+        if(contentResult.value[i].TITLE.includes(context.value)){
+            if(searchResults.value.length > 4) break;
+            searchResults.value.push(contentResult.value[i].TITLE);
+        }
+    }
+    console.log(searchResults.value);
+}
+
+function resetSearchResults() {
+    searchResults.value = [];
+}
 
 </script>
 
@@ -69,22 +120,33 @@
     width: 221px;
     height: 37px;
     left: 99px;
-    background-color: #bad7e9;
+    background-color: #F3F7FB;
     border-radius: 0px 8px 8px 0px;
-    opacity: 0.2;
     position: absolute;
     top: 0;
 }
 
-.rectangle-3 {
+.rectangle-category {
     width: 99px;
     height: 37px;
     left: 0;
     background-color: #bad7e9;
-    border-radius: 0px 8px 8px 0px;
-    transform: rotate(-180deg);
+    border-radius: 8px 0px 0px 8px;
     position: absolute;
     top: 0;
+    cursor: pointer;
+    text-align: center;
+}
+
+.rectangle-search-result {
+    width: 221px;
+    top: 9px;
+    left: -15px;
+    background-color: #F3F7FB;
+    /* border-radius: 0px 0px 8px 8px; */
+    position: relative;
+    padding-top: 1px;
+    padding-bottom: 1px;
 }
 
 .image-2 {
@@ -100,7 +162,7 @@
 
 .group-3 {
     position: absolute;
-    width: 273px;
+    width: 173px;
     height: 18px;
     top: 10px;
     left: 15px;
@@ -108,10 +170,8 @@
 
 .text-wrapper-5 {
     position: absolute;
-    width: 168px;
+    width: 150px;
     top: 0;
-    left: 101px;
-    opacity: 0.3;
     font-family: "Outfit", Helvetica;
     font-weight: 400;
     color: #1e1e1e;
@@ -130,6 +190,7 @@
     font-size: 14px;
     letter-spacing: 0;
     line-height: normal;
+    cursor: pointer;
 }
 
 .polygon-2 {
@@ -138,5 +199,28 @@
     height: 4px;
     top: 9px;
     left: 68px;
+    cursor: pointer;
+}
+
+.text-wrapper-auto {
+    margin: 0px 10px 5px 10px;
+    color: dimgrey;
+}
+
+ul {
+    position: relative;
+    right: 23px;
+    font-family: "Outfit", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: normal;
+    text-align: left;
+}
+
+input {
+    border-width: 0;
+    background-color: #F3F7FB;
 }
 </style>
