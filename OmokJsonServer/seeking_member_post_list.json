@@ -76,6 +76,426 @@
 			"TECH_STACK" : "Solidity, Ethereum",
 			"IS_SEEKING" : 0,
 			"IS_BOOKMARK" : 0
+		},
+		{
+			"SEEKING_MEMBER_POST_ID" : 1,
+			"TITLE" : "자바 백엔드 개발자 구합니다",
+			"TECH_STACK" : "Java, Spring Boot",
+			"IS_SEEKING" : 1,
+			"IS_BOOKMARK" : 0
+		},
+		{
+			"SEEKING_MEMBER_POST_ID" : 2,
+			"TITLE" : "UI\/UX Designer를 찾습니다.",
+			"TECH_STACK" : "Figma, Adobe XD",
+			"IS_SEEKING" : 0,
+			"IS_BOOKMARK" : 1
+		},
+		{
+			"SEEKING_MEMBER_POST_ID" : 3,
+			"TITLE" : "QA Engineer를 모집합니다!!!",
+			"TECH_STACK" : "Selenium, TestNG",
+			"IS_SEEKING" : 1,
+			"IS_BOOKMARK" : 1
+		},
+		{
+			"SEEKING_MEMBER_POST_ID" : 4,
+			"TITLE" : "프론트엔드 개발자를 찾습니다",
+			"TECH_STACK" : "React, JavaScript",
+			"IS_SEEKING" : 1,
+			"IS_BOOKMARK" : 0
+		},
+		{
+			"SEEKING_MEMBER_POST_ID" : 5,
+			"TITLE" : "풀스택 개발자 모집합니다",
+			"TECH_STACK" : "Node.js, React",
+			"IS_SEEKING" : 1,
+			"IS_BOOKMARK" : 1
+		},
+		{
+			"SEEKING_MEMBER_POST_ID" : 6,
+			"TITLE" : "데이터 사이언티스트 구합니다",
+			"TECH_STACK" : "Python, TensorFlow",
+			"IS_SEEKING" : 0,
+			"IS_BOOKMARK" : 0
+		},
+		{
+			"SEEKING_MEMBER_POST_ID" : 7,
+			"TITLE" : "모바일 앱 개발 프로젝트",
+			"TECH_STACK" : "Swift, Kotlin",
+			"IS_SEEKING" : 1,
+			"IS_BOOKMARK" : 1
+		},
+		{
+			"SEEKING_MEMBER_POST_ID" : 8,
+			"TITLE" : "클라우드 인프라 엔지니어 모집",
+			"TECH_STACK" : "AWS, Docker",
+			"IS_SEEKING" : 1,
+			"IS_BOOKMARK" : 0
+		},
+		{
+			"SEEKING_MEMBER_POST_ID" : 9,
+			"TITLE" : "게임 개발자를 찾습니다",
+			"TECH_STACK" : "Unity, C#",
+			"IS_SEEKING" : 1,
+			"IS_BOOKMARK" : 1
+		},
+		{
+			"SEEKING_MEMBER_POST_ID" : 10,
+			"TITLE" : "블록체인 개발자 모집",
+			"TECH_STACK" : "Solidity, Ethereum",
+			"IS_SEEKING" : 0,
+			"IS_BOOKMARK" : 0
+		},
+		{
+			"SEEKING_MEMBER_POST_ID" : 1,
+			"TITLE" : "자바 백엔드 개발자 구합니다",
+			"TECH_STACK" : "Java, Spring Boot",
+			"IS_SEEKING" : 1,
+			"IS_BOOKMARK" : 0
+		},
+		{
+			"SEEKING_MEMBER_POST_ID" : 2,
+			"TITLE" : "UI\/UX Designer를 찾습니다.",
+			"TECH_STACK" : "Figma, Adobe XD",
+			"IS_SEEKING" : 0,
+			"IS_BOOKMARK" : 1
+		},
+		{
+			"SEEKING_MEMBER_POST_ID" : 3,
+			"TITLE" : "QA Engineer를 모집합니다!!!",
+			"TECH_STACK" : "Selenium, TestNG",
+			"IS_SEEKING" : 1,
+			"IS_BOOKMARK" : 1
+		},
+		{
+			"SEEKING_MEMBER_POST_ID" : 4,
+			"TITLE" : "프론트엔드 개발자를 찾습니다",
+			"TECH_STACK" : "React, JavaScript",
+			"IS_SEEKING" : 1,
+			"IS_BOOKMARK" : 0
+		},
+		{
+			"SEEKING_MEMBER_POST_ID" : 5,
+			"TITLE" : "풀스택 개발자 모집합니다",
+			"TECH_STACK" : "Node.js, React",
+			"IS_SEEKING" : 1,
+			"IS_BOOKMARK" : 1
+		},
+		{
+			"SEEKING_MEMBER_POST_ID" : 6,
+			"TITLE" : "데이터 사이언티스트 구합니다",
+			"TECH_STACK" : "Python, TensorFlow",
+			"IS_SEEKING" : 0,
+			"IS_BOOKMARK" : 0
+		},
+		{
+			"SEEKING_MEMBER_POST_ID" : 7,
+			"TITLE" : "모바일 앱 개발 프로젝트",
+			"TECH_STACK" : "Swift, Kotlin",
+			"IS_SEEKING" : 1,
+			"IS_BOOKMARK" : 1
+		},
+		{
+			"SEEKING_MEMBER_POST_ID" : 8,
+			"TITLE" : "클라우드 인프라 엔지니어 모집",
+			"TECH_STACK" : "AWS, Docker",
+			"IS_SEEKING" : 1,
+			"IS_BOOKMARK" : 0
+		},
+		{
+			"SEEKING_MEMBER_POST_ID" : 9,
+			"TITLE" : "게임 개발자를 찾습니다",
+			"TECH_STACK" : "Unity, C#",
+			"IS_SEEKING" : 1,
+			"IS_BOOKMARK" : 1
+		},
+		{
+			"SEEKING_MEMBER_POST_ID" : 10,
+			"TITLE" : "블록체인 개발자 모집",
+			"TECH_STACK" : "Solidity, Ethereum",
+			"IS_SEEKING" : 0,
+			"IS_BOOKMARK" : 0
+		},
+		{
+			"SEEKING_MEMBER_POST_ID" : 1,
+			"TITLE" : "자바 백엔드 개발자 구합니다",
+			"TECH_STACK" : "Java, Spring Boot",
+			"IS_SEEKING" : 1,
+			"IS_BOOKMARK" : 0
+		},
+		{
+			"SEEKING_MEMBER_POST_ID" : 2,
+			"TITLE" : "UI\/UX Designer를 찾습니다.",
+			"TECH_STACK" : "Figma, Adobe XD",
+			"IS_SEEKING" : 0,
+			"IS_BOOKMARK" : 1
+		},
+		{
+			"SEEKING_MEMBER_POST_ID" : 3,
+			"TITLE" : "QA Engineer를 모집합니다!!!",
+			"TECH_STACK" : "Selenium, TestNG",
+			"IS_SEEKING" : 1,
+			"IS_BOOKMARK" : 1
+		},
+		{
+			"SEEKING_MEMBER_POST_ID" : 4,
+			"TITLE" : "프론트엔드 개발자를 찾습니다",
+			"TECH_STACK" : "React, JavaScript",
+			"IS_SEEKING" : 1,
+			"IS_BOOKMARK" : 0
+		},
+		{
+			"SEEKING_MEMBER_POST_ID" : 5,
+			"TITLE" : "풀스택 개발자 모집합니다",
+			"TECH_STACK" : "Node.js, React",
+			"IS_SEEKING" : 1,
+			"IS_BOOKMARK" : 1
+		},
+		{
+			"SEEKING_MEMBER_POST_ID" : 6,
+			"TITLE" : "데이터 사이언티스트 구합니다",
+			"TECH_STACK" : "Python, TensorFlow",
+			"IS_SEEKING" : 0,
+			"IS_BOOKMARK" : 0
+		},
+		{
+			"SEEKING_MEMBER_POST_ID" : 7,
+			"TITLE" : "모바일 앱 개발 프로젝트",
+			"TECH_STACK" : "Swift, Kotlin",
+			"IS_SEEKING" : 1,
+			"IS_BOOKMARK" : 1
+		},
+		{
+			"SEEKING_MEMBER_POST_ID" : 8,
+			"TITLE" : "클라우드 인프라 엔지니어 모집",
+			"TECH_STACK" : "AWS, Docker",
+			"IS_SEEKING" : 1,
+			"IS_BOOKMARK" : 0
+		},
+		{
+			"SEEKING_MEMBER_POST_ID" : 9,
+			"TITLE" : "게임 개발자를 찾습니다",
+			"TECH_STACK" : "Unity, C#",
+			"IS_SEEKING" : 1,
+			"IS_BOOKMARK" : 1
+		},
+		{
+			"SEEKING_MEMBER_POST_ID" : 10,
+			"TITLE" : "블록체인 개발자 모집",
+			"TECH_STACK" : "Solidity, Ethereum",
+			"IS_SEEKING" : 0,
+			"IS_BOOKMARK" : 0
+		},
+		{
+			"SEEKING_MEMBER_POST_ID" : 1,
+			"TITLE" : "자바 백엔드 개발자 구합니다",
+			"TECH_STACK" : "Java, Spring Boot",
+			"IS_SEEKING" : 1,
+			"IS_BOOKMARK" : 0
+		},
+		{
+			"SEEKING_MEMBER_POST_ID" : 2,
+			"TITLE" : "UI\/UX Designer를 찾습니다.",
+			"TECH_STACK" : "Figma, Adobe XD",
+			"IS_SEEKING" : 0,
+			"IS_BOOKMARK" : 1
+		},
+		{
+			"SEEKING_MEMBER_POST_ID" : 3,
+			"TITLE" : "QA Engineer를 모집합니다!!!",
+			"TECH_STACK" : "Selenium, TestNG",
+			"IS_SEEKING" : 1,
+			"IS_BOOKMARK" : 1
+		},
+		{
+			"SEEKING_MEMBER_POST_ID" : 4,
+			"TITLE" : "프론트엔드 개발자를 찾습니다",
+			"TECH_STACK" : "React, JavaScript",
+			"IS_SEEKING" : 1,
+			"IS_BOOKMARK" : 0
+		},
+		{
+			"SEEKING_MEMBER_POST_ID" : 5,
+			"TITLE" : "풀스택 개발자 모집합니다",
+			"TECH_STACK" : "Node.js, React",
+			"IS_SEEKING" : 1,
+			"IS_BOOKMARK" : 1
+		},
+		{
+			"SEEKING_MEMBER_POST_ID" : 6,
+			"TITLE" : "데이터 사이언티스트 구합니다",
+			"TECH_STACK" : "Python, TensorFlow",
+			"IS_SEEKING" : 0,
+			"IS_BOOKMARK" : 0
+		},
+		{
+			"SEEKING_MEMBER_POST_ID" : 7,
+			"TITLE" : "모바일 앱 개발 프로젝트",
+			"TECH_STACK" : "Swift, Kotlin",
+			"IS_SEEKING" : 1,
+			"IS_BOOKMARK" : 1
+		},
+		{
+			"SEEKING_MEMBER_POST_ID" : 8,
+			"TITLE" : "클라우드 인프라 엔지니어 모집",
+			"TECH_STACK" : "AWS, Docker",
+			"IS_SEEKING" : 1,
+			"IS_BOOKMARK" : 0
+		},
+		{
+			"SEEKING_MEMBER_POST_ID" : 9,
+			"TITLE" : "게임 개발자를 찾습니다",
+			"TECH_STACK" : "Unity, C#",
+			"IS_SEEKING" : 1,
+			"IS_BOOKMARK" : 1
+		},
+		{
+			"SEEKING_MEMBER_POST_ID" : 10,
+			"TITLE" : "블록체인 개발자 모집",
+			"TECH_STACK" : "Solidity, Ethereum",
+			"IS_SEEKING" : 0,
+			"IS_BOOKMARK" : 0
+		},
+		{
+			"SEEKING_MEMBER_POST_ID" : 1,
+			"TITLE" : "자바 백엔드 개발자 구합니다",
+			"TECH_STACK" : "Java, Spring Boot",
+			"IS_SEEKING" : 1,
+			"IS_BOOKMARK" : 0
+		},
+		{
+			"SEEKING_MEMBER_POST_ID" : 2,
+			"TITLE" : "UI\/UX Designer를 찾습니다.",
+			"TECH_STACK" : "Figma, Adobe XD",
+			"IS_SEEKING" : 0,
+			"IS_BOOKMARK" : 1
+		},
+		{
+			"SEEKING_MEMBER_POST_ID" : 3,
+			"TITLE" : "QA Engineer를 모집합니다!!!",
+			"TECH_STACK" : "Selenium, TestNG",
+			"IS_SEEKING" : 1,
+			"IS_BOOKMARK" : 1
+		},
+		{
+			"SEEKING_MEMBER_POST_ID" : 4,
+			"TITLE" : "프론트엔드 개발자를 찾습니다",
+			"TECH_STACK" : "React, JavaScript",
+			"IS_SEEKING" : 1,
+			"IS_BOOKMARK" : 0
+		},
+		{
+			"SEEKING_MEMBER_POST_ID" : 5,
+			"TITLE" : "풀스택 개발자 모집합니다",
+			"TECH_STACK" : "Node.js, React",
+			"IS_SEEKING" : 1,
+			"IS_BOOKMARK" : 1
+		},
+		{
+			"SEEKING_MEMBER_POST_ID" : 6,
+			"TITLE" : "데이터 사이언티스트 구합니다",
+			"TECH_STACK" : "Python, TensorFlow",
+			"IS_SEEKING" : 0,
+			"IS_BOOKMARK" : 0
+		},
+		{
+			"SEEKING_MEMBER_POST_ID" : 7,
+			"TITLE" : "모바일 앱 개발 프로젝트",
+			"TECH_STACK" : "Swift, Kotlin",
+			"IS_SEEKING" : 1,
+			"IS_BOOKMARK" : 1
+		},
+		{
+			"SEEKING_MEMBER_POST_ID" : 8,
+			"TITLE" : "클라우드 인프라 엔지니어 모집",
+			"TECH_STACK" : "AWS, Docker",
+			"IS_SEEKING" : 1,
+			"IS_BOOKMARK" : 0
+		},
+		{
+			"SEEKING_MEMBER_POST_ID" : 9,
+			"TITLE" : "게임 개발자를 찾습니다",
+			"TECH_STACK" : "Unity, C#",
+			"IS_SEEKING" : 1,
+			"IS_BOOKMARK" : 1
+		},
+		{
+			"SEEKING_MEMBER_POST_ID" : 10,
+			"TITLE" : "블록체인 개발자 모집",
+			"TECH_STACK" : "Solidity, Ethereum",
+			"IS_SEEKING" : 0,
+			"IS_BOOKMARK" : 0
+		},
+		{
+			"SEEKING_MEMBER_POST_ID" : 1,
+			"TITLE" : "자바 백엔드 개발자 구합니다",
+			"TECH_STACK" : "Java, Spring Boot",
+			"IS_SEEKING" : 1,
+			"IS_BOOKMARK" : 0
+		},
+		{
+			"SEEKING_MEMBER_POST_ID" : 2,
+			"TITLE" : "UI\/UX Designer를 찾습니다.",
+			"TECH_STACK" : "Figma, Adobe XD",
+			"IS_SEEKING" : 0,
+			"IS_BOOKMARK" : 1
+		},
+		{
+			"SEEKING_MEMBER_POST_ID" : 3,
+			"TITLE" : "QA Engineer를 모집합니다!!!",
+			"TECH_STACK" : "Selenium, TestNG",
+			"IS_SEEKING" : 1,
+			"IS_BOOKMARK" : 1
+		},
+		{
+			"SEEKING_MEMBER_POST_ID" : 4,
+			"TITLE" : "프론트엔드 개발자를 찾습니다",
+			"TECH_STACK" : "React, JavaScript",
+			"IS_SEEKING" : 1,
+			"IS_BOOKMARK" : 0
+		},
+		{
+			"SEEKING_MEMBER_POST_ID" : 5,
+			"TITLE" : "풀스택 개발자 모집합니다",
+			"TECH_STACK" : "Node.js, React",
+			"IS_SEEKING" : 1,
+			"IS_BOOKMARK" : 1
+		},
+		{
+			"SEEKING_MEMBER_POST_ID" : 6,
+			"TITLE" : "데이터 사이언티스트 구합니다",
+			"TECH_STACK" : "Python, TensorFlow",
+			"IS_SEEKING" : 0,
+			"IS_BOOKMARK" : 0
+		},
+		{
+			"SEEKING_MEMBER_POST_ID" : 7,
+			"TITLE" : "모바일 앱 개발 프로젝트",
+			"TECH_STACK" : "Swift, Kotlin",
+			"IS_SEEKING" : 1,
+			"IS_BOOKMARK" : 1
+		},
+		{
+			"SEEKING_MEMBER_POST_ID" : 8,
+			"TITLE" : "클라우드 인프라 엔지니어 모집",
+			"TECH_STACK" : "AWS, Docker",
+			"IS_SEEKING" : 1,
+			"IS_BOOKMARK" : 0
+		},
+		{
+			"SEEKING_MEMBER_POST_ID" : 9,
+			"TITLE" : "게임 개발자를 찾습니다",
+			"TECH_STACK" : "Unity, C#",
+			"IS_SEEKING" : 1,
+			"IS_BOOKMARK" : 1
+		},
+		{
+			"SEEKING_MEMBER_POST_ID" : 10,
+			"TITLE" : "블록체인 개발자 모집",
+			"TECH_STACK" : "Solidity, Ethereum",
+			"IS_SEEKING" : 0,
+			"IS_BOOKMARK" : 0
 		}
 	]}
 	
