@@ -1,15 +1,26 @@
 <template>
     <div class="section">
-        <AddSeekingPostHeader/>
-        <AddSeekingPostDetail/>
-        <AddSeekingPostContent/>
+        <AddSeekingPostDetail @newPost="addNewPost"/>
     </div>
 </template>
 
 <script setup>
-    import AddSeekingPostHeader from '@/components/Section/SeekingPost/Add/AddSeekingPostHeader.vue';
     import AddSeekingPostDetail from '@/components/Section/SeekingPost/Add/AddSeekingPostDetail.vue';
-    import AddSeekingPostContent from '@/components/Section/SeekingPost/Add/AddSeekingPostContent.vue';
+    import axios from 'axios';
+
+    async function addNewPost(newPost) {
+      console.log("Union에서 값 받음");
+      console.log(newPost.value);
+      try {
+        const response = await axios.post("http://localhost:8080/seekingPostDetail", newPost.value, {
+          header: {
+            "Context-Type": "multipart/form-data",
+          }
+        });
+      } catch(error) {
+        console.error("Error add new posts:",error);
+      }
+    }
 </script>
 
 <style scoped>

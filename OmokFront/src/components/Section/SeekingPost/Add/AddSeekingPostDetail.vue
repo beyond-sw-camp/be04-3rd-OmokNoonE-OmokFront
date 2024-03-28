@@ -1,10 +1,23 @@
 <template>
+  <div class="seeking-post-header">
+    <div class="seeking-header">
+      <div class="text-wrapper">모집글 작성</div>
+      <div class="group">
+        <div class="overlap-group-wrapper">
+          <div class="overlap-group">
+            <textarea class="div" placeholder="제목을 입력하세요." v-model="title"></textarea>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr width="100%" color="#d9d9d9" />
+  </div>
   <div class="seeking-post-detail">
     <div class="div-2">
       <div class="text-wrapper-2">태그</div>
       <img class="img" src="@/assets/img/line-24.svg" />
       <div class="frame-2">
-        <div @click="toggleTag(tag.name)" v-for="tag in tags" :key="tag.id" >
+        <div @click="toggleTag(tag.name)" v-for="tag in tags" :key="tag.id">
           <div v-if="!tag.isSelected" class="status-value-danger">
             <div class="danger">{{ tag.name }}</div>
           </div>
@@ -20,8 +33,9 @@
       <img class="img" src="@/assets/img/line-24-4.svg" />
       <div class="div-wrapper">
         <div class="overlap-group-2">
-          <select class="select-team" v-model="selectedTeam" @click="selectTeam" >
-            <option v-for="projectTeam in projectTeamList" :value="projectTeam" :key="projectTeam.id">{{ projectTeam }}</option>
+          <select class="select-team" v-model="selectedTeam" @click="selectTeam">
+            <option v-for="projectTeam in projectTeamList" :value="projectTeam" :key="projectTeam.id">{{ projectTeam }}
+            </option>
           </select>
           <img class="mdi-menu-down" src="@/assets/img/mdi-menu-down.svg" />
         </div>
@@ -35,7 +49,7 @@
           <!-- <div class="danger-wrapper">
             <div class="danger-2">2</div>
           </div> -->
-          <select class="select-number" v-model="currentNumber" @click="selectTeam" >
+          <select class="select-number" v-model="currentNumber" @click="selectTeam">
             <option v-for="number in seekingNumbers" :value="number" :key="number.id">{{ number }}</option>
           </select>
           <img class="mdi-menu-down" src="@/assets/img/mdi-menu-down-1.svg" />
@@ -78,10 +92,33 @@
       </div>
     </div>
   </div>
+  <div class="seeking-post-content">
+    <div class="seeking-post-content-2">
+      <div class="rectangle"></div>
+      <div class="group-4">
+        <div class="overlap-group-4">
+          <textarea placeholder="어떤 팀원을 구하고 있나요?" class="text-wrapper-5" v-model="content"></textarea>
+        </div>
+      </div>
+    </div>
+    <img class="writing-detail" src="@/assets/img/writing-detail.svg" />
+  </div>
+  <div class="button">
+    <div class="group-5">
+      <!-- <div class="overlap-group-5" @click="emit(addPost)" > -->
+      <div class="overlap-group-5" @click="addNewPost">
+        <div class="text-wrapper-6" @mouseover="mouseoverHandler" @mouseout="mouseoutHandler"
+          :style="{ color: fontColor }">등록</div>
+      </div>
+    </div>
+  </div>
 </template>
 
 <script setup>
-import { ref } from 'vue';
+import { defineEmits, ref } from 'vue';
+import { useRouter } from "vue-router";
+
+const router = useRouter();
 
 /* 제목 */
 const title = ref('');
@@ -100,13 +137,13 @@ const selectedTags = ref([]);
 
 function toggleTag(tagName) {
   for (let i = 0; i < tags.value.length; i++) {
-    if(tags.value[i].name == tagName){
+    if (tags.value[i].name == tagName) {
       tags.value[i].isSelected = !tags.value[i].isSelected;
-      if(tags.value[i].isSelected){
+      if (tags.value[i].isSelected) {
         selectedTags.value.push(tags.value[i].name);
       } else {
         for (let j = 0; j < selectedTags.value.length; j++) {
-          if(selectedTags.value[i] === tagName){
+          if (selectedTags.value[i] === tagName) {
             selectedTags.value.splice(i, 1);
           }
         }
@@ -132,23 +169,49 @@ function toggleSeeking() {
   isSeeking.value = !isSeeking.value;
 }
 
-/* 내용 */
-const content = ref('');
-
 /* 날짜 */
 let today = new Date();
 
-let todayFormatted = today.getFullYear + '-' + today.getMonth + '-' + today.getDate + '-';
+let todayFormatted = today.getFullYear() + '-' + today.getMonth() + '-' + today.getDate();
+
+/* 내용 */
+const content = ref('');
+
+/* 등록 버튼 */
+const fontColor = ref('#ffffff');
+function mouseoverHandler() {
+  fontColor.value = '#000000';
+}
+
+function mouseoutHandler() {
+  fontColor.value = '#ffffff';
+}
+
 
 /* POST 요청 */
-const addPost = ref({
-  TITLE: title.value,
-  CONTENT: content.value,
-  TECH_STACK: selectedTags.value,
-  IS_SEEKING: isSeeking.value,
-  NICKNAME: "이눈목오",
-  LAST_MODIFIED_DATE: todayFormatted
-});
+const emit = defineEmits(['newPost']);
+
+const addPost = ref({});
+
+function addNewPost() {
+  let techStackStrings = selectedTags.value.join(', ');
+
+  addPost.value = {
+    ID: 99,
+    TITLE: title.value,
+    CONTENT: content.value,
+    TECH_STACK: techStackStrings,
+    IS_SEEKING: isSeeking.value,
+    NICKNAME: "오모기",
+    LAST_MODIFIED_DATE: todayFormatted
+  };
+
+  console.log("하위 컴포넌트",addPost.value);
+  emit('newPost', addPost);
+
+  router.push(`/seekingpost`);
+}
+
 
 </script>
 
@@ -457,6 +520,7 @@ const addPost = ref({
   border-radius: 25px;
   cursor: pointer;
 }
+
 .status-value-danger-end {
   width: 91px;
   position: relative;
@@ -501,7 +565,7 @@ const addPost = ref({
   gap: 10px;
   padding: 2px 10px;
   border-radius: 25px;
-  appearance:none;
+  appearance: none;
   color: #918a8a;
 }
 
@@ -520,8 +584,190 @@ const addPost = ref({
   gap: 10px;
   padding: 2px 10px;
   border-radius: 25px;
-  appearance:none;
+  appearance: none;
   color: #918a8a;
   text-align: center;
+}
+
+
+.seeking-post-content {
+  align-items: flex-start;
+  gap: 10px;
+  display: inline-flex;
+  flex-direction: column;
+  width: fit-content;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.seeking-post-content-2 {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.rectangle {
+  position: relative;
+  width: 961px;
+  height: 63px;
+  background-color: #fafafa;
+  border: 1px solid;
+  border-color: #acacac;
+}
+
+.group-4 {
+  position: relative;
+  width: 961px;
+  height: 838px;
+  margin-right: -2px;
+  border: 1px solid;
+  border-color: #acacac;
+}
+
+.overlap-group-4 {
+  position: relative;
+  width: fit-content;
+  height: fit-content;
+  background-color: #ffffff;
+  border: 1px solid;
+  border-color: #a09f9f;
+  flex: 0, 0, auto;
+}
+
+
+.text-wrapper-5 {
+  position: absolute;
+  width: 300px;
+  top: 23px;
+  left: 16px;
+  font-family: "Outfit", Helvetica;
+  font-weight: 400;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  width: 920px;
+  height: 790px;
+  border: none;
+  color: black;
+  resize: none;
+}
+
+.writing-detail {
+  position: absolute;
+  width: 319px;
+  height: 31px;
+  top: 15px;
+  left: 27px;
+}
+
+.button {
+  position: relative;
+  width: fit-content;
+  height: fit-content;
+}
+
+.group-5 {
+  width: fit-content;
+  height: fit-content;
+}
+
+.overlap-group-5 {
+  position: relative;
+  width: 236px;
+  height: 65px;
+  background-image: url(@/assets//img/rectangle-4248.svg);
+  background-size: 100% 100%;
+  cursor: pointer;
+}
+
+.text-wrapper-6 {
+  position: absolute;
+  width: fit-content;
+  top: 16px;
+  left: 94px;
+  font-family: "Outfit", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+  cursor: pointer;
+}
+
+
+.seeking-post-header {
+  align-items: center;
+  display: inline-flex;
+  widows: fit-content;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 25px;
+  position: relative;
+}
+
+.seeking-post-header .seeking-header {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 33px;
+  position: relative;
+}
+
+.seeking-post-header .text-wrapper {
+  color: #000000;
+  font-family: "Outfit", Helvetica;
+  font-size: 24px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  width: fit-content;
+}
+
+.seeking-post-header .group {
+  height: 51px;
+  position: relative;
+  width: 961px;
+}
+
+.seeking-post-header .overlap-group-wrapper {
+  height: 51px;
+  width: 963px;
+}
+
+.seeking-post-header .overlap-group {
+  background-color: #ffffff;
+  border: 1px solid;
+  border-color: #a09f9f;
+  height: 51px;
+  position: relative;
+  width: 961px;
+}
+
+.seeking-post-header .div {
+  color: #000000;
+  font-family: "Outfit", Helvetica;
+  font-size: 24px;
+  font-weight: 400;
+  left: 11px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 8px;
+  white-space: nowrap;
+  width: 930px;
+  height: 32px;
+  border-width: 0px;
+  resize: none;
+}
+
+.seeking-post-header .line {
+  height: 2px;
+  position: relative;
+  width: 1061px;
 }
 </style>
