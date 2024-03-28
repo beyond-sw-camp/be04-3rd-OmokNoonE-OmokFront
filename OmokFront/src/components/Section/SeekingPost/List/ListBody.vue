@@ -1,9 +1,9 @@
 <template>
     <div class="SMP-body">
         <div class="posts"  v-if="props.posts">
-            <div class="SMP-card" v-for="post in props.posts">
+            <div class="SMP-card" v-for="post in props.posts" :key="posts.SEEKING_MEMBER_POST_ID">
                 <div class="SMP-thumbnail">
-                    <img @click="goDetailPage" class="img-2" src="@/assets/img/thumbnail.svg">
+                    <img @click="goDetailPage(post.SEEKING_MEMBER_POST_ID)" class="img-2" src="@/assets/img/thumbnail.svg">
                     <div class="SMP-status"  v-if="post.IS_SEEKING">
                         <div class="is-seeking">모집중</div>
                     </div>
@@ -24,7 +24,7 @@
                         </div>
                     </div>
                     <div class="title">
-                        <p @click="goDetailPage" class="title-text">{{ post.TITLE }}</p>
+                        <p @click="goDetailPage(posts.SEEKING_MEMBER_POST_ID)" class="title-text">{{ post.TITLE }}</p>
                     </div>
                 </div>
             </div>
@@ -41,8 +41,9 @@ const props = defineProps({
     posts : Array
 })
 
-function goDetailPage() {
-    const postId = 40;
+function goDetailPage(postId) {
+    // const postId = 40;
+    console.log(postId);
 
     router.push(`/seekingpost/${postId}`);
 }
@@ -214,6 +215,7 @@ function goDetailPage() {
 }
 
 .title {
+    max-width: 300px;
     display: inline-flex;
     align-items: flex-start;
     gap: 10px;

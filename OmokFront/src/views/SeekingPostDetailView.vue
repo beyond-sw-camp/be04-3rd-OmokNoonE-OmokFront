@@ -9,8 +9,8 @@
     import SeekingPostUnion from '@/components/Section/SeekingPost/Detail/SeekingPostUnion.vue';
     import { useRoute } from 'vue-router';
 
-    // const postId = useRoute().params.id;
-    const postId = 40;
+    const postId = useRoute().params.id;
+    // const postId = 40;
 </script>
 
 <style scoped>
