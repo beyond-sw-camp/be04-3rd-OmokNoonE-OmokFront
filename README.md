@@ -103,7 +103,7 @@
 - Title.vue: 비회원 메인 화면으로 돌아가는 로고 버튼<br>
 - GuestMenu.vue: 비회원 메인 화면 표시<br>
 
-<img src="https://github.com/beyond-sw-camp/be04-3rd-OmokNoonE-OmokFront/blob/main/img/%E1%84%92%E1%85%A6%E1%84%83%E1%85%A5%E1%84%90%E1%85%A6%E1%84%89%E1%85%B3%E1%84%90%E1%85%B3.png"/>
+<img src="https://github.com/beyond-sw-camp/be04-3rd-OmokNoonE-OmokFront/blob/main/img/%E1%84%92%E1%85%A6%E1%84%83%E1%85%A5%E1%84%90%E1%85%A6%E1%84%89%E1%85%B3%E1%84%90%E1%85%B3%E1%84%89%E1%85%AE%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%87%E1%85%A9%E1%86%AB.png"/>
 
 <details>
 <summary>해당 경로</summary>
@@ -120,7 +120,7 @@
 - SeekingMemberPostListMain.vue:
 - SessionBody/SessionBody.vue:
 
-<img src="https://github.com/beyond-sw-camp/be04-3rd-OmokNoonE-OmokFront/blob/main/img/%E1%84%86%E1%85%A9%E1%84%8C%E1%85%B5%E1%86%B8%E1%84%80%E1%85%B3%E1%86%AF%E1%84%90%E1%85%A6%E1%84%89%E1%85%B3%E1%84%90%E1%85%B3.png"/>
+<img src="https://github.com/beyond-sw-camp/be04-3rd-OmokNoonE-OmokFront/blob/main/img/%E1%84%89%E1%85%A6%E1%86%A8%E1%84%89%E1%85%A7%E1%86%AB%E1%84%90%E1%85%A6%E1%84%89%E1%85%B3%E1%84%90%E1%85%B3.png"/>
 
 <details>
   <summary>해당경로</summary>
