@@ -28,12 +28,16 @@
                     </div>
                 </div>
             </div>
+            <div class="btn-group">
+                <button @click="goBack" class="btn">back</button>
+                <button @click="nextPage" class="btn">next</button>
+            </div>
         </div>
     </div>
 </template>
 
 <script setup>
-import { defineProps } from 'vue';
+import { ref, watch } from 'vue';
 import { useRouter } from 'vue-router';
 const router = useRouter();
 
@@ -41,10 +45,43 @@ const props = defineProps({
     posts : Array
 })
 
-function goDetailPage(postId) {
-    // const postId = 40;
-    console.log(postId);
+/* 페이징 처리 */
+const pagePost = ref([]);
+const index = ref(0);
+const next = ref(12);
 
+watch(props, (newValue, oldValue) => {
+    console.log("총 모집글 수:",props.posts.length);
+    
+    pagePost.value = props.posts.slice(index.value, next.value);
+});
+
+async function goBack() {
+    if(!(index.value <= 0)) {
+        index.value -= 12;
+        next.value -= 12;
+        await updatePagePost(index.value, next.value);
+        console.log("goBack():", index.value, next.value);
+    }
+}
+
+async function nextPage() {
+    const total = props.posts.length;
+    if(!(next.value >= total)) {
+        index.value += 12;
+        next.value += 12;
+        await updatePagePost(index.value, next.value);
+        console.log("nextPage():", index.value, next.value);
+    }
+}
+
+async function updatePagePost(index, next) {
+    console.log("pagePost.value.slice(index, next):", props.posts.slice(index, next));
+    pagePost.value = props.posts.slice(index, next);
+}
+
+
+function goDetailPage(postId) {
     router.push(`/seekingpost/${postId}`);
 }
 
@@ -235,5 +272,10 @@ function goDetailPage(postId) {
     letter-spacing: 0;
     line-height: normal;
     cursor: pointer;
+}
+
+.btn {
+    width: 50px;
+    height: 50px;
 }
 </style>
