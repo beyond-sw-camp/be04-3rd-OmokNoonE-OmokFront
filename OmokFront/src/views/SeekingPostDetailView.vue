@@ -15,9 +15,11 @@
 
 <style scoped>
 .frame-wrapper {
+    display: inline-flex;
+
     position: relative;
-    width: 1438px;
-    height: 1724px;
-    left: 0;
+    align-items: center;
+    width: 100%;
+    height: fit-content;
 }
 </style>
