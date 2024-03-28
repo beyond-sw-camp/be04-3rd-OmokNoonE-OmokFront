@@ -107,9 +107,8 @@
 
 <details>
 <summary>해당 경로</summary>
-.../OmokFront/src/components/Header/HeaderMain/TitleAndCategory/Category/Category.vue
-.../OmokFront/src/components/Header/HeaderMain/TitleAndCategory/Title/Title.vue
-.../OmokFront/src/components/Header/HeaderMain/UserBar/GuestMenu/GuestMenu.vue
+.../src/components/Header/NavigationBar/Category.vue
+.../src/components/Header/NavigationBar/Title.vue
 </details>
 
 ##
@@ -124,9 +123,9 @@
 
 <details>
   <summary>해당경로</summary>
-.../OmokFront/src/components/Section/SeekingMemberPost/Detail/SeekingMemberPostDetailAll.vue
-.../OmokFront/src/components/Section/SeekingMemberPost/list/SeekingMemberPostListMain.vue
-.../OmokFront/src/components/Section/SeekingMemberPost/list/SessionBody/SessionBody.vue
+.../src/components/Section/SeekingPost/Detail/SeekingPostUnion.vue
+.../src/components/Section/SeekingPost/List/ListBody.vue
+.../src/components/Section/SeekingPost/List/ListContent.vue
 </details>
 
 <br>
