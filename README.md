@@ -75,7 +75,7 @@
 <img src="https://github.com/beyond-sw-camp/be04-3rd-OmokNoonE-OmokFront/blob/main/img/%E1%84%89%E1%85%B3%E1%84%90%E1%85%A9%E1%84%85%E1%85%B5%E1%84%87%E1%85%A9%E1%84%83%E1%85%B3_%E1%84%87%E1%85%B5%E1%84%92%E1%85%AC%E1%84%8B%E1%85%AF%E1%86%AB%E1%84%86%E1%85%A6%E1%84%8B%E1%85%B5%E1%86%AB.png"/>
 
 ### <p id="2-2">2-2. 모집글 목록 조회</p>
-<img src="https://github.com/beyond-sw-camp/be04-3rd-OmokNoonE-OmokFront/blob/main/img/%E1%84%89%E1%85%B3%E1%84%90%E1%85%A9%E1%84%85%E1%85%B5%E1%84%87%E1%85%A9%E1%84%83%E1%85%B3_%E1%84%86%E1%85%A9%E1%84%8C%E1%85%B5%E1%86%B8%E1%84%80%E1%85%B3%E1%86%AF%20%E1%84%86%E1%85%A9%E1%86%A8%E1%84%85%E1%85%A9%E1%86%A8.png"/>
+<img src="https://github.com/beyond-sw-camp/be04-3rd-OmokNoonE-OmokFront/blob/main/img/%E1%84%89%E1%85%B3%E1%84%90%E1%85%A9%E1%84%85%E1%85%B5%E1%84%87%E1%85%A9%E1%84%83%E1%85%B3_%E1%84%86%E1%85%A9%E1%84%8C%E1%85%B5%E1%86%B8%E1%84%80%E1%85%B3%E1%86%AF%E1%84%86%E1%85%A9%E1%86%A8%E1%84%85%E1%85%A9%E1%86%A8_%E1%84%89%E1%85%AE%E1%84%8C%E1%85%A5%E1%86%BC.png"/>
 
 ### <p id="2-3">2-3. 모집글 상세 보기</p>
 <img src="https://github.com/beyond-sw-camp/be04-3rd-OmokNoonE-OmokFront/blob/main/img/%E1%84%89%E1%85%B3%E1%84%90%E1%85%A9%E1%84%85%E1%85%B5%E1%84%87%E1%85%A9%E1%84%83%E1%85%B3_%E1%84%86%E1%85%A9%E1%84%8C%E1%85%B5%E1%86%B8%E1%84%80%E1%85%B3%E1%86%AF%E1%84%89%E1%85%A1%E1%86%BC%E1%84%89%E1%85%A6.png"/>
