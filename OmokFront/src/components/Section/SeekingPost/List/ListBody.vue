@@ -1,7 +1,7 @@
 <template>
     <div class="SMP-body">
         <div class="posts"  v-if="props.posts">
-            <div class="SMP-card" v-for="post in props.posts" :key="posts.SEEKING_MEMBER_POST_ID">
+            <div class="SMP-card" v-for="post in pagePost" :key="posts.SEEKING_MEMBER_POST_ID">
                 <div class="SMP-thumbnail">
                     <img @click="goDetailPage(post.SEEKING_MEMBER_POST_ID)" class="img-2" src="@/assets/img/thumbnail.svg">
                     <div class="SMP-status"  v-if="post.IS_SEEKING">
@@ -54,6 +54,7 @@ watch(props, (newValue, oldValue) => {
     console.log("총 모집글 수:",props.posts.length);
     
     pagePost.value = props.posts.slice(index.value, next.value);
+    console.log(pagePost.value);
 });
 
 async function goBack() {
