@@ -9,15 +9,17 @@
     import SeekingPostUnion from '@/components/Section/SeekingPost/Detail/SeekingPostUnion.vue';
     import { useRoute } from 'vue-router';
 
-    // const postId = useRoute().params.id;
-    const postId = 40;
+    const postId = useRoute().params.id;
+    // const postId = 40;
 </script>
 
 <style scoped>
 .frame-wrapper {
+    display: inline-flex;
+
     position: relative;
-    width: 1438px;
-    height: 1724px;
-    left: 0;
+    align-items: center;
+    width: 100%;
+    height: fit-content;
 }
 </style>

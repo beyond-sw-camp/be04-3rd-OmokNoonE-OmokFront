@@ -1,12 +1,8 @@
 <template>
     <!-- group-5 -->
     <div class="group-5">
-        <div class="frame-9">
-            <div class="frame-10">
-                <img class="group-5" src="@/assets/img/apply.svg" />
-                <div class="text-wrapper-10">지원하기</div>
-            </div>
-        </div>
+        <img class="group-5" src="@/assets/img/apply.svg">
+        <div class="text-wrapper-10">지원하기</div>
     </div>
 </template>
 
@@ -16,37 +12,23 @@
 
 <style scoped>
 .group-5 {
+    display: flex; /* 수평으로 정렬 */
+    justify-content: center; /* 가운데 정렬 */
     position: relative;
-    width: 202px;
+    width: fit-content;
+    align-items: center;
     height: 75px;
     cursor: pointer;
-}
-
-.frame-9 {
-    display: inline-flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 10px;
-    position: relative;
-}
-
-.frame-10 {
-    display: inline-flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 10px;
-    position: relative;
-    flex: 0 0 auto;
+    margin: 40px 0; 
 }
 
 .text-wrapper-10 {
     position: absolute;
-    width: 96px;
+    width: fit-content;
     height: 30px;
-    top: 22px;
-    left: 53px;
+    align-items: center;
     color: #000000;
-    font-size: 24px;
+    font-size: 26px;
     text-align: center;
     font-family: "Outfit", Helvetica;
     font-weight: 400;
