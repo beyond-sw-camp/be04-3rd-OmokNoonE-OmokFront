@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="frame-wrapper">
         <AddSeekingPostUnion/>
     </div>
 </template>
@@ -10,5 +10,12 @@ import AddSeekingPostUnion from '@/components/Section/AddSeekingPost/AddSeekingP
 </script>
 
 <style scoped>
-
+.frame-wrapper {
+    display: inline-flex;
+    position: relative;
+    justify-content: center;
+    width: 100%;
+    height: fit-content;
+    background-color: lightgray;
+}
 </style>

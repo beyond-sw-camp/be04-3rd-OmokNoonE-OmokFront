@@ -22,9 +22,30 @@
   
   
   <style>
+@media screen and (max-width: 1040px) {
+  .seeking-post-header .group,
+  .seeking-post-header .overlap-group,
+  .seeking-post-header .overlap-group-wrapper {
+    width: 90%; /* 화면 너비의 90%로 조정 */
+    max-width: 600px; /* 최대 너비를 600px로 제한 */
+  }
+
+  .seeking-post-header .text-wrapper,
+  .seeking-post-header .div {
+    width: 100%; /* 화면 너비에 맞게 조정 */
+    max-width: 600px; /* 최대 너비를 600px로 제한 */
+  }
+
+  .seeking-post-header .line {
+    width: 100%; /* 화면 너비에 맞게 조정 */
+    max-width: 800px; /* 최대 너비를 800px로 제한 */
+  }
+}
+
    .seeking-post-header {
     align-items: center;
     display: inline-flex;
+    widows: fit-content;
     flex: 0 0 auto;
     flex-direction: column;
     gap: 25px;

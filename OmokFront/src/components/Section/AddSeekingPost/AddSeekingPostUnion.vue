@@ -13,17 +13,25 @@
 </script>
 
 <style scoped>
+@media screen and (max-width: 1040px) {
+  .section {
+    width: 90%; /* 화면 너비의 90%로 조정 */
+    max-width: 600px; /* 최대 너비를 600px로 제한 */
+  }
+}
+
 .section {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    gap: 1px;
+    align-items: center;
+    gap: 20px;
     position: relative;
-    flex: 1;
-    align-self: stretch;
-    width: 100%;
-    min-width: 600px;
-    flex-grow: 1;
+    align-self: center;
+    width: fit-content;
+    margin: 50px;
+    padding: 30px;
     min-height: 700px;
+    background-color: white;
+    border-radius: 30px;
 }
 </style>

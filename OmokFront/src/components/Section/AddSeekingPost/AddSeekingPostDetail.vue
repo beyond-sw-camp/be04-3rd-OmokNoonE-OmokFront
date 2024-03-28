@@ -63,79 +63,49 @@
 </script>
 
 <style scoped>
-.seeking-post-header {
-  align-items: center;
-  gap: 25px;
-  display: inline-flex;
-  flex-direction: column;
+@media screen and (max-width: 1040px) {
+  .seeking-post-detail {
+    gap: 10px; /* 요소들 사이의 간격을 줄임 */
+  }
+
+  .div-2 {
+    width: 90%; /* 화면 너비의 90%로 조정 */
+    max-width: 600px; /* 최대 너비를 600px로 제한 */
+  }
+
+  .text-wrapper-2 {
+    width: 30%; /* 화면 너비의 30%로 조정 */
+    max-width: 100px; /* 최대 너비를 100px로 제한 */
+  }
+
+  .img {
   position: relative;
-  flex: 0 0 auto;
+  width: 2px;
+  height: 20px;
+  margin-top: 3px; /* 이미지를 텍스트에 맞게 위치 조정 */
+  margin-left: 10px; /* 이미지와 텍스트 사이 간격 조정 */
 }
 
-.seeking-header {
-  display: inline-flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 33px;
-  position: relative;
-  flex: 0 0 auto;
+  .frame-2{
+    max-width: 400px; /* 최대 너비를 400px로 제한 */
+  }
+
+  .group-2 {
+    max-width: 400px; /* 최대 너비를 400px로 제한 */
+  }
+
+  .danger-wrapper,
+  .overlap-group-2,
+  .overlap-group-3,
+  .overlap-wrapper {
+    width: 100%; /* 화면 너비에 맞게 조정 */
+  }
 }
 
-.text-wrapper {
-  position: relative;
-  width: fit-content;
-  margin-top: -1px;
-  font-family: "Outfit", Helvetica;
-  font-weight: 400;
-  color: #000000;
-  font-size: 24px;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.group {
-  position: relative;
-  width: 961px;
-  height: 51px;
-}
-
-.overlap-group-wrapper {
-  width: 963px;
-  height: 51px;
-}
-
-.overlap-group {
-  position: relative;
-  width: 961px;
-  height: 51px;
-  background-color: #ffffff;
-  border: 1px solid;
-  border-color: #a09f9f;
-}
-
-.div {
-  position: absolute;
-  width: 245px;
-  top: 13px;
-  left: 11px;
-  font-family: "Outfit", Helvetica;
-  font-weight: 400;
-  color: #a0a0a0;
-  font-size: 24px;
-  letter-spacing: 0;
-  line-height: normal;
-  white-space: nowrap;
-}
-
-.line {
-  position: relative;
-  width: 1061px;
-  height: 2px;
-}
 
 .seeking-post-detail {
   align-items: flex-start;
-  gap: 5px;
+  gap: 15px;
   display: inline-flex;
   flex-direction: column;
   position: relative;

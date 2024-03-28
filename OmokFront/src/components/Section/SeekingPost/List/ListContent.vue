@@ -24,6 +24,7 @@ function goAddPost() {
     position: fixed;
     bottom: 42%;
     right: 5%;
+    cursor: pointer;
 }
 
 .ellipse {
