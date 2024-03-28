@@ -1,12 +1,19 @@
 <template>
     <div class="SMP-content">
         <div class="ellipse"></div>
-        <img class="image-3" src="@/assets/img/plus.svg">
+        <img @click="goAddPost" class="image-3" src="@/assets/img/plus.svg">
     </div>
 </template>
 
 <script setup>
 
+import { useRouter } from 'vue-router';
+const router = useRouter();
+
+function goAddPost() {
+
+    router.push(`/seekingpost/addseekingpost`);
+}
 </script>
 
 <style scoped>

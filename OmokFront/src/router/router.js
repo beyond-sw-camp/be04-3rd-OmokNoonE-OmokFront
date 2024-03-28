@@ -14,6 +14,10 @@ const routes = [
         path: '/seekingpost/:id',
         component: () => import("../views/SeekingPostDetailView.vue")
     },
+    {
+        path: '/seekingpost/addseekingpost',
+        component: () => import("../views/AddSeekingPostView.vue")
+    }
     // 추가 라우트를 여기에 정의할 수 있습니다.
 ];
 

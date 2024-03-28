@@ -59,9 +59,7 @@ onMounted(async () => {
     display: inline-flex;
     flex-direction: column;
     align-items: center;
-    gap: 61px;
     position: relative;
-    top: 68px;
-    left: 189px;
+    width: 100%;
 }
-</style>./PostHeader/PostHeader.vue
+</style>

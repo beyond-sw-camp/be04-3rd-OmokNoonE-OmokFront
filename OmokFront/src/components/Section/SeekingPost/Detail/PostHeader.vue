@@ -74,21 +74,31 @@ function mouseOutOpacity() {
 </script>
 
 <style scoped>
+@media screen and (max-width: 1040px) {
+.title {
+  font-size: 25px !important;
+}
+}
+
 .postheader {
   display: inline-flex;
+  position: relative;
+  align-items: center;
   flex-direction: column;
-  height: 128px;
+  width: 80%;
+  min-width: 700px;
+  height: fit-content;
   align-items: center;
   gap: 13px;
-  position: relative;
 }
 
 .postheader-upper {
-  align-items: center;
-  gap: 338px;
   display: inline-flex;
   position: relative;
-  flex: 0 0 auto;
+  align-items: center;
+  justify-content: space-between; 
+  width: 95%;
+  margin: 1% 0px 0px 0px;
 }
 
 .title-and-status {
@@ -102,7 +112,6 @@ function mouseOutOpacity() {
 .title {
   position: relative;
   width: fit-content;
-  margin-top: -1px;
   font-family: "Outfit", Helvetica;
   font-weight: 400;
   color: #000000;
@@ -150,11 +159,12 @@ function mouseOutOpacity() {
 }
 
 .menu {
-  display: flex;
-  width: 70px;
-  align-items: center;
-  gap: 17px;
   position: relative;
+  width: fit-content;
+  min-width: 63px;
+  margin-left: 30px;
+  align-items: center;
+  justify-content: flex-end;
 }
 
 .group-3 {
@@ -162,6 +172,7 @@ function mouseOutOpacity() {
   flex: 1;
   flex-grow: 1;
   height: 30px;
+  margin-right: 10px;
   cursor: pointer;
 }
 
@@ -173,18 +184,18 @@ function mouseOutOpacity() {
 
 .image-4 {
   position: relative;
+  width: 98%;
   flex: 1;
-  align-self: stretch;
-  width: 100%;
+  align-self: center;
   flex-grow: 1;
 }
 
 .postheader-under {
-  align-items: flex-start;
-  gap: 659px;
-  margin-bottom: -1px;
   display: inline-flex;
-  position: relative;
+  justify-content: space-between; /* 좌우 정렬 */
+  align-items: flex-start;
+  width: 95%;
+  margin-bottom: -1px;
   flex: 0 0 auto;
 }
 
