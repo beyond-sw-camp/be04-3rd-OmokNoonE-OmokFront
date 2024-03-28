@@ -5,7 +5,7 @@
 </template>
 
 <script setup>
-import AddSeekingPostUnion from '@/components/Section/AddSeekingPost/AddSeekingPostUnion.vue';
+import AddSeekingPostUnion from '@/components/Section/SeekingPost/Add/AddSeekingPostUnion.vue';
 
 </script>
 

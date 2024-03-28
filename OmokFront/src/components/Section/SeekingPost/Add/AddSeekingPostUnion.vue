@@ -7,9 +7,9 @@
 </template>
 
 <script setup>
-    import AddSeekingPostHeader from '@/components/Section/AddSeekingPost/AddSeekingPostHeader.vue';
-    import AddSeekingPostDetail from '@/components/Section/AddSeekingPost/AddSeekingPostDetail.vue';
-    import AddSeekingPostContent from '@/components/Section/AddSeekingPost/AddSeekingPostContent.vue';
+    import AddSeekingPostHeader from '@/components/Section/SeekingPost/Add/AddSeekingPostHeader.vue';
+    import AddSeekingPostDetail from '@/components/Section/SeekingPost/Add/AddSeekingPostDetail.vue';
+    import AddSeekingPostContent from '@/components/Section/SeekingPost/Add/AddSeekingPostContent.vue';
 </script>
 
 <style scoped>
