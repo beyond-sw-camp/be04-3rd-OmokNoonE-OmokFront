@@ -85,7 +85,7 @@
         <div class="danger-3">모집중</div>
       </div>
       <div v-else class="status-value-danger-end" @click="toggleSeeking">
-        <div class="danger-3">종료</div>
+        <div class="danger-3">급구</div>
       </div>
     </div>
   </div>
@@ -102,7 +102,6 @@
   </div>
   <div class="button">
     <div class="group-5">
-      <!-- <div class="overlap-group-5" @click="emit(addPost)" > -->
       <div class="overlap-group-5" @click="addNewPost">
         <div class="text-wrapper-6" @mouseover="mouseoverHandler" @mouseout="mouseoutHandler"
           :style="{ color: fontColor }">등록</div>
@@ -190,11 +189,12 @@ const emit = defineEmits(['newPost']);
 
 const addPost = ref({});
 
-function addNewPost() {
+async function addNewPost() {
   let techStackStrings = selectedTags.value.join(', ');
+  let postId = 99;
 
   addPost.value = {
-    ID: 99,
+    ID: postId,
     TITLE: title.value,
     CONTENT: content.value,
     TECH_STACK: techStackStrings,
@@ -206,7 +206,7 @@ function addNewPost() {
   console.log("하위 컴포넌트",addPost.value);
   emit('newPost', addPost);
 
-  router.push(`/seekingpost`);
+  await router.push(`/seekingpost/${postId}`);
 }
 
 
