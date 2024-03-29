@@ -131,7 +131,7 @@
 ##  <p id="4">4. 🎯 테스트 결과</p>
 
 - Test-0001 ~ 0005
-<img src="https://github.com/beyond-sw-camp/be04-3rd-OmokNoonE-OmokFront/blob/main/img/TEST%200001%20-%20TEST%200005.gif"/>
+<img src="https://github.com/beyond-sw-camp/be04-3rd-OmokNoonE-OmokFront/blob/main/img/TEST-0001~TEST-0005.gif"/>
 
 - Test-0006 ~ 0011
 <img src="https://github.com/beyond-sw-camp/be04-3rd-OmokNoonE-OmokFront/blob/main/img/TEST0006-0011.gif"/>
