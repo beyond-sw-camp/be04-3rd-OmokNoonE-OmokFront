@@ -132,16 +132,19 @@
 
 - Test-0001 ~ 0005
 <img src="https://github.com/beyond-sw-camp/be04-3rd-OmokNoonE-OmokFront/blob/main/img/TEST-0001~TEST-0005.gif"/>
+<br>
 
 - Test-0006 ~ 0011
 <img src="https://github.com/beyond-sw-camp/be04-3rd-OmokNoonE-OmokFront/blob/main/img/TEST0006-0011.gif"/>
+<br>
 
 - Test-0012 ~ 0014
 <img src="https://github.com/beyond-sw-camp/be04-3rd-OmokNoonE-OmokFront/blob/main/img/TEST0012-TEST0014.gif"/>
+<br>
 
 - Test-0015 ~ 0022
 <img src="https://github.com/beyond-sw-camp/be04-3rd-OmokNoonE-OmokFront/blob/main/img/TEST15-TEST22.gif"/>
-
+<br>
 
 
 ##  <p id="5">5. 🤔 회고</p>
