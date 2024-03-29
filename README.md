@@ -84,7 +84,9 @@
 
 - 본 프로젝트에서는 HTML5의 semantic 태그를 활용하여 사용자와 검색 엔진 모두에게 더 명확하고 접근하기 쉬운 웹사이트를 제작하였습니다. Semantic 태그의 사용은 웹 페이지의 구조를 논리적으로 구성하고, 각 섹션의 목적과 내용을 명확히 표현하는 데 도움을 줍니다. 이는 사용자의 이해를 돕고, 검색 엔진 최적화(SEO)에도 크게 기여합니다.
 
-<img src="https://github.com/beyond-sw-camp/be04-3rd-OmokNoonE-OmokFront/blob/main/img/%E1%84%91%E1%85%B3%E1%84%85%E1%85%A9%E1%84%8C%E1%85%A6%E1%86%A8%E1%84%90%E1%85%B3%E1%84%80%E1%85%AE%E1%84%8C%E1%85%A9.png"/>
+<img src="https://github.com/beyond-sw-camp/be04-3rd-OmokNoonE-OmokFront/blob/main/img/SegmanticTag_%E1%84%89%E1%85%AE%E1%84%8C%E1%85%A5%E1%86%BC2.png"/>
+
+<img src="https://github.com/beyond-sw-camp/be04-3rd-OmokNoonE-OmokFront/blob/main/img/%E1%84%91%E1%85%B3%E1%84%85%E1%85%A9%E1%84%8C%E1%85%A6%E1%86%A8%E1%84%90%E1%85%B3%E1%84%80%E1%85%AE%E1%84%8C%E1%85%A9_%E1%84%89%E1%85%AE%E1%84%8C%E1%85%A5%E1%86%BC.png"/>
 
 ## 
 
