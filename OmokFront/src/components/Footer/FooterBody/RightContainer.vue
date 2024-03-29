@@ -1,19 +1,19 @@
 <template>
     <div class="frame-10">
         <div class="div-2">
-            <div class="text-wrapper-8">Website Links</div>
-            <div class="text-wrapper-9">Home</div>
-            <div class="text-wrapper-10">About</div>
+            <div class="text-wrapper-8">Useful Links</div>
+            <div class="text-wrapper-9">F.A.Q</div>
+            <div class="text-wrapper-10">Support</div>
         </div>
         <div class="div-2">
-            <div class="text-wrapper-11">Services</div>
-            <div class="text-wrapper-12">Architecture</div>
-            <div class="text-wrapper-13">Buildings</div>
+            <div class="text-wrapper-11">About</div>
+            <div class="text-wrapper-12">Team.OmokNoonE</div>
+            <div class="text-wrapper-13">Our Services</div>
         </div>
         <div class="developers">
-            <div class="text-wrapper-14">Developers</div>
-            <div class="text-wrapper-12">Fetures</div>
-            <div class="text-wrapper-13">Testomonials</div>
+            <div class="text-wrapper-14">Contact Us</div>
+            <div class="text-wrapper-12">OmokNoonE@gmail.com</div>
+            <div class="text-wrapper-13">서울특별시 동작구<br>보라매로87, 3층</div>
         </div>
     </div>
 </template>
@@ -75,7 +75,7 @@
     position: absolute;
     width: 98px;
     height: 48px;
-    top: 87px;
+    top: 70px;
     left: 0;
     font-family: "Inter", Helvetica;
     font-weight: 400;
@@ -89,7 +89,7 @@
     position: absolute;
     width: 85px;
     top: 0;
-    left: 0;
+    left: -15px;
     font-family: "Inter", Helvetica;
     font-weight: 600;
     color: #1e1e1e;
@@ -117,7 +117,7 @@
     position: absolute;
     width: 145px;
     height: 48px;
-    top: 87px;
+    top: 70px;
     left: 0;
     font-family: "Inter", Helvetica;
     font-weight: 400;

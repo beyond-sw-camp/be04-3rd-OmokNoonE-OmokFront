@@ -4,8 +4,7 @@
         <div class="frame-9">
             <img class="image-4" src="@/assets/img/github-and-notion.svg" />
             <p class="p">
-                Lorem ipsum dolor sit amet consectetur. Bibendum consequat laoreet turpis in pellentesque sem id ut.
-                Feugiat quam porttitor in augue sed quis pellentesque quam purus.
+                Our mission is to provide a platform to get team members of the project and seamlessly perform it from one place to project schedule management.
             </p>
         </div>
     </div>
