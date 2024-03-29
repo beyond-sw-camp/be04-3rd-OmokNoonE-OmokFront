@@ -129,13 +129,16 @@
 - Json Server 연결
 
 - Test-0001 ~ 0005
+<img src="https://github.com/beyond-sw-camp/be04-3rd-OmokNoonE-OmokFront/blob/main/img/TEST%200001%20-%20TEST%200005.gif"/>
 
 - Test-0006 ~ 0011
 
+
 - Test-0012 ~ 0014
+<img src="https://github.com/beyond-sw-camp/be04-3rd-OmokNoonE-OmokFront/blob/main/img/TEST0012-TEST0014.gif"/>
 
 - Test-0015 ~ 0022
-
+<img src="https://github.com/beyond-sw-camp/be04-3rd-OmokNoonE-OmokFront/blob/main/img/TEST15-TEST22.gif"/>
 
 
 
