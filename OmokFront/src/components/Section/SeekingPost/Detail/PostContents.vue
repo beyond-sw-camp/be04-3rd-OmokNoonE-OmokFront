@@ -15,23 +15,14 @@ const contentProps = defineProps({
 </script>
 
 <style scoped>
-@media screen and (max-width: 1040px) {
-.postcontents {
-    margin-top: 20px !important;
-}
 
-.image-5 {
-  width: 80% !important;
-  min-width: 500px;
-}
-}
 
 .postcontents {
     display: inline-flex;
     position: relative;
     align-items: center;
     flex-direction: column;
-    margin-top: 2%;
+    margin-top: 40px;
     max-width: 1980px;
     width: 90%;
 }
@@ -39,7 +30,8 @@ const contentProps = defineProps({
 .image-5 {
     position: relative;
     align-items: center;
-    width: 80%;
+    width: 50%;
+    min-width: 500px;
     top: 0;
     left: 0;
 }

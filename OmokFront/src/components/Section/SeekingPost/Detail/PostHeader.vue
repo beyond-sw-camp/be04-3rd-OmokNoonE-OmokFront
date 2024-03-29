@@ -89,7 +89,7 @@ function mouseOutOpacity() {
   min-width: 700px;
   height: fit-content;
   align-items: center;
-  gap: 13px;
+  gap: 0px;
 }
 
 .postheader-upper {
@@ -98,7 +98,7 @@ function mouseOutOpacity() {
   align-items: center;
   justify-content: space-between; 
   width: 95%;
-  margin: 1% 0px 0px 0px;
+  margin: 1% 0px -15px 0px;
 }
 
 .title-and-status {
@@ -195,7 +195,7 @@ function mouseOutOpacity() {
   justify-content: space-between; /* 좌우 정렬 */
   align-items: flex-start;
   width: 95%;
-  margin-bottom: -1px;
+  margin-top: 10px;
   flex: 0 0 auto;
 }
 
@@ -240,7 +240,6 @@ function mouseOutOpacity() {
   display: inline-flex;
   flex-direction: column;
   align-items: flex-end;
-  gap: 12px;
   position: relative;
   flex: 0 0 auto;
 }
