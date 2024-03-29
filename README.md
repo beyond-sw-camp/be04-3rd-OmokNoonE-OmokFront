@@ -24,28 +24,6 @@
 - 팀원 : **지현근**
 [<img src="https://img.shields.io/badge/Github-Link-181717?logo=Github">](https://github.com/jihyeongeun)
 
-## <p id="목차">목차</p>
-<a href="#1">1. 📑 프로젝트 개요</a>
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#1-1">1-1. 프로젝트 소개</a>
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#1-2">1-2. 기술 스택</a>
-
-<a href="#2">2. 💬 스토리보드 및 기능 설계서</a>
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#2-1">2-1. 비회원 메인 화면</a>
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#2-2">2-2. 모집글 목록 조회</a>
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#2-3">2-3. 모집글 상세 보기</a>
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#2-4">2-4. 모집글 작성</a>
-
-<a href="#3">3. ⚙️ 프로젝트 구조 & 테스트 계획</a>
-
-<a href="#4">4. 🎯 테스트 결과</a>
-
-<a href="#5">5. 🤔 회고</a>
 
 
 <br>
@@ -68,25 +46,36 @@
 
 <br>
 
-##  <p id="2">2. 💬 스토리보드 및 기능 설계서</p>
-<a href="#목차">➔ 목차로 돌아가기</a>
+##  <p id="2">2. 💬 스토리보드 및 기능 명세서</p>
 
-### <p id="2-1">2-1. 비회원 메인 화면</p>
+### <p id="2-1">2-1. 스토리보드</p>
+#### 2-1-1. 비회원 메인 화면
 <img src="https://github.com/beyond-sw-camp/be04-3rd-OmokNoonE-OmokFront/blob/main/img/%E1%84%89%E1%85%B3%E1%84%90%E1%85%A9%E1%84%85%E1%85%B5%E1%84%87%E1%85%A9%E1%84%83%E1%85%B3_%E1%84%87%E1%85%B5%E1%84%92%E1%85%AC%E1%84%8B%E1%85%AF%E1%86%AB%E1%84%86%E1%85%A6%E1%84%8B%E1%85%B5%E1%86%AB.png"/>
 
-### <p id="2-2">2-2. 모집글 목록 조회</p>
+#### 2-1-2. 모집글 목록 조회
 <img src="https://github.com/beyond-sw-camp/be04-3rd-OmokNoonE-OmokFront/blob/main/img/%E1%84%89%E1%85%B3%E1%84%90%E1%85%A9%E1%84%85%E1%85%B5%E1%84%87%E1%85%A9%E1%84%83%E1%85%B3_%E1%84%86%E1%85%A9%E1%84%8C%E1%85%B5%E1%86%B8%E1%84%80%E1%85%B3%E1%86%AF%E1%84%86%E1%85%A9%E1%86%A8%E1%84%85%E1%85%A9%E1%86%A8_%E1%84%89%E1%85%AE%E1%84%8C%E1%85%A5%E1%86%BC.png"/>
 
-### <p id="2-3">2-3. 모집글 상세 보기</p>
+#### 2-1-3. 모집글 상세 보기
 <img src="https://github.com/beyond-sw-camp/be04-3rd-OmokNoonE-OmokFront/blob/main/img/%E1%84%89%E1%85%B3%E1%84%90%E1%85%A9%E1%84%85%E1%85%B5%E1%84%87%E1%85%A9%E1%84%83%E1%85%B3_%E1%84%86%E1%85%A9%E1%84%8C%E1%85%B5%E1%86%B8%E1%84%80%E1%85%B3%E1%86%AF%E1%84%89%E1%85%A1%E1%86%BC%E1%84%89%E1%85%A6.png"/>
 
-### <p id="2-4">2-4. 모집글 작성</p>
-<img src="https://github.com/beyond-sw-camp/be04-3rd-OmokNoonE-OmokFront/blob/main/img/%E1%84%89%E1%85%B3%E1%84%90%E1%85%A9%E1%84%85%E1%85%B5%E1%84%87%E1%85%A9%E1%84%83%E1%85%B3_%E1%84%86%E1%85%A9%E1%84%8C%E1%85%B5%E1%86%B8%E1%84%80%E1%85%B3%E1%86%AF%E1%84%8C%E1%85%A1%E1%86%A8%E1%84%89%E1%85%A5%E1%86%BC.png"/>
+#### 2-1-4. 모집글 작성
+<img src="https://github.com/beyond-sw-camp/be04-3rd-OmokNoonE-OmokFront/blob/main/img/%E1%84%89%E1%85%B3%E1%84%90%E1%85%A9%E1%84%85%E1%85%B5%E1%84%87%E1%85%A9%E1%84%83%E1%85%B3_%E1%84%86%E1%85%A9%E1%84%8C%E1%85%B5%E1%86%B8%E1%84%80%E1%85%B3%E1%86%AF%E1%84%8C%E1%85%A1%E1%86%A8%E1%84%89%E1%85%A5%E1%86%BC_%E1%84%89%E1%85%AE%E1%84%8C%E1%85%A5%E1%86%BC.png"/>
 
+### <p id="2-2">2-2. 기능 명세서</p>
+#### 2-2-1. 비회원 메인 화면
+<img src="https://github.com/beyond-sw-camp/be04-3rd-OmokNoonE-OmokFront/blob/main/img/%E1%84%80%E1%85%B5%E1%84%82%E1%85%B3%E1%86%BC%E1%84%86%E1%85%A7%E1%86%BC%E1%84%89%E1%85%A6%E1%84%89%E1%85%A5_%E1%84%87%E1%85%B5%E1%84%92%E1%85%AC%E1%84%8B%E1%85%AF%E1%86%AB%E1%84%86%E1%85%A6%E1%84%8B%E1%85%B5%E1%86%AB.png"/>
+
+#### 2-2-2. 모집글 목록 조회
+<img src="https://github.com/beyond-sw-camp/be04-3rd-OmokNoonE-OmokFront/blob/main/img/%E1%84%80%E1%85%B5%E1%84%82%E1%85%B3%E1%86%BC%E1%84%86%E1%85%A7%E1%86%BC%E1%84%89%E1%85%A6%E1%84%89%E1%85%A5_%E1%84%86%E1%85%A9%E1%84%8C%E1%85%B5%E1%86%B8%E1%84%80%E1%85%B3%E1%86%AF%E1%84%86%E1%85%A9%E1%86%A8%E1%84%85%E1%85%A9%E1%86%A8.png"/>
+
+#### 2-2-3. 모집글 상세 보기
+<img src="https://github.com/beyond-sw-camp/be04-3rd-OmokNoonE-OmokFront/blob/main/img/%E1%84%80%E1%85%B5%E1%84%82%E1%85%B3%E1%86%BC%E1%84%86%E1%85%A7%E1%86%BC%E1%84%89%E1%85%A6%E1%84%89%E1%85%A5_%E1%84%86%E1%85%A9%E1%84%8C%E1%85%B5%E1%86%B8%E1%84%80%E1%85%B3%E1%86%AF%E1%84%89%E1%85%A1%E1%86%BC%E1%84%89%E1%85%A6.png"/>
+
+#### 2-2-4. 모집글 작성
+<img src="https://github.com/beyond-sw-camp/be04-3rd-OmokNoonE-OmokFront/blob/main/img/%E1%84%80%E1%85%B5%E1%84%82%E1%85%B3%E1%86%BC%E1%84%86%E1%85%A7%E1%86%BC%E1%84%89%E1%85%A6%E1%84%89%E1%85%A5_%E1%84%86%E1%85%A9%E1%84%8C%E1%85%B5%E1%86%B8%E1%84%80%E1%85%B3%E1%86%AF%E1%84%8C%E1%85%A1%E1%86%A8%E1%84%89%E1%85%A5%E1%86%BC.png"/>
 <br>
 
 ##  <p id="3">3. ⚙️ 프로젝트 구조 & 테스트 계획</p>
-<a href="#목차">➔ 목차로 돌아가기</a>
 
 > [!NOTE]
 해당 프로젝트 구조는 테스트 및 사용한 vue 파일들을 알려주기 위하여 작성된 간소화 된 구조입니다.
@@ -101,13 +90,12 @@
 
 - Category.vue: 모집글 버튼<br>
 - Title.vue: 비회원 메인 화면으로 돌아가는 로고 버튼<br>
-- GuestMenu.vue: 비회원 메인 화면 표시<br>
 
 <img src="https://github.com/beyond-sw-camp/be04-3rd-OmokNoonE-OmokFront/blob/main/img/%E1%84%92%E1%85%A6%E1%84%83%E1%85%A5%E1%84%90%E1%85%A6%E1%84%89%E1%85%B3%E1%84%90%E1%85%B3%E1%84%89%E1%85%AE%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%87%E1%85%A9%E1%86%AB.png"/>
 
 <details>
 <summary>해당 경로</summary>
-.../src/components/Header/NavigationBar/Category.vue
+.../src/components/Header/NavigationBar/Category.vue<br>
 .../src/components/Header/NavigationBar/Title.vue
 </details>
 
@@ -115,28 +103,28 @@
 
 ### <p id="3-2">3-2. 섹션 컴포넌트 구조</p>
 
-- SeekingMemberPostDetailAll.vue:
-- SeekingMemberPostListMain.vue:
-- SessionBody/SessionBody.vue:
+- SeekingPostUnion.vue: 
+- ListBody.vue:
+- ListContent.vue:
 
 <img src="https://github.com/beyond-sw-camp/be04-3rd-OmokNoonE-OmokFront/blob/main/img/%E1%84%89%E1%85%A6%E1%86%A8%E1%84%89%E1%85%A7%E1%86%AB%E1%84%90%E1%85%A6%E1%84%89%E1%85%B3%E1%84%90%E1%85%B3.png"/>
 
 <details>
   <summary>해당경로</summary>
-.../src/components/Section/SeekingPost/Detail/SeekingPostUnion.vue
-.../src/components/Section/SeekingPost/List/ListBody.vue
-.../src/components/Section/SeekingPost/List/ListContent.vue
+.../src/components/Section/SeekingPost/Detail/SeekingPostUnion.vue<br>
+.../src/components/Section/SeekingPost/List/ListBody.vue<br>
+.../src/components/Section/SeekingPost/List/ListContent.vue<br>
 </details>
 
 <br>
 
 ##  <p id="4">4. 🎯 테스트 결과</p>
-<a href="#목차">➔ 목차로 돌아가기</a>
+
 
 
 
 ##  <p id="5">5. 🤔 회고</p>
-<a href="#목차">➔ 목차로 돌아가기</a>
+
 |&nbsp;&nbsp;팀&nbsp;원&nbsp;&nbsp;&nbsp;|회고록|
 |:---:|---|
 |최종찬| 내용 필요 |
