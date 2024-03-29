@@ -42,18 +42,19 @@ async function categoryDataSearch() {
     switch (selectedCategory.value) {
         case '모집글':
             /* JSON SERVER에서는 LIKE 조회가 되지 않아 추후에 서버 연결 후 적용 */
-            const response = await axios.get(`http://localhost:8080/seekingPostDetail`);
-            contentResult.value = response.data;
-            console.log("contentResult.value:",contentResult.value[0].TITLE.includes("자바"));
+            let responsePostDetail = await axios.get(`http://localhost:8080/seekingPostDetail`);
+            contentResult.value = responsePostDetail.data;
             break;
         case '프로젝트':
-        
+
             break;
         case '공지사항':
-        
+            let responseNotice = await axios.get(`http://localhost:8083/notice`);
+            contentResult.value = responseNotice.data;
             break;
         case '게시글':
-        
+            const responsePost = await axios.get(`http://localhost:8082/post`);
+            contentResult.value = responsePost.data;
             break;
         default:
             break;
