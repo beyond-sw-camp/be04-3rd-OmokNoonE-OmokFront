@@ -79,6 +79,7 @@
 
 ##  <p id="3">3. ⚙️ 프로젝트 구조 & 테스트 계획</p>
 
+### 3-1. 프로젝트 구조
 > [!NOTE]
 해당 프로젝트 구조는 테스트 및 사용한 vue 파일들을 알려주기 위하여 작성된 간소화 된 구조입니다.
 
@@ -92,7 +93,16 @@
 
 ## 
 
-### <p id="3-1">3-1. 헤더 컴포넌트 구조</p>
+### 3-2. 테스트 계획
+- 본 프로젝트에서는 화면 개발에 초점을 두기 위해 실제 데이터 베이스와 서버 연결 없이 빠르게 테스트를 진행할 수 있도록 Json Server를 활용하여 반응형 웹 기능 구현 테스트를 진행합니다.
+
+테스트 진행 계획은 다음과 같습니다.
+1. 임시 데이터를 DB로부터 json 파일로 추출
+2. 모든 json 파일을 각각의 local port에 연결 ex)  --port 8080, 8081, 8082 etc...)
+3. axios를 활용해 요청된 데이터를 http 비동기 통신을 통해 해당되는 json 파일로부터 호출
+4. 넘어온 데이터를 활용해 화면에 출력 확인
+
+#### 3-2-1. 헤더 컴포넌트 구조
 
 - Category.vue: 모집글 버튼<br>
 - Title.vue: 비회원 메인 화면으로 돌아가는 로고 버튼<br>
@@ -107,11 +117,13 @@
 
 ##
 
-### <p id="3-2">3-2. 섹션 컴포넌트 구조</p>
+#### 3-2-2. 섹션 컴포넌트 구조
 
-- SeekingPostUnion.vue: 
-- ListBody.vue:
-- ListContent.vue:
+- AddSeekingPostDetail.vue: 모집글 작성 UI, 상위 컴포넌트로 데이터 전달
+- AddSeekingPostUnion.vue: 하위 컴포넌트로 부터 전달 받은 데이터를 Post 요청
+- SeekingPostUnion.vue: 모집글 상세 페이지 정보 요청
+- ListBody.vue: 모집글 리스트 조회, 모집글 리스트 페이징 처리
+- ListContent.vue: 모집글 작성 버튼
 
 <img src="https://github.com/beyond-sw-camp/be04-3rd-OmokNoonE-OmokFront/blob/main/img/%E1%84%89%E1%85%A6%E1%86%A8%E1%84%89%E1%85%A7%E1%86%AB%E1%84%90%E1%85%A6%E1%84%89%E1%85%B3%E1%84%90%E1%85%B3.png"/>
 
