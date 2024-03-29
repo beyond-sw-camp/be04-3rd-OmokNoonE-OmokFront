@@ -1,0 +1,364 @@
+{
+	"seekingPostDetail": [
+		{
+			"ID": 1,
+			"TITLE": "자바 백엔드 개발자 구합니다",
+			"CONTENT": "안녕하세요! 자바와 Spring Boot을 활용하여 사용자 친화적이고 안정적인 백엔드 서비스를 개발할 팀원을 찾습니다. 저희 팀은 기술에 열정적이고 경험이 풍부한 개발자들로 구성되어 있으며, 최신 기술을 함께 배우고 적용하며 훌륭한 제품을 만들고자 합니다.\n\n✔ 팀 구성원\n- 백엔드 개발자 3명\n- 프론트엔드 개발자 2명\n- QA 엔지니어 1명\n\n✔ 협업 도구\n- 오목허브\n- Github\n\n✔ 요구사항\n- 자바 백엔드 개발 경험\n- Spring Boot에 대한 이해\n- 팀과의 효과적인 소통 능력",
+			"TECH_STACK": "Java, Spring Boot",
+			"IS_SEEKING": 1,
+			"NICKNAME": "hong_gildong",
+			"LAST_MODIFIED_DATE": "2024-03-09"
+		},
+		{
+			"ID": 2,
+			"TITLE": "UI/UX Designer를 찾습니다.",
+			"CONTENT": "저희와 함께 창의적이고 사용자 친화적인 디자인을 만들어갈 UI/UX 디자이너를 모집합니다. 프로젝트는 혁신적인 웹 및 모바일 애플리케이션 개발에 중점을 둡니다. 열정적인 디자인 팀과 함께 최신 디자인 트렌드와 도구를 활용하여 멋진 사용자 경험을 창조해보세요.\n\n✔ 팀 구성원\n- UI/UX 디자이너 2명\n- 프론트엔드 개발자 2명\n- 백엔드 개발자 2명\n\n✔ 협업 도구\n- Figma\n- Adobe XD\n- 오목허브\n- Github\n\n✔ 요구사항\n- UI/UX 디자인 경험\n- Figma, Adobe XD 숙련도\n- 사용자 중심 디자인에 대한 이해",
+			"TECH_STACK": "Figma, Adobe XD",
+			"IS_SEEKING": 0,
+			"NICKNAME": "hong_gildong",
+			"LAST_MODIFIED_DATE": "2024-03-09"
+		},
+		{
+			"ID": 3,
+			"TITLE": "QA Engineer를 모집합니다!!!",
+			"CONTENT": "Selenium, TestNG를 자유롭게 활용할 수 있는 QA Engineer를 찾고 있습니다. 저희 팀은 안정적이고 신뢰할 수 있는 소프트웨어 제공을 목표로 하며, 품질 보증 과정에서 중요한 역할을 담당할 팀원을 찾습니다.\n\n✔ 팀 구성원\n- QA 엔지니어 2명\n- 백엔드 개발자 2명\n- 프론트엔드 개발자 2명\n\n✔ 협업 도구\n- Selenium\n- TestNG\n- 오목허브\n- Github\n\n✔ 요구사항\n- Selenium, TestNG 사용 경험\n- 소프트웨어 테스트 및 품질 보증에 대한 이해\n- 팀과의 효과적인 소통 능력",
+			"TECH_STACK": "Selenium, TestNG",
+			"IS_SEEKING": 0,
+			"NICKNAME": "jung_miyoung",
+			"LAST_MODIFIED_DATE": "2022-12-20"
+		},
+		{
+			"ID": 4,
+			"TITLE": "프론트엔드 개발자를 찾습니다",
+			"CONTENT": "React와 JavaScript를 활용하여 동적이고 효율적인 프론트엔드를 개발할 개발자를 찾고 있습니다. 혁신적인 사용자 경험을 제공하고, 최신 웹 기술을 활용하여 프로젝트를 이끌어갈 팀원을 기다립니다.\n\n✔ 팀 구성원\n- 프론트엔드 개발자 3명\n- UX/UI 디자이너 1명\n- 백엔드 개발자 2명\n\n✔ 협업 도구\n- React\n- JavaScript\n- 오목허브\n- Github\n\n✔ 요구사항\n- React, JavaScript 개발 경험\n- 현대적인 웹 개발 기술에 대한 깊은 이해\n- 팀 내외부와의 원활한 커뮤니케이션 능력",
+			"TECH_STACK": "React, JavaScript",
+			"IS_SEEKING": 1,
+			"NICKNAME": "lee_youngho",
+			"LAST_MODIFIED_DATE": "2022-12-13"
+		},
+		{
+			"ID": 5,
+			"TITLE": "풀스택 개발자 모집합니다",
+			"CONTENT": "Node.js 및 React를 이용한 웹 애플리케이션 개발 프로젝트에 참여할 풀스택 개발자를 모집합니다. 저희 프로젝트는 사용자에게 탁월한 웹 경험을 제공하는 것을 목표로 합니다. 혁신적인 아이디어를 실현하고자 하는 열정적인 개발자의 참여를 기다립니다.\n\n✔ 팀 구성원\n- 풀스택 개발자 2명\n- 프론트엔드 개발자 1명\n- 백엔드 개발자 1명\n\n✔ 협업 도구\n- Node.js\n- React\n- 오목허브\n- Github\n\n✔ 요구사항\n- Node.js 및 React 개발 경험\n- 웹 애플리케이션 개발에 대한 포괄적인 이해\n- 팀과의 원활한 커뮤니케이션 능력",
+			"TECH_STACK": "Node.js, React",
+			"IS_SEEKING": 1,
+			"NICKNAME": "lee_younghi",
+			"LAST_MODIFIED_DATE": "2022-07-03"
+		},
+		{
+			"ID": 6,
+			"TITLE": "데이터 사이언티스트 구합니다",
+			"CONTENT": "머신러닝 모델을 개발할 데이터 사이언티스트를 찾습니다. 우리 팀은 데이터를 통해 의미 있는 인사이트를 추출하고, 실제 문제를 해결하는 데 기여할 수 있는 팀원을 기다립니다.\n\n✔ 팀 구성원\n- 데이터 사이언티스트 2명\n- 데이터 엔지니어 1명\n\n✔ 협업 도구\n- Python\n- TensorFlow\n- 오목허브\n- Github\n\n✔ 요구사항\n- Python 및 TensorFlow를 활용한 프로젝트 경험\n- 데이터 분석 및 머신러닝 모델 개발에 대한 이해\n- 팀 내외부와의 효과적인 커뮤니케이션 능력",
+			"TECH_STACK": "Python, TensorFlow",
+			"IS_SEEKING": 0,
+			"NICKNAME": "kim_chulsoo",
+			"LAST_MODIFIED_DATE": "2022-09-17"
+		},
+		{
+			"ID": 7,
+			"TITLE": "모바일 앱 개발 프로젝트",
+			"CONTENT": "iOS와 Android 플랫폼을 위한 모바일 앱 개발 프로젝트에 참여할 개발자를 찾습니다. 저희는 혁신적이고 사용자 친화적인 모바일 앱 개발을 목표로 합니다. 모바일 개발에 열정이 있는 개발자의 참여를 기다립니다.\n\n✔ 팀 구성원\n- iOS 개발자 1명\n- Android 개발자 1명\n- UI/UX 디자이너 1명\n\n✔ 협업 도구\n- Swift\n- Kotlin\n- 오목허브\n- Github\n\n✔ 요구사항\n- Swift 또는 Kotlin을 이용한 앱 개발 경험\n- 크로스 플랫폼 개발에 대한 이해\n- 팀과의 효과적인 소통 능력",
+			"TECH_STACK": "Swift, Kotlin",
+			"IS_SEEKING": 1,
+			"NICKNAME": "park_younghi",
+			"LAST_MODIFIED_DATE": "2022-11-03"
+		},
+		{
+			"ID": 8,
+			"TITLE": "클라우드 인프라 엔지니어 모집",
+			"CONTENT": "AWS와 Docker를 사용하여 클라우드 인프라를 구축할 엔지니어를 모집합니다. 혁신적인 클라우드 솔루션을 제공하고, 안정적인 서비스 인프라를 구축하는 것이 목표입니다. 클라우드 기술에 대한 열정이 있는 엔지니어의 참여를 기다립니다.\n\n✔ 팀 구성원\n- 클라우드 인프라 엔지니어 2명\n- 시스템 관리자 1명\n\n✔ 협업 도구\n- AWS\n- Docker\n- 오목허브\n- Github\n\n✔ 요구사항\n- AWS 및 Docker 사용 경험\n- 클라우드 서비스 아키텍처 설계 및 구축에 대한 실제 경험\n- 팀 내외부와의 효과적인 커뮤니케이션 능력",
+			"TECH_STACK": "AWS, Docker",
+			"IS_SEEKING": 1,
+			"NICKNAME": "lee_chulsoo",
+			"LAST_MODIFIED_DATE": "2023-01-07"
+		},
+		{
+			"ID": 9,
+			"TITLE": "게임 개발자를 찾습니다",
+			"CONTENT": "Unity와 C#을 이용한 모바일 게임 개발 프로젝트에 참여할 게임 개발자를 찾습니다. 저희 팀은 창의적이고 혁신적인 게임을 개발하여 사용자에게 새로운 경험을 제공하고자 합니다. 게임 개발에 열정이 있는 개발자의 참여를 기다립니다.\n\n✔ 팀 구성원\n- 게임 개발자 3명\n- 게임 디자이너 1명\n- 사운드 디자이너 1명\n\n✔ 협업 도구\n- Unity\n- C#\n- 오목허브\n- Github\n\n✔ 요구사항\n- Unity와 C#을 이용한 게임 개발 경험\n- 게임 엔진 및 개발 툴에 대한 깊은 이해\n- 팀과의 원활한 커뮤니케이션 능력",
+			"TECH_STACK": "Unity, C#",
+			"IS_SEEKING": 1,
+			"NICKNAME": "kim_youngsoo",
+			"LAST_MODIFIED_DATE": "2023-02-22"
+		},
+		{
+			"ID": 10,
+			"TITLE": "블록체인 개발자 모집",
+			"CONTENT": "이더리움 기반의 스마트 컨트랙트 개발을 위한 블록체인 개발자를 모집합니다. 저희 프로젝트는 블록체인 기술을 활용하여 혁신적인 솔루션을 제공하는 것을 목표로 합니다. 블록체인에 열정이 있는 개발자의 참여를 기다립니다.\n\n✔ 팀 구성원\n- 블록체인 개발자 2명\n- 프론트엔드 개발자 1명\n- 백엔드 개발자 1명\n\n✔ 협업 도구\n- Solidity\n- Ethereum\n- 오목허브\n- Github\n\n✔ 요구사항\n- Solidity 및 Ethereum 개발 경험\n- 스마트 컨트랙트 개발 및 배포에 대한 실제 경험\n- 팀과의 효과적인 소통 능력",
+			"TECH_STACK": "Solidity, Ethereum",
+			"IS_SEEKING": 1,
+			"NICKNAME": "lee_jihye",
+			"LAST_MODIFIED_DATE": "2023-03-17"
+		},
+		{
+			"ID": 11,
+			"TITLE": "모바일 게임 프로토타입 개발자 모집",
+			"CONTENT": "취미로 즐길 수 있는 모바일 게임 프로토타입을 함께 개발할 친구들을 찾습니다. Unity 또는 Unreal Engine에 관심이 있는 개발자, 디자이너 모두 환영합니다. 함께 새로운 게임 아이디어를 현실로 만들어봅시다.\n\n✔ 팀 구성원\n- 게임 개발자 2명\n- 게임 디자이너 1명\n- 사운드 디자이너 1명\n\n✔ 협업 도구\n- Unity\n- Unreal Engine\n- 오목허브\n- Github\n\n✔ 요구사항\n- 게임 개발에 대한 열정\n- Unity 또는 Unreal Engine 사용 경험\n- 창의적인 아이디어와 팀워크",
+			"TECH_STACK": "Unity, Unreal Engine",
+			"IS_SEEKING": 1,
+			"NICKNAME": "kim_junho",
+			"LAST_MODIFIED_DATE": "2024-04-01"
+		},
+		{
+			"ID": 12,
+			"TITLE": "사이드 프로젝트로 웹 앱 만들 분",
+			"CONTENT": "주말에 사이드 프로젝트로 간단한 웹 앱을 만들어 볼 분을 찾습니다. React나 Vue에 관심 있는 개발자, 디자이너 모두 환영합니다. 경험보다는 열정을 중시합니다. 함께 배우며 성장할 수 있는 기회를 제공합니다.\n\n✔ 팀 구성원\n- 프론트엔드 개발자 2명\n- 백엔드 개발자 1명\n- 디자이너 1명\n\n✔ 협업 도구\n- React\n- Vue.js\n- 오목허브\n- Github\n\n✔ 요구사항\n- 웹 개발에 대한 열정\n- React 또는 Vue.js 사용 경험\n- 협업과 학습에 대한 열린 마음",
+			"TECH_STACK": "React, Vue.js",
+			"IS_SEEKING": 1,
+			"NICKNAME": "hwang_jeongmin",
+			"LAST_MODIFIED_DATE": "2024-03-28"
+		},
+		{
+			"ID": 13,
+			"TITLE": "초보자도 환영! 웹사이트 만들기 프로젝트",
+			"CONTENT": "웹 개발을 배우고 싶은 초보자를 위한 웹사이트 만들기 프로젝트에 참여하실 분을 모집합니다. HTML, CSS, JavaScript로 간단한 웹사이트를 함께 만들어요. 웹 개발의 기초를 배우고 싶은 분들의 많은 참여를 기다립니다.\n\n✔ 팀 구성원\n- 프론트엔드 개발자 2명\n- 멘토 2명\n\n✔ 협업 도구\n- HTML\n- CSS\n- JavaScript\n- 오목허브\n- Github\n\n✔ 요구사항\n- 웹 개발에 대한 열정과 학습 의지\n- HTML, CSS, JavaScript 기초 지식 환영\n- 팀과의 원활한 소통 능력",
+			"TECH_STACK": "HTML, CSS, JavaScript",
+			"IS_SEEKING": 1,
+			"NICKNAME": "song_jiyoung",
+			"LAST_MODIFIED_DATE": "2024-02-20"
+		},
+		{
+			"ID": 14,
+			"TITLE": "파이썬으로 데이터 분석해보실 분",
+			"CONTENT": "파이썬을 이용하여 간단한 데이터 분석 프로젝트를 진행해볼 분을 찾습니다. 데이터 분석에 관심이 있지만 어디서부터 시작해야 할지 모르는 분들 대환영입니다. 함께 배우며 실질적인 데이터 분석 프로젝트를 경험해보세요.\n\n✔ 팀 구성원\n- 데이터 사이언티스트 2명\n- 데이터 분석가 1명\n\n✔ 협업 도구\n- Python\n- Pandas\n- 오목허브\n- Github\n\n✔ 요구사항\n- Python과 Pandas에 대한 기본 지식 또는 학습 의지\n- 데이터 분석에 대한 열정\n- 팀 내외부와의 효과적인 커뮤니케이션 능력",
+			"TECH_STACK": "Python, Pandas",
+			"IS_SEEKING": 1,
+			"NICKNAME": "lee_seungwoo",
+			"LAST_MODIFIED_DATE": "2024-03-15"
+		},
+		{
+			"ID": 15,
+			"TITLE": "블록체인 학습 그룹 구성원 모집",
+			"CONTENT": "블록체인과 스마트 컨트랙트 개발을 함께 배우고 싶은 분들을 위한 학습 그룹입니다. Solidity나 Ethereum에 관심 있는 분들 환영합니다. 함께 배우면서 프로젝트도 진행해보아요. 초보자부터 경험자까지 모두 환영합니다.\n\n✔ 팀 구성원\n- 블록체인 개발자 2명\n- 멘토 2명\n\n✔ 협업 도구\n- Solidity\n- Ethereum\n- 오목허브\n- Github\n\n✔ 요구사항\n- 블록체인 기술에 대한 열정\n- Solidity 또는 Ethereum 학습 의지\n- 팀과의 지속적인 학습 및 협업",
+			"TECH_STACK": "Solidity, Ethereum",
+			"IS_SEEKING": 1,
+			"NICKNAME": "park_seoeun",
+			"LAST_MODIFIED_DATE": "2024-01-10"
+		},
+		{
+			"ID": 16,
+			"TITLE": "인공지능 챗봇 만들기 도전!",
+			"CONTENT": "Python과 TensorFlow를 사용하여 간단한 인공지능 챗봇을 만들어 볼 분을 찾습니다. AI에 관심 있는 분이라면 기초부터 함께 배워나가며, 프로젝트를 통해 실질적인 경험을 쌓아보세요.\n\n✔ 팀 구성원\n- AI 개발자 2명\n- 데이터 사이언티스트 1명\n\n✔ 협업 도구\n- Python\n- TensorFlow\n- 오목허브\n- Github\n\n✔ 요구사항\n- Python 프로그래밍 기초 지식\n- TensorFlow에 대한 학습 의지\n- AI 및 챗봇 기술에 대한 열정",
+			"TECH_STACK": "Python, TensorFlow",
+			"IS_SEEKING": 1,
+			"NICKNAME": "jang_minho",
+			"LAST_MODIFIED_DATE": "2024-02-28"
+		},
+		{
+			"ID": 17,
+			"TITLE": "드론 프로그래밍 프로젝트",
+			"CONTENT": "드론을 프로그래밍하여 여러 가지 재미있는 기능을 구현해볼 프로젝트 팀원을 모집합니다. 드론에 관심 있고 프로그래밍에 도전해보고 싶은 분들 모두 환영입니다. 실제 드론을 조종하며 프로그래밍하는 경험을 쌓을 수 있습니다.\n\n✔ 팀 구성원\n- 드론 개발자 2명\n- 소프트웨어 엔지니어 1명\n\n✔ 협업 도구\n- C++\n- Python\n- 오목허브\n- Github\n\n✔ 요구사항\n- 프로그래밍 기초 지식(C++ 또는 Python)\n- 드론 조종 및 프로그래밍에 대한 관심\n- 협업 및 문제 해결 능력",
+			"TECH_STACK": "C++, Python",
+			"IS_SEEKING": 1,
+			"NICKNAME": "lee_yoonseo",
+			"LAST_MODIFIED_DATE": "2024-03-22"
+		},
+		{
+			"ID": 18,
+			"TITLE": "홈 오토메이션 DIY 프로젝트",
+			"CONTENT": "라즈베리 파이와 센서를 이용하여 집 안을 스마트하게 만드는 DIY 프로젝트에 참여할 분을 찾습니다. IoT에 관심 있으신 분들의 많은 참여 바랍니다. 실생활에 적용할 수 있는 스마트 홈 솔루션을 함께 개발해보아요.\n\n✔ 팀 구성원\n- IoT 개발자 2명\n- 하드웨어 엔지니어 1명\n\n✔ 협업 도구\n- Raspberry Pi\n- IoT 센서\n- 오목허브\n- Github\n\n✔ 요구사항\n- Raspberry Pi와 IoT 센서 사용 경험\n- DIY 프로젝트에 대한 열정\n- 협업을 통한 문제 해결 능력",
+			"TECH_STACK": "Raspberry Pi, IoT",
+			"IS_SEEKING": 1,
+			"NICKNAME": "kim_seojun",
+			"LAST_MODIFIED_DATE": "2024-01-31"
+		},
+		{
+			"ID": 19,
+			"TITLE": "VR 게임 개발 체험단",
+			"CONTENT": "Unity를 이용하여 간단한 VR 게임을 개발해볼 분을 찾습니다. VR에 관심 있으신 분들이라면 경험 여부와 상관없이 모두 환영합니다. 함께 VR 세계를 만들어봅시다.\n\n✔ 팀 구성원\n- 게임 개발자 2명\n- VR 디자이너 1명\n\n✔ 협업 도구\n- Unity\n- VR 기술\n- 오목허브\n- Github\n\n✔ 요구사항\n- Unity 사용 경험\n- VR에 대한 기본적인 이해\n- 혁신적인 아이디어와 팀워크",
+			"TECH_STACK": "Unity, VR",
+			"IS_SEEKING": 1,
+			"NICKNAME": "choi_jiwon",
+			"LAST_MODIFIED_DATE": "2024-03-05"
+		},
+		{
+			"ID": 20,
+			"TITLE": "오픈소스 프로젝트 기여자 모집",
+			"CONTENT": "GitHub에서 진행 중인 오픈소스 프로젝트에 함께 기여하실 분을 찾습니다. 프로그래밍에 관심 있고, 오픈소스 커뮤니티에 기여해보고 싶은 분들의 참여를 기다립니다. 다양한 프로젝트에 기여하며 경험을 쌓고 네트워크를 확장할 수 있습니다.\n\n✔ 팀 구성원\n- 개발자 여러 명\n- 문서화 전문가\n\n✔ 협업 도구\n- Git\n- GitHub\n- 오목허브\n\n✔ 요구사항\n- Git 사용 경험\n- 오픈소스 프로젝트에 기여하고자 하는 의지\n- 코드 리뷰와 협업에 열린 마음가짐",
+			"TECH_STACK": "Git, GitHub",
+			"IS_SEEKING": 1,
+			"NICKNAME": "park_sungmin",
+			"LAST_MODIFIED_DATE": "2024-04-10"
+		},
+		{
+			"ID": 21,
+			"TITLE": "로봇 프로그래밍 동호회",
+			"CONTENT": "로봇을 사랑하는 모든 분들을 위한 로봇 프로그래밍 동호회입니다. Arduino나 Raspberry Pi를 활용한 로봇 제작에 관심 있으신 분들의 많은 참여 바랍니다. 함께 배우며, 실제로 동작하는 로봇을 만들어봅시다.\n\n✔ 팀 구성원\n- 로봇 개발자 여러 명\n- 전자공학 전문가\n\n✔ 협업 도구\n- Arduino\n- Raspberry Pi\n- 오목허브\n- Github\n\n✔ 요구사항\n- 프로그래밍 기초 지식\n- Arduino 또는 Raspberry Pi에 대한 관심\n- 팀 프로젝트에 적극적으로 참여할 수 있는 열정",
+			"TECH_STACK": "Arduino, Raspberry Pi",
+			"IS_SEEKING": 1,
+			"NICKNAME": "kim_chulsoo",
+			"LAST_MODIFIED_DATE": "2024-03-18"
+		},
+		{
+			"ID": 22,
+			"TITLE": "크리에이티브 코딩 모임",
+			"CONTENT": "Processing이나 p5.js를 이용한 크리에이티브 코딩에 관심 있는 분들을 위한 모임입니다. 예술과 기술의 경계에서 새로운 것을 만들어보고 싶은 분들을 환영합니다. 함께 창의적인 프로젝트를 진행해봅시다.\n\n✔ 팀 구성원\n- 크리에이티브 코더 여러 명\n- 디자이너\n\n✔ 협업 도구\n- Processing\n- p5.js\n- 오목허브\n- Github\n\n✔ 요구사항\n- 프로그래밍에 대한 기초 지식\n- 크리에이티브 코딩에 대한 열정\n- 협업을 통한 창의적인 아이디어 개발 능력",
+			"TECH_STACK": "Processing, p5.js",
+			"IS_SEEKING": 1,
+			"NICKNAME": "lee_juwon",
+			"LAST_MODIFIED_DATE": "2024-02-12"
+		},
+		{
+			"ID": 23,
+			"TITLE": "안드로이드 앱 개발 스터디 그룹",
+			"CONTENT": "Kotlin을 이용하여 안드로이드 앱 개발을 배우고 싶은 분들을 위한 스터디 그룹입니다. 함께 배우며 간단한 안드로이드 앱을 만들어봅시다. 배움을 통해 개발 능력을 키우고, 실제 앱 개발 프로젝트에 참여해보세요.\n\n✔ 팀 구성원\n- 안드로이드 개발자 여러 명\n- 멘토\n\n✔ 협업 도구\n- Kotlin\n- Android Studio\n- 오목허브\n- Github\n\n✔ 요구사항\n- 프로그래밍 기초 지식\n- Kotlin 학습에 대한 의지\n- 안드로이드 앱 개발에 대한 관심",
+			"TECH_STACK": "Kotlin, Android",
+			"IS_SEEKING": 1,
+			"NICKNAME": "kim_dayeon",
+			"LAST_MODIFIED_DATE": "2024-03-25"
+		},
+		{
+			"ID": 24,
+			"TITLE": "게임 개발 워크숍",
+			"CONTENT": "게임 개발에 관심 있는 분들을 위한 워크숍입니다. 기본적인 게임 개발 원리를 배우고 싶은 분들의 많은 참여 바랍니다. Unity를 중심으로 진행되며, 실제 게임 개발 과정을 경험할 수 있습니다.\n\n✔ 팀 구성원\n- 게임 개발자 여러 명\n- 게임 디자이너\n\n✔ 협업 도구\n- Unity\n- 오목허브\n- Github\n\n✔ 요구사항\n- 게임 개발에 대한 관심\n- Unity에 대한 기본적인 이해\n- 협업을 통한 프로젝트 진행 능력",
+			"TECH_STACK": "Unity",
+			"IS_SEEKING": 1,
+			"NICKNAME": "lee_jaemin",
+			"LAST_MODIFIED_DATE": "2024-02-05"
+		},
+		{
+			"ID": 25,
+			"TITLE": "IoT 기기 개발 프로젝트",
+			"CONTENT": "라즈베리 파이와 다양한 센서를 사용하여 IoT 기기를 개발해볼 프로젝트 팀원을 모집합니다. IoT에 관심 있고, 실제로 기기를 만들어보고 싶은 분들의 참여를 기다립니다. 실생활에 적용 가능한 스마트 기기 개발에 도전하세요.\n\n✔ 팀 구성원\n- IoT 개발자 여러 명\n- 하드웨어 디자이너\n\n✔ 협업 도구\n- Raspberry Pi\n- IoT 센서\n- 오목허브\n- Github\n\n✔ 요구사항\n- Raspberry Pi 및 IoT 센서 사용 경험\n- 하드웨어 개발에 대한 기초 지식\n- 팀 프로젝트에 적극적으로 참여할 수 있는 열정과 협력 능력",
+			"TECH_STACK": "Raspberry Pi, IoT sensors",
+			"IS_SEEKING": 1,
+			"NICKNAME": "jeong_minseo",
+			"LAST_MODIFIED_DATE": "2024-03-30"
+		},
+		{
+			"ID": 26,
+			"TITLE": "친구들과 함께하는 요리 블로그 시작하기",
+			"CONTENT": "맛있는 요리와 그 과정을 기록할 블로그를 시작할 친구들을 찾습니다. 요리와 글쓰기에 열정이 있는 분 환영합니다! 함께 요리의 즐거움을 공유하고, 창의적인 컨텐츠를 만들어가 보세요.\n\n✔ 팀 구성원\n- 요리사\n- 콘텐츠 크리에이터\n- 포토그래퍼\n\n✔ 협업 도구\n- WordPress\n- Photography equipment\n- 오목허브\n- Github\n\n✔ 요구사항\n- 요리에 대한 열정\n- 글쓰기 및 포토그래피 기술\n- 온라인 컨텐츠 생성 및 관리에 대한 이해",
+			"TECH_STACK": "WordPress, Photography",
+			"IS_SEEKING": 1,
+			"NICKNAME": "lee_chulsoo",
+			"LAST_MODIFIED_DATE": "2024-03-12"
+		},
+		{
+			"ID": 27,
+			"TITLE": "동네 책방 투어 앱 만들기",
+			"CONTENT": "책을 사랑하는 사람들과 함께 동네 책방을 탐방하고 정보를 공유할 수 있는 앱을 만들고 싶습니다. 앱 개발에 관심 있으신 분들 모두 환영! 책방 탐방의 경험을 디지털로 재현해봅시다.\n\n✔ 팀 구성원\n- 앱 개발자 2명\n- UI/UX 디자이너 1명\n\n✔ 협업 도구\n- Flutter\n- Dart\n- 오목허브\n- Github\n\n✔ 요구사항\n- Flutter 및 Dart 사용 경험\n- 모바일 앱 개발에 대한 기본 지식\n- 사용자 경험 디자인에 대한 관심",
+			"TECH_STACK": "Flutter, Dart",
+			"IS_SEEKING": 1,
+			"NICKNAME": "kim_hayoon",
+			"LAST_MODIFIED_DATE": "2024-03-20"
+		},
+		{
+			"ID": 28,
+			"TITLE": "초보자를 위한 가드닝 커뮤니티 만들기",
+			"CONTENT": "식물 키우기에 관심 있는 초보자들을 위한 온라인 커뮤니티를 만들고 싶습니다. 가드닝 팁과 정보를 공유할 수 있는 플랫폼에 관심 있으신 분들의 참여를 기다립니다. 함께 성장하는 가드닝 커뮤니티를 만들어요.\n\n✔ 팀 구성원\n- 웹 개발자 2명\n- 커뮤니티 매니저 1명\n\n✔ 협업 도구\n- React\n- Node.js\n- 오목허브\n- Github\n\n✔ 요구사항\n- React 및 Node.js 개발 경험\n- 온라인 커뮤니티 구축 및 관리에 대한 이해\n- 협업과 커뮤니케이션 능력",
+			"TECH_STACK": "React, Node.js",
+			"IS_SEEKING": 1,
+			"NICKNAME": "jang_minseo",
+			"LAST_MODIFIED_DATE": "2024-03-16"
+		},
+		{
+			"ID": 29,
+			"TITLE": "일상의 소소한 행복을 담은 포토 에세이",
+			"CONTENT": "일상에서 마주치는 소소한 행복을 사진과 글로 담아낼 포토 에세이 프로젝트를 시작합니다. 사진 찍기를 좋아하고 글쓰기에 관심 있으신 분들을 기다립니다. 함께 아름다운 순간들을 기록해보아요.\n\n✔ 팀 구성원\n- 포토그래퍼 여러 명\n- 작가\n\n✔ 협업 도구\n- Photography equipment\n- Writing tools\n- 오목허브\n- Github\n\n✔ 요구사항\n- 포토그래피에 대한 열정\n- 글쓰기 기술\n- 일상의 아름다움을 발견하고 기록하는 데에 관심",
+			"TECH_STACK": "Photography, Writing",
+			"IS_SEEKING": 1,
+			"NICKNAME": "park_minjae",
+			"LAST_MODIFIED_DATE": "2024-03-24"
+		},
+		{
+			"ID": 30,
+			"TITLE": "커피 한 잔과 함께하는 그림 일기",
+			"CONTENT": "매일의 커피 시간을 기록하는 그림 일기 프로젝트에 참여할 분을 찾습니다. 커피를 사랑하고 드로잉에 관심 있는 분들의 많은 참여를 기다립니다.",
+			"TECH_STACK": "Drawing, Watercolor",
+			"IS_SEEKING": 1,
+			"NICKNAME": "lee_jiwu",
+			"LAST_MODIFIED_DATE": "2024-02-15"
+		},
+		{
+			"ID": 31,
+			"TITLE": "초보 러너를 위한 모티베이션 앱 개발",
+			"CONTENT": "달리기를 시작한 초보 러너들을 위해 모티베이션을 주는 앱을 만들고 싶습니다. 건강하게 달리기를 즐기고 싶은 분들, 앱 개발에 관심 있으신 분들 모두 환영합니다. 함께 멋진 앱을 만들어보아요.\n\n✔ 팀 구성원\n- 모바일 앱 개발자 2명\n- UI/UX 디자이너 1명\n\n✔ 협업 도구\n- Swift\n- Kotlin\n- 오목허브\n- Github\n\n✔ 요구사항\n- Swift 또는 Kotlin을 이용한 앱 개발 경험\n- 사용자 경험을 우선시하는 디자인 마인드\n- 팀과의 원활한 소통 능력",
+			"TECH_STACK": "Swift, Kotlin",
+			"IS_SEEKING": 1,
+			"NICKNAME": "kim_minjun",
+			"LAST_MODIFIED_DATE": "2024-03-11"
+		},
+		{
+			"ID": 32,
+			"TITLE": "매일의 감사일기 공유 앱",
+			"CONTENT": "매일 작은 것들에 대한 감사를 기록하고 공유할 수 있는 앱을 만들고 싶습니다. 긍정적인 습관을 만들고 싶은 분들의 참여를 기다립니다. 함께 성장하며 긍정적인 커뮤니티를 만들어봅시다.\n\n✔ 팀 구성원\n- 모바일 앱 개발자 2명\n- 컨텐츠 크리에이터 1명\n\n✔ 협업 도구\n- React Native\n- 오목허브\n- Github\n\n✔ 요구사항\n- React Native를 이용한 개발 경험\n- 사용자와 소통할 수 있는 컨텐츠 제작 능력\n- 긍정적이고 창의적인 사고 방식",
+			"TECH_STACK": "React Native",
+			"IS_SEEKING": 1,
+			"NICKNAME": "park_jimin",
+			"LAST_MODIFIED_DATE": "2024-03-18"
+		},
+		{
+			"ID": 33,
+			"TITLE": "집에서 즐기는 세계 여행 가상 투어",
+			"CONTENT": "VR 기술을 활용해 집에서도 세계 여행을 즐길 수 있는 가상 투어 프로젝트를 시작합니다. 여행을 사랑하고 VR에 관심 있는 분들의 많은 참여를 기다립니다. 함께 멋진 가상 세계를 만들어봅시다.\n\n✔ 팀 구성원\n- VR 개발자 2명\n- 3D 모델러 1명\n\n✔ 협업 도구\n- Unity\n- VR 플랫폼\n- 오목허브\n- Github\n\n✔ 요구사항\n- Unity와 VR 개발 경험\n- 3D 모델링 및 애니메이션 기술\n- 창의적인 아이디어와 팀워크",
+			"TECH_STACK": "Unity, VR",
+			"IS_SEEKING": 1,
+			"NICKNAME": "lee_yejun",
+			"LAST_MODIFIED_DATE": "2024-03-22"
+		},
+		{
+			"ID": 34,
+			"TITLE": "초보자를 위한 DIY 가구 만들기 워크숍",
+			"CONTENT": "간단한 도구와 재료로 직접 가구를 만들어보는 워크숍에 참여할 분을 찾습니다. 손으로 무언가를 만드는 것을 좋아하시는 분들의 많은 참여를 기다립니다. 함께 배우고, 만들고, 나누는 시간을 가져봅시다.\n\n✔ 팀 구성원\n- 워크숍 리더 1명\n- 참가자 여러 명\n\n✔ 협업 도구\n- 목공 도구\n- 디자인 소프트웨어\n- 오목허브\n- Github\n\n✔ 요구사항\n- DIY와 목공에 대한 관심\n- 창의적인 디자인 아이디어\n- 배우고 공유할 준비가 되어 있는 태도",
+			"TECH_STACK": "Woodworking, Design",
+			"IS_SEEKING": 1,
+			"NICKNAME": "jang_seohyun",
+			"LAST_MODIFIED_DATE": "2024-03-05"
+		},
+		{
+			"ID": 35,
+			"TITLE": "마을 공동체를 위한 소규모 농장 프로젝트",
+			"CONTENT": "지역 공동체와 함께 운영할 소규모 농장 프로젝트에 참여할 분을 찾습니다. 지속 가능한 농법에 관심 있고, 커뮤니티와 함께 성장하고 싶은 분들 환영합니다. 함께 땅을 가꾸고, 지속 가능한 미래를 위한 기초를 다지는 작업에 동참해보세요.\n\n✔ 팀 구성원\n- 농장 관리자 1명\n- 자원봉사자 여러 명\n\n✔ 협업 도구\n- 농업 도구\n- 커뮤니티 포럼\n- 오목허브\n- Github\n\n✔ 요구사항\n- 지속 가능한 농법에 대한 관심\n- 커뮤니티와 함께 일할 준비가 된 태도\n- 자연과 함께하는 시간을 가치 있게 여기는 마음가짐",
+			"TECH_STACK": "Organic Farming",
+			"IS_SEEKING": 1,
+			"NICKNAME": "kim_minseo",
+			"LAST_MODIFIED_DATE": "2024-03-10"
+		},
+		{
+			"ID": 36,
+			"TITLE": "개발자와 디자이너의 브런치 미팅",
+			"CONTENT": "개발자와 디자이너가 함께 모여 아이디어를 공유하고 네트워킹할 수 있는 브런치 미팅을 주최합니다. 서로 다른 분야의 사람들과 소통하고 싶은 분들 모두 환영입니다. 새로운 커넥션을 만들고, 협업의 기회를 탐색해보세요.\n\n✔ 팀 구성원\n- 참가자 여러 명\n\n✔ 협업 도구\n- 네트워킹 플랫폼\n- 아이디어 공유 도구\n- 오목허브\n- Github\n\n✔ 요구사항\n- 네트워킹에 대한 열정\n- 다양한 분야의 전문가와 소통할 수 있는 개방적인 태도\n- 새로운 아이디어와 프로젝트에 대한 호기심",
+			"TECH_STACK": "Networking, Idea Sharing",
+			"IS_SEEKING": 1,
+			"NICKNAME": "lee_siwu",
+			"LAST_MODIFIED_DATE": "2024-03-17"
+		},
+		{
+			"ID": 37,
+			"TITLE": "자연 속에서 즐기는 명상과 요가 리트릿",
+			"CONTENT": "자연 속에서 명상과 요가를 즐길 수 있는 리트릿을 기획합니다. 마음의 평화를 찾고 싶으신 분들의 많은 참여를 기다립니다. 자연과 함께하는 명상으로 심신의 안정을 찾고, 요가로 몸과 마음의 조화를 이루는 시간을 가져보세요.\n\n✔ 팀 구성원\n- 요가 강사 1명\n- 명상 강사 1명\n- 참가자 여러 명\n\n✔ 협업 도구\n- 명상 가이드\n- 요가 프로그램\n- 커뮤니티 포럼\n- 오목허브\n- Github\n\n✔ 요구사항\n- 명상과 요가에 대한 관심\n- 자연과 함께하는 시간을 소중히 여기는 마음\n- 심신의 건강과 웰빙을 추구하는 태도",
+			"TECH_STACK": "Yoga, Meditation",
+			"IS_SEEKING": 1,
+			"NICKNAME": "jung_miyoung",
+			"LAST_MODIFIED_DATE": "2024-03-08"
+		},
+		{
+			"ID": 38,
+			"TITLE": "초보자를 위한 도자기 만들기 클래스",
+			"CONTENT": "도자기 만들기의 기초를 배울 수 있는 클래스에 참여할 분을 찾습니다. 손으로 직접 무언가를 만드는 과정에서 즐거움을 느끼고 싶으신 분들 환영합니다. 함께 배우고, 만들고, 나누는 시간을 가집니다.\n\n✔ 팀 구성원\n- 도예 강사 1명\n- 참가자 여러 명\n\n✔ 협업 도구\n- 도예 도구\n- 디자인 소프트웨어\n- 오목허브\n- Github\n\n✔ 요구사항\n- 도자기 만들기에 대한 열정\n- 창의적인 아이디어와 디자인 마인드\n- 배우고 싶은 열린 마음과 태도",
+			"TECH_STACK": "Ceramics, Pottery",
+			"IS_SEEKING": 1,
+			"NICKNAME": "jang_haeun",
+			"LAST_MODIFIED_DATE": "2024-02-28"
+		},
+		{
+			"ID": 39,
+			"TITLE": "지역 사회를 위한 작은 도서관 만들기",
+			"CONTENT": "책을 사랑하는 마음으로 지역 사회에 작은 도서관을 만들고 싶습니다. 독서와 커뮤니티에 기여하고 싶은 분들의 많은 참여를 기다립니다.",
+			"TECH_STACK": "Community Service, Library Science",
+			"IS_SEEKING": 1,
+			"NICKNAME": "lee_geonu",
+			"LAST_MODIFIED_DATE": "2024-03-14"
+		},
+		{
+			"ID": 40,
+			"TITLE": "Vue.js 프론트 개발 함께 하실 팀원을 구해요!~",
+			"CONTENT": "안녕하세요!\n저희는 현재 웹 개발 프로젝트에 참여할 팀원을 찾고 있습니다. 이 프로젝트는 새로운 온라인 플랫폼을 구축하는 것으로, 우리의 목표는 사용자들에게 편리한 서비스를 제공하는 것입니다.\n\n우리 팀은 열정적이고 경험이 풍부한 개발자들로 구성되어 있습니다. 함께 일하며 최신 웹 개발 기술을 활용하고 협력하여 최고의 결과물을 만들고자 합니다.\n우리 팀에 합류하실 분들은 다음과 같은 조건을 만족해야 합니다:\n\n✔ 팀 구성원\nFE 개발자 2명\nBE 개발자 2명\nUX/UI 디자이너 1명\n\n✔ 협업도구\n오목허브\nGithub\n\n✔  요구사항\n프론트엔드 또는 백엔드 웹 개발 경험이 있는 분\nHTML, CSS, JavaScript 등 웹 기술에 대한 이해와 능숙한 활용 가능\n프로젝트에 주도적으로 참여하고 팀원들과 소통하는 능력",
+			"TECH_STACK": "javascript, vue.js",
+			"IS_SEEKING": 1,
+			"NICKNAME": "팀장오목눈이",
+			"LAST_MODIFIED_DATE": "2024-03-15"
+		}
+	]
+}
