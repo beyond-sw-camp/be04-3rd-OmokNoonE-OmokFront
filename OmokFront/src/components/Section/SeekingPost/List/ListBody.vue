@@ -25,7 +25,7 @@
                         </div>
                     </div>
                     <div class="title">
-                        <p @click="goDetailPage(posts.SEEKING_MEMBER_POST_ID)" class="title-text">{{ post.TITLE }}</p>
+                        <p @click="goDetailPage(post.SEEKING_MEMBER_POST_ID)" class="title-text">{{ post.TITLE }}</p>
                     </div>
                 </div>
             </div>
