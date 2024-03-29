@@ -293,6 +293,7 @@ function goDetailPage(postId) {
     width: 50px;
     height: 28%;
     border-radius: 10%;
+    cursor: pointer;
 }
 
 .btn-right {
@@ -305,5 +306,8 @@ function goDetailPage(postId) {
     width: 50px;
     height: 28%;
     border-radius: 10%;
+    cursor: pointer;
 }
+
+
 </style>
