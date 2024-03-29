@@ -109,12 +109,6 @@
 
 <img src="https://github.com/beyond-sw-camp/be04-3rd-OmokNoonE-OmokFront/blob/main/img/%E1%84%92%E1%85%A6%E1%84%83%E1%85%A5%E1%84%90%E1%85%A6%E1%84%89%E1%85%B3%E1%84%90%E1%85%B3%E1%84%89%E1%85%AE%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%87%E1%85%A9%E1%86%AB.png"/>
 
-<details>
-<summary>해당 경로</summary>
-.../src/components/Header/NavigationBar/Category.vue<br>
-.../src/components/Header/NavigationBar/Title.vue
-</details>
-
 ##
 
 #### 3-2-2. 섹션 컴포넌트 구조
@@ -126,13 +120,6 @@
 - ListContent.vue: 모집글 작성 버튼
 
 <img src="https://github.com/beyond-sw-camp/be04-3rd-OmokNoonE-OmokFront/blob/main/img/%E1%84%89%E1%85%A6%E1%86%A8%E1%84%89%E1%85%A7%E1%86%AB%E1%84%90%E1%85%A6%E1%84%89%E1%85%B3%E1%84%90%E1%85%B3.png"/>
-
-<details>
-  <summary>해당경로</summary>
-.../src/components/Section/SeekingPost/Detail/SeekingPostUnion.vue<br>
-.../src/components/Section/SeekingPost/List/ListBody.vue<br>
-.../src/components/Section/SeekingPost/List/ListContent.vue<br>
-</details>
 
 <br>
 
