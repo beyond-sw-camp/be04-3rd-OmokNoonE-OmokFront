@@ -7,7 +7,7 @@
                     <div class="is-seeking">모집중</div>
                 </div>
                 <div v-if="isSeeking == 0" class="status-end">
-                    <div class="is-seeking">모집완료</div>
+                    <div class="is-seeking">종료</div>
                 </div>
             </div>
             <div class="menu">
@@ -140,7 +140,7 @@ function mouseOutOpacity() {
   padding: 4px 10px 2px;
   position: relative;
   flex: 0 0 auto;
-  background-color: #2E74DD;
+  background-color: #C24242;
   border-radius: 25px;
 }
 
