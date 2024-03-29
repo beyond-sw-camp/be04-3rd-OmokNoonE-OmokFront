@@ -129,13 +129,12 @@
 <br>
 
 ##  <p id="4">4. 🎯 테스트 결과</p>
-- Json Server 연결
 
 - Test-0001 ~ 0005
 <img src="https://github.com/beyond-sw-camp/be04-3rd-OmokNoonE-OmokFront/blob/main/img/TEST%200001%20-%20TEST%200005.gif"/>
 
 - Test-0006 ~ 0011
-
+<img src="https://github.com/beyond-sw-camp/be04-3rd-OmokNoonE-OmokFront/blob/main/img/TEST0006-0011.gif"/>
 
 - Test-0012 ~ 0014
 <img src="https://github.com/beyond-sw-camp/be04-3rd-OmokNoonE-OmokFront/blob/main/img/TEST0012-TEST0014.gif"/>
