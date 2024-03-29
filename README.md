@@ -118,8 +118,9 @@
 - SeekingPostUnion.vue: 모집글 상세 페이지 정보 요청
 - ListBody.vue: 모집글 리스트 조회, 모집글 리스트 페이징 처리
 - ListContent.vue: 모집글 작성 버튼
-- 
-<img src="https://github.com/beyond-sw-camp/be04-3rd-OmokNoonE-OmokFront/blob/main/img/%E1%84%89%E1%85%A6%E1%86%A8%E1%84%89%E1%85%A7%E1%86%AB%E1%84%90%E1%85%A6%E1%84%89%E1%85%B3%E1%84%90%E1%85%B3_%E1%84%89%E1%85%AE%E1%84%8C%E1%85%A5%E1%86%BC.png"/>
+
+<img src="https://github.com/beyond-sw-camp/be04-3rd-OmokNoonE-OmokFront/blob/main/img/%E1%84%89%E1%85%A6%E1%86%A8%E1%84%89%E1%85%A7%E1%86%AB%E1%84%90%E1%85%A6%E1%84%89%E1%85%B3%E1%84%90%E1%85%B3_%E1%84%89%E1%85%AE%E1%84%8C%E1%85%A5%E1%86%BC2.png"/>
+
 <br>
 
 ##  <p id="4">4. 🎯 테스트 결과</p>
