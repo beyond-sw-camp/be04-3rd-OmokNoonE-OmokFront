@@ -190,11 +190,12 @@ const emit = defineEmits(['newPost']);
 
 const addPost = ref({});
 
-function addNewPost() {
+async function addNewPost() {
   let techStackStrings = selectedTags.value.join(', ');
+  let postId = 99;
 
   addPost.value = {
-    ID: 99,
+    ID: postId,
     TITLE: title.value,
     CONTENT: content.value,
     TECH_STACK: techStackStrings,
@@ -203,10 +204,9 @@ function addNewPost() {
     LAST_MODIFIED_DATE: todayFormatted
   };
 
-  console.log("하위 컴포넌트",addPost.value);
   emit('newPost', addPost);
 
-  router.push(`/seekingpost`);
+  await router.push(`/seekingpost/${postId}`);
 }
 
 
