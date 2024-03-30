@@ -1,0 +1,284 @@
+{
+	"seekingPostList": [
+		{
+			"SEEKING_MEMBER_POST_ID" : 40,
+			"TITLE" : "Vue.js 프론트 개발 함께 하실 팀원을 구해요!~",
+			"TECH_STACK" : "javascript, vue.js",
+			"IS_SEEKING" : 1,
+			"IS_BOOKMARK" : 1
+		},
+		{
+			"SEEKING_MEMBER_POST_ID" : 1,
+			"TITLE" : "자바 백엔드 개발자 구합니다",
+			"TECH_STACK" : "Java, Spring Boot",
+			"IS_SEEKING" : 1,
+			"IS_BOOKMARK" : 0
+		},
+		{
+			"SEEKING_MEMBER_POST_ID" : 2,
+			"TITLE" : "UI\/UX Designer를 찾습니다.",
+			"TECH_STACK" : "Figma, Adobe XD",
+			"IS_SEEKING" : 0,
+			"IS_BOOKMARK" : 1
+		},
+		{
+			"SEEKING_MEMBER_POST_ID" : 3,
+			"TITLE" : "QA Engineer를 모집합니다!!!",
+			"TECH_STACK" : "Selenium, TestNG",
+			"IS_SEEKING" : 0,
+			"IS_BOOKMARK" : 1
+		},
+		{
+			"SEEKING_MEMBER_POST_ID" : 4,
+			"TITLE" : "프론트엔드 개발자를 찾습니다",
+			"TECH_STACK" : "React, JavaScript",
+			"IS_SEEKING" : 1,
+			"IS_BOOKMARK" : 0
+		},
+		{
+			"SEEKING_MEMBER_POST_ID" : 5,
+			"TITLE" : "풀스택 개발자 모집합니다",
+			"TECH_STACK" : "Node.js, React",
+			"IS_SEEKING" : 1,
+			"IS_BOOKMARK" : 1
+		},
+		{
+			"SEEKING_MEMBER_POST_ID" : 6,
+			"TITLE" : "데이터 사이언티스트 구합니다",
+			"TECH_STACK" : "Python, TensorFlow",
+			"IS_SEEKING" : 0,
+			"IS_BOOKMARK" : 0
+		},
+		{
+			"SEEKING_MEMBER_POST_ID" : 7,
+			"TITLE" : "모바일 앱 개발 프로젝트",
+			"TECH_STACK" : "Swift, Kotlin",
+			"IS_SEEKING" : 1,
+			"IS_BOOKMARK" : 1
+		},
+		{
+			"SEEKING_MEMBER_POST_ID" : 8,
+			"TITLE" : "클라우드 인프라 엔지니어 모집",
+			"TECH_STACK" : "AWS, Docker",
+			"IS_SEEKING" : 1,
+			"IS_BOOKMARK" : 0
+		},
+		{
+			"SEEKING_MEMBER_POST_ID" : 9,
+			"TITLE" : "게임 개발자를 찾습니다",
+			"TECH_STACK" : "Unity, C#",
+			"IS_SEEKING" : 1,
+			"IS_BOOKMARK" : 1
+		},
+		{
+			"SEEKING_MEMBER_POST_ID" : 10,
+			"TITLE" : "블록체인 개발자 모집",
+			"TECH_STACK" : "Solidity, Ethereum",
+			"IS_SEEKING" : 1,
+			"IS_BOOKMARK" : 0
+		},
+		{
+			"SEEKING_MEMBER_POST_ID": 11,
+			"TITLE": "모바일 게임 프로토타입 개발자 모집",
+			"TECH_STACK": "Unity, Unreal Engine",
+			"IS_SEEKING": 1,
+			"IS_BOOKMARK": 0
+		},
+		{
+			"SEEKING_MEMBER_POST_ID": 12,
+			"TITLE": "사이드 프로젝트로 웹 앱 만들 분",
+			"TECH_STACK": "React, Vue.js",
+			"IS_SEEKING": 1,
+			"IS_BOOKMARK": 0
+		},
+		{
+			"SEEKING_MEMBER_POST_ID": 13,
+			"TITLE": "초보자도 환영! 웹사이트 만들기 프로젝트",
+			"TECH_STACK": "HTML, CSS, JavaScript",
+			"IS_SEEKING": 1,
+			"IS_BOOKMARK": 0
+		},
+		{
+			"SEEKING_MEMBER_POST_ID": 14,
+			"TITLE": "파이썬으로 데이터 분석해보실 분",
+			"TECH_STACK": "Python, Pandas",
+			"IS_SEEKING": 1,
+			"IS_BOOKMARK": 0
+		},
+		{
+			"SEEKING_MEMBER_POST_ID": 15,
+			"TITLE": "블록체인 학습 그룹 구성원 모집",
+			"TECH_STACK": "Solidity, Ethereum",
+			"IS_SEEKING": 1,
+			"IS_BOOKMARK": 0
+		},
+		{
+			"SEEKING_MEMBER_POST_ID": 16,
+			"TITLE": "인공지능 챗봇 만들기 도전!",
+			"TECH_STACK": "Python, TensorFlow",
+			"IS_SEEKING": 1,
+			"IS_BOOKMARK": 0
+		},
+		{
+			"SEEKING_MEMBER_POST_ID": 17,
+			"TITLE": "드론 프로그래밍 프로젝트",
+			"TECH_STACK": "C++, Python",
+			"IS_SEEKING": 1,
+			"IS_BOOKMARK": 0
+		},
+		{
+			"SEEKING_MEMBER_POST_ID": 18,
+			"TITLE": "홈 오토메이션 DIY 프로젝트",
+			"TECH_STACK": "Raspberry Pi, IoT",
+			"IS_SEEKING": 1,
+			"IS_BOOKMARK": 0
+		},
+		{
+			"SEEKING_MEMBER_POST_ID": 19,
+			"TITLE": "VR 게임 개발 체험단",
+			"TECH_STACK": "Unity, VR",
+			"IS_SEEKING": 1,
+			"IS_BOOKMARK": 0
+		},
+		{
+			"SEEKING_MEMBER_POST_ID": 20,
+			"TITLE": "오픈소스 프로젝트 기여자 모집",
+			"TECH_STACK": "Git, GitHub",
+			"IS_SEEKING": 1,
+			"IS_BOOKMARK": 0
+		},
+		{
+			"SEEKING_MEMBER_POST_ID": 21,
+			"TITLE": "로봇 프로그래밍 동호회",
+			"TECH_STACK": "Arduino, Raspberry Pi",
+			"IS_SEEKING": 1,
+			"IS_BOOKMARK": 0
+		},
+		{
+			"SEEKING_MEMBER_POST_ID": 22,
+			"TITLE": "크리에이티브 코딩 모임",
+			"TECH_STACK": "Processing, p5.js",
+			"IS_SEEKING": 1,
+			"IS_BOOKMARK": 0
+		},
+		{
+			"SEEKING_MEMBER_POST_ID": 23,
+			"TITLE": "안드로이드 앱 개발 스터디 그룹",
+			"TECH_STACK": "Kotlin, Android",
+			"IS_SEEKING": 1,
+			"IS_BOOKMARK": 0
+		},
+		{
+			"SEEKING_MEMBER_POST_ID": 24,
+			"TITLE": "게임 개발 워크숍",
+			"TECH_STACK": "Unity",
+			"IS_SEEKING": 1,
+			"IS_BOOKMARK": 0
+		},
+		{
+			"SEEKING_MEMBER_POST_ID": 25,
+			"TITLE": "IoT 기기 개발 프로젝트",
+			"TECH_STACK": "Raspberry Pi, IoT sensors",
+			"IS_SEEKING": 1,
+			"IS_BOOKMARK": 0
+		},
+		{
+			"SEEKING_MEMBER_POST_ID": 26,
+			"TITLE": "친구들과 함께하는 요리 블로그 시작하기",
+			"TECH_STACK": "WordPress, Photography",
+			"IS_SEEKING": 1,
+			"IS_BOOKMARK": 0
+		},
+		{
+			"SEEKING_MEMBER_POST_ID": 27,
+			"TITLE": "동네 책방 투어 앱 만들기",
+			"TECH_STACK": "Flutter, Dart",
+			"IS_SEEKING": 1,
+			"IS_BOOKMARK": 0
+		},
+		{
+			"SEEKING_MEMBER_POST_ID": 28,
+			"TITLE": "초보자를 위한 가드닝 커뮤니티 만들기",
+			"TECH_STACK": "React, Node.js",
+			"IS_SEEKING": 1,
+			"IS_BOOKMARK": 0
+		},
+		{
+			"SEEKING_MEMBER_POST_ID": 29,
+			"TITLE": "일상의 소소한 행복을 담은 포토 에세이",
+			"TECH_STACK": "Photography, Writing",
+			"IS_SEEKING": 1,
+			"IS_BOOKMARK": 0
+		},
+		{
+			"SEEKING_MEMBER_POST_ID": 30,
+			"TITLE": "커피 한 잔과 함께하는 그림 일기",
+			"TECH_STACK": "Drawing, Watercolor",
+			"IS_SEEKING": 1,
+			"IS_BOOKMARK": 0
+		},
+		{
+			"SEEKING_MEMBER_POST_ID": 31,
+			"TITLE": "초보 러너를 위한 모티베이션 앱 개발",
+			"TECH_STACK": "Swift, Kotlin",
+			"IS_SEEKING": 1,
+			"IS_BOOKMARK": 0
+		},
+		{
+			"SEEKING_MEMBER_POST_ID": 32,
+			"TITLE": "매일의 감사일기 공유 앱",
+			"TECH_STACK": "React Native",
+			"IS_SEEKING": 1,
+			"IS_BOOKMARK": 0
+		},
+		{
+			"SEEKING_MEMBER_POST_ID": 33,
+			"TITLE": "집에서 즐기는 세계 여행 가상 투어",
+			"TECH_STACK": "Unity, VR",
+			"IS_SEEKING": 1,
+			"IS_BOOKMARK": 0
+		},
+		{
+			"SEEKING_MEMBER_POST_ID": 34,
+			"TITLE": "초보자를 위한 DIY 가구 만들기 워크숍",
+			"TECH_STACK": "Woodworking, Design",
+			"IS_SEEKING": 1,
+			"IS_BOOKMARK": 0
+		},
+		{
+			"SEEKING_MEMBER_POST_ID": 35,
+			"TITLE": "마을 공동체를 위한 소규모 농장 프로젝트",
+			"TECH_STACK": "Organic Farming",
+			"IS_SEEKING": 1,
+			"IS_BOOKMARK": 0
+		},
+		{
+			"SEEKING_MEMBER_POST_ID": 36,
+			"TITLE": "개발자와 디자이너의 브런치 미팅",
+			"TECH_STACK": "Networking, Idea Sharing",
+			"IS_SEEKING": 1,
+			"IS_BOOKMARK": 0
+		},
+		{
+			"SEEKING_MEMBER_POST_ID": 37,
+			"TITLE": "자연 속에서 즐기는 명상과 요가 리트릿",
+			"TECH_STACK": "Yoga, Meditation",
+			"IS_SEEKING": 1,
+			"IS_BOOKMARK": 0
+		},
+		{
+			"SEEKING_MEMBER_POST_ID": 38,
+			"TITLE": "초보자를 위한 도자기 만들기 클래스",
+			"TECH_STACK": "Ceramics, Pottery",
+			"IS_SEEKING": 1,
+			"IS_BOOKMARK": 0
+		},
+		{
+			"SEEKING_MEMBER_POST_ID": 39,
+			"TITLE": "지역 사회를 위한 작은 도서관 만들기",
+			"TECH_STACK": "Community Service, Library Science",
+			"IS_SEEKING": 1,
+			"IS_BOOKMARK": 0
+		}
+	]}
+	
