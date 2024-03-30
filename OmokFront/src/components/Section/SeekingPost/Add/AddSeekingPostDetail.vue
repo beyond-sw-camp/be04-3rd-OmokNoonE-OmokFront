@@ -114,6 +114,7 @@
 <script setup>
 import { defineEmits, ref } from 'vue';
 import { useRouter } from "vue-router";
+import axios from 'axios';
 
 const router = useRouter();
 
@@ -192,10 +193,16 @@ const addPost = ref({});
 
 async function addNewPost() {
   let techStackStrings = selectedTags.value.join(', ');
-  let postId = 99;
+  const responseDetail = await axios.get("http://localhost:8080/seekingPostDetail?_sort=-ID&_limit=1");
+  let detailPostId = responseDetail.data[0].ID;
+
+  const responseList = await axios.get("http://localhost:8081/seekingPostList?_sort=-SEEKING_MEMBER_POST_ID&_limit=1");
+  let listPostId = responseList.data[0].SEEKING_MEMBER_POST_ID;
 
   addPost.value = {
-    ID: postId,
+    SEEKING_MEMBER_POST_ID: listPostId + 1,
+    IS_BOOKMARK: 0,
+    ID: detailPostId + 1,
     TITLE: title.value,
     CONTENT: content.value,
     TECH_STACK: techStackStrings,
@@ -205,8 +212,6 @@ async function addNewPost() {
   };
 
   emit('newPost', addPost);
-
-  await router.push(`/seekingpost/${postId}`);
 }
 
 

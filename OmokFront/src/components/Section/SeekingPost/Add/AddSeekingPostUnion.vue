@@ -7,16 +7,46 @@
 <script setup>
     import AddSeekingPostDetail from '@/components/Section/SeekingPost/Add/AddSeekingPostDetail.vue';
     import axios from 'axios';
+    import { useRouter } from "vue-router";
+
+    const router = useRouter();
 
     async function addNewPost(newPost) {
       console.log("Union에서 값 받음");
       console.log(newPost.value);
+
+      const detailPost = {
+        ID: newPost.value.ID,
+        TITLE: newPost.value.TITLE,
+        CONTENT: newPost.value.CONTENT,
+        TECH_STACK: newPost.value.TECH_STACK,
+        IS_SEEKING: newPost.value.IS_SEEKING,
+        NICKNAME: newPost.value.NICKNAME,
+        LAST_MODIFIED_DATE: newPost.value.LAST_MODIFIED_DATE
+      }
+
+      const listPost = {
+        SEEKING_MEMBER_POST_ID: newPost.value.SEEKING_MEMBER_POST_ID,
+        TITLE: newPost.value.TITLE,
+        TECH_STACK: newPost.value.TECH_STACK,
+        IS_SEEKING: newPost.value.IS_SEEKING,
+        IS_BOOKMARK: newPost.value.IS_BOOKMARK
+      }
+
       try {
-        const response = await axios.post("http://localhost:8080/seekingPostDetail", newPost.value, {
+        const responseDetail = await axios.post("http://localhost:8080/seekingPostDetail", detailPost, {
           header: {
             "Context-Type": "multipart/form-data",
           }
         });
+
+        const responseList = await axios.post("http://localhost:8081/seekingPostList", listPost, {
+          header: {
+            "Context-Type": "multipart/form-data",
+          }
+        });
+        
+        await router.push(`/seekingpost/${responseDetail.data.ID}`);
       } catch(error) {
         console.error("Error add new posts:",error);
       }

@@ -19,7 +19,7 @@ const posts = ref('[]');
 
 onMounted(async () => {
     try {
-        const response = await axios.get('http://localhost:8081/seekingPostList');
+        const response = await axios.get('http://localhost:8081/seekingPostList?_sort=-SEEKING_MEMBER_POST_ID');
         posts.value = response.data; // posts 반응형 참조에 데이터 할당
         console.log(posts.value); // 데이터 확인
     } catch (error) {
